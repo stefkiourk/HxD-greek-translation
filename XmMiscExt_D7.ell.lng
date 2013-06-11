@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE languagefile SYSTEM "languagefile.dtd">
+<languagefile version="1.1" guid="{9012441A-5842-4EFB-A34B-90D9E4B9FDB8}" localeID="1032" translatorNames="">
+  <form name="TFormProgress">
+    <propstr name="ButtonCancel.Caption" origstr="Abbrechen"></propstr>
+    <propstr name="Caption" origstr="FormProgress"></propstr>
+  </form>
+  <form name="TXmInfoForm">
+    <propstr name="ButtonOK.Caption" origstr="OK"></propstr>
+    <propstr name="Caption" origstr="Info"></propstr>
+    <propstr name="Label1.Caption" origstr="e-mail:"></propstr>
+    <propstr name="Label3.Caption" origstr="web:"></propstr>
+    <propstr name="Label4.Caption" origstr="Alle Rechte vorbehalten"></propstr>
+  </form>
+  <unit name="pnglang">
+    <resstr name="EPNGCannotAssignChunkText" origstr="Die Abschnitte müssen kompatibel sein, damit sie zugewiesen werden können.">Τα chunks πρέπει να είναι συμβατά για να ανατεθούν</resstr>
+    <resstr name="EPNGCannotChangeSizeText" origstr="Das &quot;Portable Network Graphics&quot; Bild kann nicht durch Ändern der Eigenschaften Width und Height in seinen Abmessungen geändert werden. Versuchen Sie das Bild von einer Bitmap aus zuzuweisen.">Η PNG εικόνα δεν μπορεί να αλλαχθεί στο μέγεθος τροποποιώντας το πλάτος και το ύψος. Προσπαθήστε να αναθέσετε το ύψος μιας bitmap εικόνας.</resstr>
+    <resstr name="EPNGHeaderNotPresentText" origstr="Die Datei, die gelesen wird, ist kein gültiges &quot;Portable Network Graphics&quot; Bild, da es keinen gültigen Header enthält.">Αυτή η λειτουργία δεν είναι έγκυρη επειδή η τρέχουσα εικόνα δεν περιέχει έγκυρη κεφαλίδα.</resstr>
+    <resstr name="EPNGIHDRNotFirstText" origstr="Dieses &quot;Portable Network Graphics&quot; Bild wird nicht unterstützt oder ist ungültig.&#xA;(Der IHDR-Abschnitt ist nicht der erste Abschnitt in der Datei).">Αυτή η PNG εικόνα δεν υποστηρίζεται ή μπορεί να μην είναι έγκυρη.
+(Το IHDR chunk δεν είναι το πρώτο)</resstr>
+    <resstr name="EPngInvalidCRCText" origstr="Dieses &quot;Portable Network Graphics&quot; Bild ist ungültig, weil Teile der Daten fehlerhaft sind (CRC-Fehler)">Αυτή η PNG εικόνα δεν είναι έγκυρη επειδή περιέχει μη έγκυρα τμήματα δεδομένων (CRC σφάλμα)</resstr>
+    <resstr name="EPNGInvalidFileHeaderText" origstr="Die Datei, die gelesen wird, ist kein gültiges &quot;Portable Network Graphics&quot; Bild, da es keinen gültigen Header enthält. Die Datei könnte beschädigt sein, versuchen Sie, eine neue Kopie zu bekommen.">Το αρχείο που αναγνώσκεται δεν είναι έγκυρη PNG εικόνα επειδή περιέχει μη έγκυρη κεφαλίδα. Αυτό το αρχείο μπορεί να είναι κατεστραμμένο, προσπαθήστε να το ανακτήσετε ξανά.</resstr>
+    <resstr name="EPNGInvalidIHDRText" origstr="Dieses &quot;Portable Network Graphics&quot; Bild konnte nicht geladen werden, weil wahrscheinlich einer der Hauptdatenbreiche (IHDR) beschädigt ist">Η PNG εικόνα δεν μπορούσε να φορτωθεί επειδή ένα από τα βασικά της τμήματα δεδομένων (IHDR) μπορεί να είναι κατεστραμμένο.</resstr>
+    <resstr name="EPNGInvalidPaletteText" origstr="Das &quot;Portable Network Graphics&quot; Bild enthält eine ungültige Palette.">Η PNG εικόνα περιέχει μη έγκυρη παλέτα.</resstr>
+    <resstr name="EPNGMissingMultipleIDATText" origstr="Dieses &quot;Portable Network Graphics&quot; Bild ist ungültig, weil Grafikdaten fehlen.">Αυτή η PNG εικόνα δεν είναι έγκυρη επειδή υπολοίπονται τμήματα της</resstr>
+    <resstr name="EPNGNoImageDataText" origstr="Dieses &quot;Portable Network Graphics&quot; Bild enthält keine Daten.">Αυτή η PNG εικόνα δεν περιέχει δεδομένα.</resstr>
+    <resstr name="EPNGOutMemoryText" origstr="Es stehen nicht genügend Resourcen im System zur Verfügung, um die Operation auszuführen. Schließen Sie einige Fenster und versuchen Sie es erneut.">Κάποια λειτουργία δεν μπορούσε να εκτελεστεί επειδή το σύστημα έχει εξαντλημένους πόρους. Κλείστε μερικά παράθυρα και ξαναπροσπαθήστε.</resstr>
+    <resstr name="EPNGSizeExceedsText" origstr="Dieses &quot;Portable Network Graphics&quot; Bild wird nicht unterstützt, weil entweder seine Breite oder seine Höhe das Maximum von 65535 Pixeln überschreitet.">Αυτή η PNG εικόνα δεν υποστηρίζεται επειδή είτε το πλάτος ή το ύψος της ξεπερνούν το μέγιστο μέγεθος, το οποίο είναι 65535 pixels μήκος.</resstr>
+    <resstr name="EPNGUnexpectedEndText" origstr="Dieses &quot;Portable Network Graphics&quot; Bild ist ungültig: Der Dekoder ist unerwartete auf das Ende der Datei gestoßen.">Αυτή η PNG εικόνα δεν είναι έγκυρη επειδή ο αποκωδικοποιητής ανέκτησε ένα μη αναμενόμενο τέλος αρχείου.</resstr>
+    <resstr name="EPNGUnknownCompressionText" origstr="Dieses &quot;Portable Network Graphics&quot; Bild wurde mit einem unbekannten Komprimierungsalgorithmus kodiert, welcher nicht entschlüsselt werden kann.">Αυτή η PNG εικόνα είναι κωδικοποιημένη με άγνωστο πρότυπο συμπίεσης το οποίο δεν μπορούσε να αποκωδικοποιηθεί.</resstr>
+    <resstr name="EPNGUnknownCriticalChunkText" origstr="Dieses &quot;Portable Network Graphics&quot; Bild enhält einen unbekannten aber notwendigen Teil, welcher nicht entschlüsselt werden kann.">Αυτή η PNG εικόνα περιέχει ένα άγνωστο κρίσιμο μέρος το οποίο δεν μπορούσε να αποκωδικοποιηθεί.</resstr>
+    <resstr name="EPNGUnknownInterlaceText" origstr="Dieses &quot;Portable Network Graphics&quot; Bild benutzt ein unbekanntes Interlace-Schema, welches nicht entschlüsselt werden kann.">Αυτή η PNG εικόνα χρησιμοποιεί ένα άγνωστο πρότυπο πλέγματος το οποίο δεν μπορούσε να αποκωδικοποιηθεί.</resstr>
+    <resstr name="EPNGUnknownPalEntryText" origstr="Es gibt keinen solchen Palettenwert.">Δεν υπάρχει τέτοια καταχώρηση παλέτας</resstr>
+    <resstr name="EPNGZLIBErrorText" origstr="Die Grafik konnte nicht entpackt werden, weil Teile der komprimierten Daten fehlerhaft sind.&#xA; Beschreibung: ">Αδυναμία αποσυμπίεσης εικόνας επειδή περιέχει μη έγκυρα συμπιεσμένα δεδομένα.
+Περιγραφή:</resstr>
+  </unit>
+  <unit name="QTThunk">
+    <resstr name="SLoadLibrary16Failed" origstr="LoadLibrary16 fehlgeschlagen!">Η LoadLibrary16 απέτυχε!</resstr>
+    <resstr name="SParamMismatch" origstr="Parameter passen nicht zusammen">Αποτυχία αντιστοίχισης παραμέτρων</resstr>
+    <resstr name="SProcNotFound" origstr="16-Bit Prozedur nicht gefunden">Δεν βρέθηκε μέθοδος 16-bit</resstr>
+    <resstr name="STooManyParams" origstr="Zu viele Parameter">Πολλές παράμετροι</resstr>
+    <resstr name="STooManyPtrParams" origstr="Zu viele Zeiger-Parameter">Πολλοί δείκτες παραμέτρων</resstr>
+  </unit>
+  <unit name="XmClipbrd">
+    <resstr name="SBufferAllocError" origstr="Fehler beim Reservieren des Zwischenablagen-Puffers">Συνέβη σφάλμα κατά την κατανομή του περιεχομένου του προχείρου</resstr>
+    <resstr name="SClipboardNotOpened" origstr="Die Zwischenablage muß geöffnet sein, bevor auf sie zugegriffen wird">Το πρόχειρο πρέπει να είναι ανοικτό πρωτού γίνει πρόσβαση.</resstr>
+  </unit>
+  <unit name="XmHexEdit">
+    <resstr name="SCannotPasteHex" origstr="Einfügen/Schreiben nicht möglich, da der Text in der Zwischenablage ungültige Hex-Werte enthält.&#xA;Falls Sie Text einfügen/schreiben möchten, wechseln Sie in die Textspalte">Η επικόλληση είναι αδύνατη, καθώς το κείμενο στο πρόχειρο περιέχει μη έγκυρες δεκαεξαδικές τιμές.
+Εάν επιθυμείτε να επικολλήσετε κείμενο, μετακινηθείτε στην στήλη κειμένου.</resstr>
+    <resstr name="SClpbrdContentDoesNotFit" origstr="Der Zwischenablageninhalt ist zu groß um an dieser Stelle eingefügt zu werden">Το περιεχόμενο του προχείρου είναι πολύ μεγάλο για να προστεθεί σε αυτό το σημείο</resstr>
+    <resstr name="SCopying" origstr="Kopieren...">Αντιγραφή...</resstr>
+    <resstr name="SErrCopyUndefinedData" origstr="Kopieren nicht möglich, da ein Teil der ausgewählten Daten undefiniert ist">Η αντιγραφή δεν είναι δυνατή, καθώς μέρος των δεδομένων δεν είναι ορισμένο</resstr>
+    <resstr name="SErrExportUndefinedData" origstr="Exportieren nicht möglich, da ein Teil der ausgewählten Daten undefiniert ist">Η εξαγωγή δεν είναι δυνατή, καθώς μέρος των επιλεγμένων δεδομένων δεν είναι ορισμένο</resstr>
+    <resstr name="SErrPasteIntoUndefinedData" origstr="Einfügen an dieser Position nicht möglich, da ein zu beschreibender Bereich geschützt oder nicht zugewiesen ist">Η τοποθέτηση σε αυτή τη θέση δεν είναι δυνατή, καθώς μια περιοχή που πρέπει να εγγραφεί είναι προστατευμένη ή μη ανατεθημένη</resstr>
+    <resstr name="SInvalidHexDigits" origstr="Der Text enthält ungültige hexadezimale Ziffern">Το κείμενο περιέχει μη έγκυρα δεκαεξαδικά ψηφία</resstr>
+    <resstr name="SPasting" origstr="Einfügen...">Επικόλληση...</resstr>
+    <resstr name="SSector" origstr="Sektor %d">Τομέας %d</resstr>
+    <resstr name="SSelLengthDoesNotFit" origstr="Der Zwischenablageninhalt paßt nicht in die Auswahl.&#xA;&#xA;Heben Sie die Auswahl auf (leere Auswahl) oder passen Sie die Auswahlgröße an">Το περιεχόμενο του προχείρου δεν ταιριάζει σε αυτή την επιλογή.
+
+Αποεπιλέξτε ή προσαρμόστε το μέγεθος του επιλεγμένου ώστε να ταιριάζει</resstr>
+    <resstr name="STopSector" origstr="Oberster Sektor">Ανώτατος τομέας</resstr>
+  </unit>
+  <unit name="XmHexExporter">
+    <resstr name="S16BitIntelHexFileFilter" origstr="16 Bit Intel Hex (*.hex)|*.hex">16 Bit Intel Hex (*.hex)|*.hex</resstr>
+    <resstr name="S16BitIntelHexFormatName" origstr="16 Bit Intel Hex">16 Bit Intel Hex</resstr>
+    <resstr name="S20BitIntelHexFileFilter" origstr="20 Bit Intel Hex (*.hex)|*.hex">20 Bit Intel Hex (*.hex)|*.hex</resstr>
+    <resstr name="S20BitIntelHexFormatName" origstr="20 Bit Intel Hex">20 Bit Intel Hex</resstr>
+    <resstr name="S32BitIntelHexFileFilter" origstr="32 Bit Intel Hex (*.hex)|*.hex">32 Bit Intel Hex (*.hex)|*.hex</resstr>
+    <resstr name="S32BitIntelHexFormatName" origstr="32 Bit Intel Hex">32 Bit Intel Hex</resstr>
+    <resstr name="SCFileFilter" origstr="C Quellen (*.c)|*.c|C++ Quellen (*.cpp)|*.cpp">C αρχεία πηγής (*.c)|*.c|C++ αρχεία πηγής (*.cpp)|*.cpp</resstr>
+    <resstr name="SCFormatName" origstr="C">C</resstr>
+    <resstr name="SCSharpFileFilter" origstr="C# Quellen (*.cs)|*.cs">C# αρχεία πηγής (*.cs)|*.cs</resstr>
+    <resstr name="SCSharpFormatName" origstr="C#">C#</resstr>
+    <resstr name="SEncodingError" origstr="%s Kodierung wird vom %s-Exporter nicht unterstützt">Η %s κωδικοποίηση δεν υποστηρίζεται από τον %s-εξαγωγέα</resstr>
+    <resstr name="SEndOffset" origstr="EndeOffset">EndOffset</resstr>
+    <resstr name="SExporting" origstr="Exportieren...">Γίνεται εξαγωγή...</resstr>
+    <resstr name="SHTMLFileFilter" origstr="HTML Dokumente (*.htm;*.html)|*.htm;*.html">HTML έγγραφα (*.htm;*.html)|*.htm;*.html</resstr>
+    <resstr name="SHTMLFormatName" origstr="HTML">HTML</resstr>
+    <resstr name="SJavaFileFilter" origstr="Java Quellen (*.java)|*.java">Αρχεία πηγής java (*.java)|*.java</resstr>
+    <resstr name="SJavaFormatName" origstr="Java">Java</resstr>
+    <resstr name="SLength" origstr="Länge">Μήκος</resstr>
+    <resstr name="SMaxHexDataFileSizeExceeded" origstr="Die maximale unterstüzte Dateigröße (%s) des &quot;%s&quot; Dateiformats wurde überschritten.&#xA;Wählen Sie ein anderes Format">Το μέγιστο υποστηριζόμενο μέγεθος αρχείου (%s) της μορφής αρχείου "%s" ξεπεράστηκε.
+Επιλέξτε διαφορετική μορφή</resstr>
+    <resstr name="SMaxSourceCodeFileSizeExceeded" origstr="Quelltext-Dateien dürfen eine Größe von 2GB nicht überschreiten">Αρχεία πηγαίου κώδικα δεν μπορούν να ξεπερνούν το μέγεθος των 2GB</resstr>
+    <resstr name="SPascalFileFilter" origstr="Pascal Units (*.pas)|*.pas|Include Dateien (*.inc)|*.inc">Pascal μονάδες (*.pas)|*.pas|Συμπερίληψη αρχείων (*.inc)|*.inc</resstr>
+    <resstr name="SPascalFormatName" origstr="Pascal">Pascal</resstr>
+    <resstr name="SRTFFileFilter" origstr="Rich Text Format (*.rtf)|*.rtf">Rich Text μορφή (*.rtf)|*.rtf</resstr>
+    <resstr name="SRTFFormatName" origstr="Rich Text Format">Rich Text μορφή</resstr>
+    <resstr name="SS19RecordsFileFilter" origstr="Motorola S19 Records (*.s19)|*.s19">Motorola S19 Records (*.s19)|*.s19</resstr>
+    <resstr name="SS19RecordsFormatName" origstr="Motorola S19 Records">Motorola S19 Records</resstr>
+    <resstr name="SS28RecordsFileFilter" origstr="Motorola S28 Records (*.s28)|*.s28">Motorola S28 Records (*.s28)|*.s28</resstr>
+    <resstr name="SS28RecordsFormatName" origstr="Motorola S28 Records">Motorola S28 Records</resstr>
+    <resstr name="SS37RecordsFileFilter" origstr="Motorola S37 Records (*.s37)|*.s37">Motorola S37 Records (*.s37)|*.s37</resstr>
+    <resstr name="SS37RecordsFormatName" origstr="Motorola S37 Records">Motorola S37 Records</resstr>
+    <resstr name="SStartOffset" origstr="StartOffset">StartOffset</resstr>
+    <resstr name="STeXFileFilter" origstr="TeX Dateien (*.tex)|*.tex">TeX αρχεία (*.tex)|*.tex</resstr>
+    <resstr name="STeXFormatName" origstr="TeX">TeX</resstr>
+    <resstr name="STextFileFilter" origstr="Text Dateien (*.txt)|*.txt">Αρχεία κειμένου (*.txt)|*.txt</resstr>
+    <resstr name="STextFormatName" origstr="Text">Κείμενο</resstr>
+    <resstr name="SVBNETFileFilter" origstr="Visual Basic .NET Module (*.vb)|*.vb">Visual Basic .NET modules (*.vb)|*.vb</resstr>
+    <resstr name="SVBNETFormatName" origstr="Visual Basic .NET">Visual Basic .NET</resstr>
+  </unit>
+  <unit name="XmInfoDialog">
+    <resstr name="SMainDeveloper" origstr="Hauptentwickler">Βασικός προγραμματιστής</resstr>
+    <resstr name="SMainDeveloperAndTranslator" origstr="Hauptentwickler und Übersetzer">Βασικός προγραμματιστής και μεταφραστής</resstr>
+    <resstr name="STranslator" origstr="Übersetzer">Μεταφραστής</resstr>
+    <resstr name="SVersion" origstr="Version">Έκδοση</resstr>
+  </unit>
+  <unit name="XmNumEdit">
+    <resstr name="SAboveMaximum" origstr="Die eingegebene Zahl ist größer als das erlaubte Maximum (%s).">Ο αριθμός που δόθηκε είναι μεγαλύτερος από το μέγιστο επιτρεπτό (%s).</resstr>
+    <resstr name="SBelowMinimum" origstr="Die eingegebene Zahl ist kleiner als das erlaubte Minimum (%s).">Ο αριθμός που δόθηκε είναι μικρότερος από το μέγιστο επιτρεπτό (%s).</resstr>
+    <resstr name="SInvalidDigit" origstr="Die eingegebene Zahl enthält eine ungültige Ziffer.">Ο αριθμός που δόθηκε περιέχει ένα μη έγκυρο ψηφίο.</resstr>
+    <resstr name="SInvalidExponent" origstr="Die eingegebene Zahl hat einen ungültigen Exponenten.">Ο αριθμός που δόθηκε έχει ένα μη έγκυρο εκθέτη.</resstr>
+    <resstr name="SMaximumInserted" origstr="Die Zahl wird durch das Maximum ersetzt.">Ο αριθμός θα αντικατασταθεί με τον μέγιστο.</resstr>
+    <resstr name="SMinimumInserted" origstr="Die Zahl wird durch das Minimum ersetzt.">Ο αριθμός θα αντικατασταθεί με τον ελάχιστο.</resstr>
+    <resstr name="SOnlyWhitespace" origstr="Die eingegebene Zahl besteht nur aus Leerzeichen.">Ο αριθμός που δόθηκε είναι φτιαγμένος μόνο από κενά.</resstr>
+    <resstr name="SResetToLastValid" origstr="Die Zahl wird auf die letzte gültige Eingabe zurückgesetzt.">Ο αριθμός επαναφέρθηκε στην τελευταία έγκυρη καταχώρηση.</resstr>
+    <resstr name="SUnexpectedDecSep" origstr="Die eingegebene Zahl enthält einen Dezimaltrenner (%s) wo keiner erwartet wurde.">Ο αριθμός που δόθηκε περιέχει μία δεκαδική υποδιαστολή (%s) τη στιγμή που δεν αναμενόταν κάποια.</resstr>
+    <resstr name="SUnexpectedMinus" origstr="Die eingegebene Zahl enthält ein Minuszeichen wo keines erwartet wurde.">Ο αριθμός που δόθηκε περιέχει ένα αρνητικό πρόσημο τη στιγμή που δεν αναμενόταν κάποιο.</resstr>
+  </unit>
+  <unit name="XmPersistentConfig">
+    <resstr name="SCannotDetermineStorageLocAndType" origstr="Konfiguration konnte weder gefunden noch neu erstellt werden">Οι ρυθμίσεις δεν μπόρεσαν να βρεθούν ούτε να δημιουργηθούν</resstr>
+    <resstr name="SComanyStrEmptyError" origstr="Der Firmenname darf nicht leer sein">Το όνομα της εταιρίας δεν πρέπει να είναι κενό</resstr>
+    <resstr name="SConfigIsReadonly" origstr="Speichern in die Konfiguration nicht möglich, da sie mit Schreibschutz geöffnet wurde">Η αποθήκευση στις ρυθμίσεις δεν είναι δυνατή, καθώς ανοίχτηκε ως "μόνο προς ανάγνωση"</resstr>
+    <resstr name="SInvalidBinaryData" origstr="Die binären Daten im Schlüssel &quot;%s&quot; der Konfiguration sind ungültig">Τα δυαδικά δεδομένα στο κλειδί "%s" των ρυθμίσεων  δεν είναι έγκυρα</resstr>
+    <resstr name="SInvalidKeyOrPathName" origstr="Der Pfadname &quot;%s&quot; oder der Schlüsselname &quot;%s&quot; ist ungültig">Το όνομα μονοπατιού "%s" ή το όνομα κλειδιού "%s" δεν είναι έγκυρο</resstr>
+    <resstr name="SNonExistantKey" origstr="Der Schlüssel &quot;%s&quot; existiert nicht in der Konfiguration">Το κλειδί "%s" δεν υπάρχει στις ρυθμίσεις</resstr>
+    <resstr name="SProductStrEmptyError" origstr="Der Produktname darf nicht leer sein">Το όνομα προϊόντος δεν πρέπει να είναι κενό</resstr>
+    <resstr name="SStorageLocationNotSupported" origstr="%s unterstützt %s nicht als Speicherort für die Konfiguration">Το %s δεν υποστηρίζει το %s ως τοποθεσία αποθήκευσης</resstr>
+    <resstr name="SStringDecodeError" origstr="Ein String aus der Konfiguration ist fehlerhaft und konnte daher nicht dekodiert werden">Μια συμβολοσειρά από τις ρυθμίσεις είναι ελλατωματική και κατά συνέπεια δεν μπόρεσε να αποκωδικοποιηθεί</resstr>
+  </unit>
+  <unit name="XmProgress">
+    <resstr name="SRemainingTime" origstr="Restdauer">Εναπομείναν χρόνος</resstr>
+  </unit>
+  <unit name="XmStreams">
+    <resstr name="SAccessTestingRangeError" origstr="Die Rechte für einen Datenbereich konnten nicht ermittelt werden,&#xA;da mindestens eine der abgefragten Positionen außerhalb des gültigen Bereichs lag">Τα δικαιώματα πρόσβασης για ένα τμήμα δεδομένων δεν μπόρεσε καθοριστεί,
+καθώς τουλάχιστον μία από τις ερωτούμενες θέσεις είναι εκτός έγκυρου εύρους</resstr>
+    <resstr name="SCannotOpenDrive" origstr="Laufwerk &quot;%s&quot; kann nicht geöffnet werden">Ο δίσκος "%s" δεν μπορεί να ανοιχτεί</resstr>
+    <resstr name="SCannotOpenProcess" origstr="Prozess mit ID %x kann nicht mit geforderten Zugriffsrechten geöffnet werden">Η διεργασία με ID %x δεν μπορεί να ανοιχτεί με τα τρέχοντα δικαιώματα πρόσβασης</resstr>
+    <resstr name="SCannotQueryDriveInfo" origstr="Fehler beim Abfragen der Laufwerksinformationen">Σφάλμα κατά την εκτέλεση ερωτημάτων σχετικά με τις πληροφορίες για τους δίσκους</resstr>
+    <resstr name="SCannotResizeStream" origstr="Größe des Datenstroms ist nicht veränderbar">Το μέγεθος  του ρεύματος δεδομένων δεν μπορεί να αλλαχθεί</resstr>
+    <resstr name="SCannotWriteStream" origstr="Keine Schreibrechte auf den Datenstrom">Δεν έχετε δικαίωμα πρόσβασης στο ρεύμα δεδομένων</resstr>
+    <resstr name="SFileReadLockFailed" origstr="Datei &quot;%s&quot; kann nicht zum Lesen geöffnet werden. %s">Το αρχείο "%s" δεν μπορεί να ανοιχθεί ως πρόσβαση για ανάγνωση. %s</resstr>
+    <resstr name="SFileWriteLockFailed" origstr="Datei &quot;%s&quot; kann nicht zum Schreiben geöffnet werden. %s">Το αρχείο "%s" δεν μπορεί να ανοιχθεί ως πρόσβαση για εγγραφή. %s</resstr>
+    <resstr name="SMemoryAddressOutOfRange" origstr="Die Rechte für einen Speicherbereich konnten nicht ermittelt werden,&#xA;da mindestens eine der abgefragten Adressen außerhalb des gültigen Bereichs lag">Τα δικαιώματα πρόσβασης για μια περιοχή μνήμης δεν μπορούσαν να προσδιοριστούν,
+καθώς τουλάχιστον μία από τις ερωτούμενες διευθύνσεις είναι εκτός έγκυρου εύρους</resstr>
+    <resstr name="SMemoryRegionTableCorrupt" origstr="Die Rechte für einen Speicherbereich konnten nicht ermittelt werden,&#xA;da die Speicherbereichstabelle fehlerhaft ist">Δεν μπορούσαν να καθοριστούν τα δικαιώματα πρόσβασης για μια περιοχή μνήμης,
+καθώς ο πίνακας της περιοχής μνήμης είναι κατεστραμμένος</resstr>
+    <resstr name="SNeedReadAccess" origstr="Leserechte auf Datenstrom werden benötigt">Απαιτούνται δικαιώματα ανάγνωσης του ρεύματος δεδομένων</resstr>
+    <resstr name="SNoWriteLockAfterReadonlyLock" origstr="Sperren des Datenstroms mit Schreibrechten nicht möglich, da vorige Sperrungen nur Leserechte angefordert haben.">Δεν μπορεί να κλειδωθεί το ρεύμα δεδομένων για πρόσβαση για εγγραφή, καθώς οι προηγούμενες κλειδαριές ζήτησαν μόνο πρόσβαση για ανάγνωση.</resstr>
+    <resstr name="SPIDIsZeroError" origstr="PID darf nicht 0 sein!">Το PID δεν γίνεται να είναι 0!</resstr>
+    <resstr name="SSaving" origstr="Speichern...">Γίνεται αποθήκευση...</resstr>
+    <resstr name="SStreamResizeFailed" origstr="Die Größenänderung des Datenstroms ist fehlgeschlagen">Αποτυχία στην αλλαγή μεγέθους του ρεύματος δεδομένων</resstr>
+    <resstr name="SUndoing" origstr="Rückgängig machen...">Γίνεται αναίρεση...</resstr>
+  </unit>
+</languagefile>
