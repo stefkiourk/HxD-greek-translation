@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE languagefile SYSTEM "languagefile.dtd">
+<languagefile version="1.1" guid="{6B9D125F-3C1A-480B-B3CF-06170477C177}" localeID="1032" translatorNames="">
+  <unit name="XmDialogs">
+    <resstr name="SDontShowErrorAgain" origstr="Diese Fehlermeldung in Zukunft unterlassen">Να μην προβληθεί ξανά αυτό το σφάλμα</resstr>
+    <resstr name="SDontShowInformationAgain" origstr="Diese Information in Zukunft nicht mehr anzeigen">Να μην προβληθούν ξανά αυτές οι πληροφορίες</resstr>
+    <resstr name="SDontShowMesssageAgain" origstr="Diese Nachricht in Zukunft nicht mehr anzeigen">Να μην προβληθεί ξανά αυτό το μήνυμα</resstr>
+    <resstr name="SDontShowQuestionAgain" origstr="Diese Frage in Zukunft nicht mehr stellen">Να μην ξαναγίνει αυτό το ερώτημα</resstr>
+    <resstr name="SDontShowWarningAgain" origstr="Diese Warnung in Zukunft nicht mehr anzeigen">Να μην προβληθεί ξανά αυτή η προειδοποίηση</resstr>
+  </unit>
+  <unit name="XmGeneral">
+    <resstr name="SBytes" origstr="Bytes">bytes</resstr>
+    <resstr name="SExaBytes" origstr="EB">EB</resstr>
+    <resstr name="SGigaBytes" origstr="GB">GB</resstr>
+    <resstr name="SKiloBytes" origstr="KB">KB</resstr>
+    <resstr name="SMegaBytes" origstr="MB">MB</resstr>
+    <resstr name="SPetaBytes" origstr="PB">PB</resstr>
+    <resstr name="SSystemIdleProcess" origstr="Leerlaufprozess">Ανενεργή διεργασία συστήματος</resstr>
+    <resstr name="SSystemProcess" origstr="System">Διεργασία συστήματος</resstr>
+    <resstr name="STeraBytes" origstr="TB">TB</resstr>
+  </unit>
+</languagefile>

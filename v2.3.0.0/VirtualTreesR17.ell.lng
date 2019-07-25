@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE languagefile SYSTEM "languagefile.dtd">
+<languagefile version="1.1" guid="{ADBE5BBC-1AB4-4BE0-A323-4B9E73CFC921}" localeID="1032" translatorNames="">
+  <unit name="VirtualTrees">
+    <resstr name="SClipboardFailed" origstr="Clipboard operation failed.">Η λειτουργία clipboard απέτυχε.</resstr>
+    <resstr name="SCorruptStream1" origstr="Stream data corrupt. A node's anchor chunk is missing.">Τα δεδομένα ροής είναι κατεστραμμένα. Αγνοείται μία άγκυρα κόμβου.</resstr>
+    <resstr name="SCorruptStream2" origstr="Stream data corrupt. Unexpected data after node's end position.">Τα δεδομένα ροής είναι κατεστραμμένα. Μη αναμενόμενα δεδομένα μετά την τελική θέση κόμβου.</resstr>
+    <resstr name="SStreamTooSmall" origstr="Unable to load tree structure, not enough data available.">Αδυναμία φόρτωσης δομής δέντρου, ανεπαρκή δεδομένα.</resstr>
+    <resstr name="SWrongMoveError" origstr="Target node cannot be a child node of the node to be moved.">Ο τελικός κόμβος δε μπορεί να είναι παιδί κόμβος του κόμβου προς μετακίνηση.</resstr>
+    <resstr name="SWrongStreamFormat" origstr="Unable to load tree structure, the format is wrong.">Αδυναμία φόρτωσης δομής δέντρου, η μορφοποίηση είναι λανθασμένη.</resstr>
+    <resstr name="SWrongStreamVersion" origstr="Unable to load tree structure, the version is unknown.">Αδυναμία φόρτωσης δομής δέντρου, άγνωση έκδοση.</resstr>
+  </unit>
+  <unit name="VTHeaderPopup">
+    <resstr name="sResizeToFit" origstr="&amp;Resize All Columns To Fit">Αλλαγή μεγέθους όλων των στηλών για ταίριασμα</resstr>
+  </unit>
+</languagefile>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE languagefile SYSTEM "languagefile.dtd">
+<languagefile version="1.1" guid="{872C620B-4496-46DC-BB13-3AA41D7B8E48}" localeID="1032" translatorNames="">
+  <unit name="TB2Consts">
+    <resstr name="STBChevronItemMoreButtonsHint" origstr="More Buttons|">Περισσότερα κουμπιά</resstr>
+    <resstr name="STBDockCannotChangePosition" origstr="Cannot change Position of a TTBDock if it already contains controls">Η θέση ενός TTBDock δεν μπορεί να αλλαχθεί εάν ήδη περιέχει λειτουργίες</resstr>
+    <resstr name="STBDockParentNotAllowed" origstr="A TTBDock control cannot be placed inside a tool window or another TTBDock">Ένας χειριστής TTBDock δεν μπορεί να τοποθετηθεί μέσα σε ένα παράθυρο εργαλείων ή σε άλλο TTBDock</resstr>
+    <resstr name="STBMDIWindowItemDefCaption" origstr="(Window List)">(Λίστα παραθύρων)</resstr>
+    <resstr name="STBToolbarIndexOutOfBounds" origstr="Toolbar item index out of range">Ο δείκτης του αντικειμένου εργαλειοθήκης είναι εκτός εύρους</resstr>
+    <resstr name="STBToolbarItemReinserted" origstr="Toolbar item already inserted">Το αντικείμενο εργαλειοθήκης έχει ήδη προστεθεί</resstr>
+    <resstr name="STBToolwinDockedToNameNotSet" origstr="Cannot save dockable window's position because DockedTo's Name property not set">Η θέση του συνδεδεμένου παραθύρου δε μπορεί να αποθηκευτεί επειδή το όνομα της ιδιότητας DockedTo δεν έχει ρυθμιστεί</resstr>
+    <resstr name="STBViewerNotFound" origstr="An item viewer associated the specified item could not be found">Ένας προβολέας αντικειμένου συσχετιζόμενος με το καθορισμένο αντικείμενο δεν βρέθηκε</resstr>
+  </unit>
+</languagefile>

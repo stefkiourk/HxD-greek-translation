@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE languagefile SYSTEM "languagefile.dtd">
+<languagefile version="1.1" guid="{CE605D04-1592-402E-869C-0C8D24C6EA26}" localeID="1032" translatorNames="">
+  <unit name="TBXToolPals">
+    <resstr name="STBXNameAqua" origstr="Aqua">Aqua</resstr>
+    <resstr name="STBXNameBlack" origstr="Black">Μαύρο</resstr>
+    <resstr name="STBXNameBlue" origstr="Blue">Μπλε</resstr>
+    <resstr name="STBXNameBlueGray" origstr="Blue-Gray">Μπλε-Γκρι</resstr>
+    <resstr name="STBXNameBrightGreen" origstr="Bright Green">Ανοικτό Πράσινο</resstr>
+    <resstr name="STBXNameBrown" origstr="Brown">Καφέ</resstr>
+    <resstr name="STBXNameDarkBlue" origstr="Dark Blue">Σκοτεινό Μπλε</resstr>
+    <resstr name="STBXNameDarkGreen" origstr="Dark Green">Σκοτεινό Πράσινο</resstr>
+    <resstr name="STBXNameDarkRed" origstr="Dark Red">Σκοτεινό Κόκκινο</resstr>
+    <resstr name="STBXNameDarkTeal" origstr="Dark Teal">Σκοτεινό Tιλ</resstr>
+    <resstr name="STBXNameDarkYellow" origstr="Dark Yellow">Σκοτεινό Κίτρινο</resstr>
+    <resstr name="STBXNameGold" origstr="Gold">Χρυσό</resstr>
+    <resstr name="STBXNameGray25" origstr="Gray-25%">Γκρι-25%</resstr>
+    <resstr name="STBXNameGray40" origstr="Gray-40%">Γκρι-40%</resstr>
+    <resstr name="STBXNameGray50" origstr="Gray-50%">Γκρι-50%</resstr>
+    <resstr name="STBXNameGray80" origstr="Gray-80%">Γκρι-80%</resstr>
+    <resstr name="STBXNameGreen" origstr="Green">Πράσινο</resstr>
+    <resstr name="STBXNameIndigo" origstr="Indigo">Ίντιγκο</resstr>
+    <resstr name="STBXNameLavender" origstr="Lavender">Λεβάντα</resstr>
+    <resstr name="STBXNameLightBlue" origstr="Light Blue">Ανοικτό Μπλε</resstr>
+    <resstr name="STBXNameLightGreen" origstr="Light Green">Ανοικτό Πράσινο</resstr>
+    <resstr name="STBXNameLightOrange" origstr="Light Orange">Ανοικτό Πορτοκαλί</resstr>
+    <resstr name="STBXNameLightTurquoise" origstr="Light Turquoise">Ανοικτό Τουρκουάζ</resstr>
+    <resstr name="STBXNameLightYellow" origstr="Light Yellow">Ανοικτό Κίτρινο</resstr>
+    <resstr name="STBXNameLime" origstr="Lime">Λεμονί</resstr>
+    <resstr name="STBXNameNone" origstr="None">Κανένα</resstr>
+    <resstr name="STBXNameOliveGreen" origstr="Olive Green">Πράσινο Ελιάς</resstr>
+    <resstr name="STBXNameOrange" origstr="Orange">Πορτοκαλί</resstr>
+    <resstr name="STBXNamePaleBlue" origstr="Pale Blue">Ωχρό Μπλε</resstr>
+    <resstr name="STBXNamePink" origstr="Pink">Ροζ</resstr>
+    <resstr name="STBXNamePlum" origstr="Plum">Δαμασκηνί</resstr>
+    <resstr name="STBXNameRed" origstr="Red">Κόκκινο</resstr>
+    <resstr name="STBXNameRose" origstr="Rose">Τριανταφυλλί</resstr>
+    <resstr name="STBXNameSeaGreen" origstr="Sea Green">Πράσινο Θάλασσας</resstr>
+    <resstr name="STBXNameSkyBlue" origstr="Sky Blue">Μπλε Ουρανού</resstr>
+    <resstr name="STBXNameTan" origstr="Tan">Ταν (Ηλίου)</resstr>
+    <resstr name="STBXNameTeal" origstr="Teal">Τιλ</resstr>
+    <resstr name="STBXNameTurquoise" origstr="Turquoise">Τουρκουάζ</resstr>
+    <resstr name="STBXNameViolet" origstr="Violet">Βιολετί</resstr>
+    <resstr name="STBXNameWhite" origstr="White">Άσπρο</resstr>
+    <resstr name="STBXNameYellow" origstr="Yellow">Κίτρινο</resstr>
+  </unit>
+</languagefile>

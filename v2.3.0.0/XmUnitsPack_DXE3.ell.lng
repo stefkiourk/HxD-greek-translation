@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE languagefile SYSTEM "languagefile.dtd">
+<languagefile version="1.1" guid="{7C4879AA-E88C-409B-A9B5-BD853310BA15}" localeID="1032" translatorNames="">
+  <unit name="XmDetermineLangFromSettingsFile">
+    <resstr name="SErrorCaption" origstr="Fehler">Σφάλμα</resstr>
+  </unit>
+  <unit name="XmDialogs">
+    <resstr name="SDontShowErrorAgain" origstr="Diese Fehlermeldung in Zukunft unterlassen">Να μην προβληθεί ξανά αυτό το σφάλμα</resstr>
+    <resstr name="SDontShowInformationAgain" origstr="Diese Information in Zukunft nicht mehr anzeigen">Να μην προβληθούν ξανά αυτές οι πληροφορίες</resstr>
+    <resstr name="SDontShowMesssageAgain" origstr="Diese Nachricht in Zukunft nicht mehr anzeigen">Να μην προβληθεί ξανά αυτό το μήνυμα</resstr>
+    <resstr name="SDontShowQuestionAgain" origstr="Diese Frage in Zukunft nicht mehr stellen">Να μην ξαναγίνει αυτό το ερώτημα</resstr>
+    <resstr name="SDontShowWarningAgain" origstr="Diese Warnung in Zukunft nicht mehr anzeigen">Να μην προβληθεί ξανά αυτή η προειδοποίηση</resstr>
+  </unit>
+  <unit name="XmForms">
+    <resstr name="SInvalidVersionInfo" origstr="Die Versionsinformation enthält nicht alle notwendigen Einträge oder existiert in mehr als einer Sprache.">Οι πληροφορίες έκδοσης δεν περιλαμβάνουν όλες τις απαραίτητες καταχωρήσεις ή υπάρχουν σε περισσότερες από μία γλώσσες.</resstr>
+    <resstr name="SXmAppInitBeforeUse" origstr="TXmApplication.Initialize muß aufgerufen werden bevor weitere Methoden aufgerufen oder Eigenschaften abgefragt werden.">Πρέπει να καλεστεί το TXmApplication.Initialize προτού καλεστούν περαιτέρω μέθοδοι ή ζητηθούν ιδιότητες.</resstr>
+  </unit>
+  <unit name="XmGeneral">
+    <resstr name="SBytes" origstr="Bytes">bytes</resstr>
+    <resstr name="SCannotDownloadFile" origstr="Die Datei &quot;%0:s&quot; konnte nicht heruntergeladen werden. HTTP-Statuscode: %1:s">Το αρχείο "%0:s'" δε μπόρεσε να κατέβει. Κωδικός κατάστασης HTTP: %1:s</resstr>
+    <resstr name="SDurationFormat" origstr="HH:mm:ss">HH:mm:ss</resstr>
+    <resstr name="SExBiBytes" origstr="EiB">EiB</resstr>
+    <resstr name="SFileNotFound" origstr="Die Datei &quot;%s&quot; konnte nicht gefunden werden.">Το αρχείο "%s" δε βρέθηκε.</resstr>
+    <resstr name="SGiBiBytes" origstr="GiB">GiB</resstr>
+    <resstr name="SInfiniteDuration" origstr="Unendlich lange">Υπερβολικά μεγάλο</resstr>
+    <resstr name="SKiBiBytes" origstr="KiB">KiB</resstr>
+    <resstr name="SMeBiBytes" origstr="MiB">MiB</resstr>
+    <resstr name="SPeBiBytes" origstr="PiB">PiB</resstr>
+    <resstr name="STeBiBytes" origstr="TiB">TiB</resstr>
+    <resstr name="STooManyFailedAuthenticationAttempts" origstr="Die Authentifizierung ist zu häufig fehlgeschlagen.">Η αυθεντικοποίηση απέτυχε πολλές φορές</resstr>
+  </unit>
+  <unit name="XmLanguageChoiceDialog">
+    <resstr name="SButtonCancel" origstr="Abbrechen">Ακύρωση</resstr>
+    <resstr name="SButtonOK" origstr="OK">OK</resstr>
+    <resstr name="SLangChoiceDialogCaption" origstr="Sprache für %s auswählen">Επιλέξτε γλώσσα για το %s</resstr>
+    <resstr name="SLangChoiceLabelCaption" origstr="Wählen Sie die Sprache aus, in der %s angezeigt werden soll:">Επιλέξτε τη γλώσσα στην οποία θα πρέπει το %s να φαίνεται:</resstr>
+  </unit>
+  <unit name="XmMath">
+    <resstr name="SLogOfZeroUndefined" origstr="Der Logarithmus von 0 ist undefiniert">Ο αλγόριθμος του 0 δεν είναι προσδιορισμένος</resstr>
+  </unit>
+  <unit name="XmPersistentConfig">
+    <resstr name="SCannotDetermineStorageLocAndType" origstr="Konfiguration konnte weder gefunden noch neu erstellt werden">Δεν μπόρεσαν να βρεθούν ή να δημιουργηθούν οι ρυθμίσεις</resstr>
+    <resstr name="SCompanyStrEmptyError" origstr="Der Firmenname darf nicht leer sein">Το όνομα της εταιρίας δε μπορεί να είναι άδειο</resstr>
+    <resstr name="SConfigIsReadonly" origstr="Speichern in die Konfiguration nicht möglich, da sie mit Schreibschutz geöffnet wurde">Η αποθήκευση στις ρυθμίσεις δεν είναι εφικτή, καθώς το αρχείο έχει ανοιχτεί ως "μόνο για ανάγνωση"</resstr>
+    <resstr name="SInvalidBinaryData" origstr="Die binären Daten im Schlüssel &quot;%s&quot; der Konfiguration sind ungültig">Τα δυαδικά δεδομένα στο κλειδί "%s" των ρυθμίσεων είναι λανθασμένα</resstr>
+    <resstr name="SInvalidKeyOrPathName" origstr="Der Pfadname &quot;%s&quot; oder der Schlüsselname &quot;%s&quot; ist ungültig">Το όνομα μονοπατιού "%s" ή το όνομα κλειδιού "%s" δεν είναι έγκυρο</resstr>
+    <resstr name="SNonExistantKey" origstr="Der Schlüssel &quot;%s&quot; existiert nicht in der Konfiguration">Το κλειδί "%s" δεν υπάρχει στις ρυθμίσεις</resstr>
+    <resstr name="SNoWriteProtectedConfigAtLocation" origstr="%s unterstützt %s nicht als Speicherort für schreibgeschützte Konfigurationen">Το %s δεν υποστηρίζει %s ως προορισμό αποθήκευσης δεδομένων για 'μόνο για ανάγνωση' ρυθμίσεις</resstr>
+    <resstr name="SProductStrEmptyError" origstr="Der Produktname darf nicht leer sein">Το όνομα προϊόντος δε μπορεί να είναι άδεο</resstr>
+    <resstr name="SStorageLocationNotSupported" origstr="%s unterstützt %s nicht als Speicherort für die Konfiguration">Το %s δεν υποστηρίζει το %s ως μέρος αποθήκευσης για τις ρυθμίσεις</resstr>
+    <resstr name="SStringDecodeError" origstr="Ein String aus der Konfiguration ist fehlerhaft und konnte daher nicht dekodiert werden">Ένα αλφαριθμητικό από τις ρυθμίσεις είναι λανθασμένο και δε μπόρεσε να αποκωδικοποιηθεί</resstr>
+  </unit>
+  <unit name="XmSysInfo">
+    <resstr name="SSystemIdleProcess" origstr="Leerlaufprozess">Αδρανής διεργασία συστήματος</resstr>
+  </unit>
+  <unit name="XmUnicodeMisc">
+    <resstr name="SInvalidContinuationByteIndex" origstr="Index für Continuation-Byte muss zwischen 1 und 3 liegen.">Ο δείκτης για το byte συνέχισης πρέπει να είναι μεταξύ 1 και 3.</resstr>
+    <resstr name="SUTF8CodePointGreaterThan10FFFF" origstr="Code-Point &gt; U+10FFFF">Κωδικός σημείου &gt; U+10FFFF</resstr>
+    <resstr name="SUTF8FirstInvalidContinuationByte" origstr="1. Continuation-Byte ungültig">Το πρώτο byte συνέχισης είναι λανθασμένο</resstr>
+    <resstr name="SUTF8InvalidByte" origstr="Ungültige Code-Unit">Λανθασμένος κωδικός μονάδας</resstr>
+    <resstr name="SUTF8NoBytes" origstr="Leere Bytefolge">Άδεια αλληλουχία byte</resstr>
+    <resstr name="SUTF8OverlongEncodingEx" origstr="Überlange Kodierung (U+%.4x)">Παρατεταμένη κωδικοποίηση (U+%.4x)</resstr>
+    <resstr name="SUTF8SecondInvalidContinuationByte" origstr="2. Continuation-Byte ungültig">Το δεύτερο byte συνέχισης είναι λανθασμένο</resstr>
+    <resstr name="SUTF8SurrogateHalfOfUTF16Ex" origstr="UTF-16 Surrogate-Hälfte (U+%.4x)">Ο μισός αναπληρωτής UTF-16  (U+%.4x)</resstr>
+    <resstr name="SUTF8ThirdInvalidContinuationByte" origstr="3. Continuation-Byte ungültig">Το τρίτο byte συνέχισης είναι λανθασμένο</resstr>
+    <resstr name="SUTF8TruncatedContinuationBytes" origstr="Fehlende Continuation-Bytes">Κομμένα byte συνέχισης</resstr>
+    <resstr name="SUTF8UnexpectedContinuationByte" origstr="Unerwartetes Continuation-Byte">Απροσδόκητο byte συνέχισης</resstr>
+  </unit>
+</languagefile>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE languagefile SYSTEM "languagefile.dtd">
+<languagefile version="1.1" guid="{DAB4C1C3-1E3B-4D83-A3BA-983E9A9A9027}" localeID="1032" translatorNames="">
+  <unit name="ComStrs">
+    <resstr name="sInsertError" origstr="Unable to insert an item">Αδυναμία προσθήκης αντικειμένου</resstr>
+    <resstr name="sInvalidComCtl32" origstr="This control requires version 4.70 or greater of COMCTL32.DLL">Αυτός ο χειριστής απαιτεί έκδοση 4.70 ή μεγαλύτερη του COMCTL32.DLL</resstr>
+    <resstr name="sInvalidIndex" origstr="Invalid index">Μη έγκυρο ευρετήριο</resstr>
+    <resstr name="sInvalidOwner" origstr="Invalid owner">Μη έγκυρος ιδιοκτήτης</resstr>
+    <resstr name="sPageIndexError" origstr="%d is an invalid PageIndex value.  PageIndex must be between 0 and %d">Το %d είναι μη έγκυρη PageIndex τιμή. Το PageIndex πρέπει να είναι ανάμεσα στο 0 και στο %d</resstr>
+    <resstr name="sRichEditInsertError" origstr="RichEdit line insertion error">Σφάλμα προσθήκης RichEdit γραμμής</resstr>
+    <resstr name="sRichEditLoadFail" origstr="Failed to Load Stream">Αποτυχία φόρτωσης του ρεύματος</resstr>
+    <resstr name="sRichEditSaveFail" origstr="Failed to Save Stream">Αποτυχία αποθήκευσης του ρεύματος</resstr>
+    <resstr name="sTabFailClear" origstr="Failed to clear tab control">Αποτυχία καθαρισμού του ελέγχου καρτέλας</resstr>
+    <resstr name="sTabFailDelete" origstr="Failed to delete tab at index %d">Αποτυχία διαγραφής καρτέλας στο δείκτη %d</resstr>
+    <resstr name="sTabFailGetObject" origstr="Failed to get object at index %d">Αποτυχία απόκτησης αντικειμένου στη διεύθυνση με δείκτη %d</resstr>
+    <resstr name="sTabFailRetrieve" origstr="Failed to retrieve tab at index %d">Αποτυχία ανάκτησης καρτέλας στη διεύθυνση με δείκτη %d</resstr>
+    <resstr name="sTabFailSet" origstr="Failed to set tab &quot;%s&quot; at index %d">Αποτυχία τοποθέτησης καρτέλας στη διεύθυνση με δείκτη %d</resstr>
+    <resstr name="sTabFailSetObject" origstr="Failed to set object at index %d">Αποτυχία τοποθέτησης αντικειμένου στη διεύθυνση με δείκτη %d</resstr>
+    <resstr name="sTabMustBeMultiLine" origstr="MultiLine must be True when TabPosition is tpLeft or tpRight">Το MultiLine πρέπει να είναι True όταν το TabPosition είναι tpLeft ή tpRight</resstr>
+  </unit>
+  <unit name="Consts">
+    <resstr name="SAbortButton" origstr="Abort">Διακοπή</resstr>
+    <resstr name="SAllButton" origstr="&amp;All">Όλα</resstr>
+    <resstr name="SCancelButton" origstr="Cancel">Ακύρωση</resstr>
+    <resstr name="SCannotDragForm" origstr="Cannot drag a form">Το σύρσιμο φόρμας είναι αδύνατο</resstr>
+    <resstr name="SCannotFocus" origstr="Cannot focus a disabled or invisible window">Η εστίαση σε αόρατο ή ανενεργό παράθυρο είναι αδύνατη</resstr>
+    <resstr name="SCannotOpenClipboard" origstr="Cannot open clipboard">Το πρόχειρο δεν μπορεί να ανοιχθεί</resstr>
+    <resstr name="SCannotShowModal" origstr="Cannot make a visible window modal">Η τροποποίηση παραθύρου ως modal είναι αδύνατη</resstr>
+    <resstr name="SChangeIconSize" origstr="Cannot change the size of an icon">Η αλλαγή μεγέθους των εικονιδίων είναι αδύνατη</resstr>
+    <resstr name="SCloseButton" origstr="&amp;Close">Κλείσιμο</resstr>
+    <resstr name="SColorBoxCustomCaption" origstr="Custom...">Προσαρμοσμένο...</resstr>
+    <resstr name="SControlParentSetToSelf" origstr="A control cannot have itself as its parent">Ένα εργαλείο δεν μπορεί να έχει τον εαυτό του ως γονέα.</resstr>
+    <resstr name="SDefault" origstr="Default">Προεπιλεγμένο</resstr>
+    <resstr name="SDeviceOnPort" origstr="%s on %s">%s στο %s</resstr>
+    <resstr name="SDockedCtlNeedsName" origstr="Docked control must have a name">Το συνδεδεμένο εργαλείο πρέπει να έχει όνομα</resstr>
+    <resstr name="SDockTreeRemoveError" origstr="Error removing control from dock tree">Σφάλμα κατά την αφαίρεση εργαλείου από το το δέντρο βάσης</resstr>
+    <resstr name="SDockZoneHasNoCtl" origstr=" - Dock zone has no control">- Η ζώνη βάσης δεν έχει χειριστή</resstr>
+    <resstr name="SDockZoneNotFound" origstr=" - Dock zone not found">- Δεν βρέθηκε ζώνη βάσης</resstr>
+    <resstr name="SDuplicateMenus" origstr="Menu '%s' is already being used by another form">Το μενού '%s' χρησιμοποιείται ήδη από διαφορετική φόρμα</resstr>
+    <resstr name="SErrorSettingCount" origstr="Error setting %s.Count">Συνέβη σφάλμα κατά την θέση %s.Count</resstr>
+    <resstr name="SFileRunDialogTitle" origstr="Run">start</resstr>
+    <resstr name="SGroupIndexTooLow" origstr="GroupIndex cannot be less than a previous menu item's GroupIndex">Το GroupIndex δεν μπορεί να είναι λιγότερο από το GroupIndex μιας επιλογής ενός προηγούμενου μενού</resstr>
+    <resstr name="SHelpButton" origstr="&amp;Help">Βοήθεια</resstr>
+    <resstr name="SIconToClipboard" origstr="Clipboard does not support Icons">Το πρόχειρο δεν υποστηρίζει Icons</resstr>
+    <resstr name="SIgnoreButton" origstr="&amp;Ignore">Παράβλεψη</resstr>
+    <resstr name="SImageCanvasNeedsBitmap" origstr="Can only modify an image if it contains a bitmap">Μια εικόνα μπορεί να τροποποιηθεί μόνο εάν περιέχει ένα bitmap</resstr>
+    <resstr name="SImageIndexError" origstr="Invalid ImageList Index">Μη έγκυρος ImageList δείκτης</resstr>
+    <resstr name="SImageReadFail" origstr="Failed to read ImageList data from stream">Αποτυχία κατά την ανάγνωση ImageList δεδομένων από το ρεύμα</resstr>
+    <resstr name="SImageWriteFail" origstr="Failed to write ImageList data to stream">Αποτυχία κατά την εγγραφή ImageList δεδομένων στο ρεύμα</resstr>
+    <resstr name="SInsertLineError" origstr="Unable to insert a line">Αδυναμία προσθήκης γραμμής</resstr>
+    <resstr name="SInvalidBitmap" origstr="Bitmap image is not valid">Η εικόνα bitmap δεν είναι έγκυρη</resstr>
+    <resstr name="SInvalidClipFmt" origstr="Invalid clipboard format">Μη έγκυρη μορφή προχείρου</resstr>
+    <resstr name="SInvalidIcon" origstr="Icon image is not valid">Η icon εικόνα δεν είναι έγκυρη</resstr>
+    <resstr name="SInvalidImageList" origstr="Invalid ImageList">Μη έγκυρη ImageList</resstr>
+    <resstr name="SInvalidImageSize" origstr="Invalid image size">Μη έγκυρο μέγεθος εικόνας</resstr>
+    <resstr name="SInvalidMemoSize" origstr="Text exceeds memo capacity">Το κείμενο ξεπερνάει το μέγεθος υπομνήματος</resstr>
+    <resstr name="SInvalidMetafile" origstr="Metafile is not valid">Μη έγκυρο metafile</resstr>
+    <resstr name="SInvalidPixelFormat" origstr="Invalid pixel format">Μη έγκυρη μορφή pixel</resstr>
+    <resstr name="SInvalidPrinter" origstr="Printer selected is not valid">Ο επιλεγμένος εκτυπωτής δεν είναι έγκυρος</resstr>
+    <resstr name="SInvalidPrinterOp" origstr="Operation not supported on selected printer">Η λειτουργία δεν υποστηρίζεται στον επιλεγμένο εκτυπωτή</resstr>
+    <resstr name="SInvalidTabPosition" origstr="Tab position incompatible with current tab style">Η θέση της καρτέλας δεν υποστηρίζεται στο τρέχον στυλ καρτέλας</resstr>
+    <resstr name="SInvalidTabStyle" origstr="Tab style incompatible with current tab position">Το στυλ καρτέλας δεν υποστηρίζεται στην τρέχουσα θέση καρτέλας</resstr>
+    <resstr name="SListBoxMustBeVirtual" origstr="Listbox (%s) style must be virtual in order to set Count">Το στυλ του Listbox (%s) πρέπει να είναι εικονικό έτσι ώστε να καταχωρηθεί το Count</resstr>
+    <resstr name="SMDIChildNotVisible" origstr="Cannot hide an MDI Child Form">Η απόκρυψη μιας MDI φόρμας-παιδιού είναι αδύνατη</resstr>
+    <resstr name="SMenuIndexError" origstr="Menu index out of range">Ο δείκτης μενού είναι εκτός εύρους</resstr>
+    <resstr name="SMenuNotFound" origstr="Sub-menu is not in menu">Το υπό-μενού δεν είναι μέσα στο μενού</resstr>
+    <resstr name="SMenuReinserted" origstr="Menu inserted twice">Το μενού τοποθετήθηκε δύο φορές</resstr>
+    <resstr name="SmkcAlt" origstr="Alt+">Alt+</resstr>
+    <resstr name="SmkcBkSp" origstr="BkSp">BkSp</resstr>
+    <resstr name="SmkcCtrl" origstr="Ctrl+">Ctrl+</resstr>
+    <resstr name="SmkcDel" origstr="Del">Del</resstr>
+    <resstr name="SmkcDown" origstr="Down">Down</resstr>
+    <resstr name="SmkcEnd" origstr="End">End</resstr>
+    <resstr name="SmkcEnter" origstr="Enter">Enter</resstr>
+    <resstr name="SmkcEsc" origstr="Esc">Esc</resstr>
+    <resstr name="SmkcHome" origstr="Home">start</resstr>
+    <resstr name="SmkcIns" origstr="Ins">Ins</resstr>
+    <resstr name="SmkcLeft" origstr="Left">Left</resstr>
+    <resstr name="SmkcPgDn" origstr="PgDn">PgDn</resstr>
+    <resstr name="SmkcPgUp" origstr="PgUp">PgUp</resstr>
+    <resstr name="SmkcRight" origstr="Right">Right</resstr>
+    <resstr name="SmkcShift" origstr="Shift+">Shift+</resstr>
+    <resstr name="SmkcSpace" origstr="Space">Space</resstr>
+    <resstr name="SmkcTab" origstr="Tab">Tab</resstr>
+    <resstr name="SmkcUp" origstr="Up">Up</resstr>
+    <resstr name="SMsgDlgAbort" origstr="&amp;Abort">Διακοπή</resstr>
+    <resstr name="SMsgDlgAll" origstr="&amp;All">Όλα</resstr>
+    <resstr name="SMsgDlgCancel" origstr="Cancel">Ακύρωση</resstr>
+    <resstr name="SMsgDlgConfirm" origstr="Confirm">Επιβεβαίωση</resstr>
+    <resstr name="SMsgDlgError" origstr="Error">Σφάλμα</resstr>
+    <resstr name="SMsgDlgHelp" origstr="&amp;Help">Βοήθεια</resstr>
+    <resstr name="SMsgDlgIgnore" origstr="&amp;Ignore">Παράβλεψη</resstr>
+    <resstr name="SMsgDlgInformation" origstr="Information">Πληροφορίες</resstr>
+    <resstr name="SMsgDlgNo" origstr="&amp;No">Όχι</resstr>
+    <resstr name="SMsgDlgNoToAll" origstr="N&amp;o to All">Όχι σε όλα</resstr>
+    <resstr name="SMsgDlgOK" origstr="OK">ΟΚ</resstr>
+    <resstr name="SMsgDlgRetry" origstr="&amp;Retry">Επανάληψη</resstr>
+    <resstr name="SMsgDlgWarning" origstr="Warning">Προειδοποίηση</resstr>
+    <resstr name="SMsgDlgYes" origstr="&amp;Yes">Ναι</resstr>
+    <resstr name="SMsgDlgYesToAll" origstr="Yes to &amp;All">Ναι σε όλα</resstr>
+    <resstr name="SMultiSelectRequired" origstr="Multiselect mode must be on for this feature">Η δυνατότητα πολλαπλής επιλογής πρέπει να είναι ενεργοποιημένη σε αυτό το χαρακτηριστικό</resstr>
+    <resstr name="SNoButton" origstr="&amp;No">Όχι</resstr>
+    <resstr name="SNoCanvasHandle" origstr="Canvas does not allow drawing">Ο καμβάς δεν επιτρέπει τον σχεδιασμό </resstr>
+    <resstr name="SNoDefaultPrinter" origstr="There is no default printer currently selected">Αυτή τη στιγμή δεν υπάρχει προεπιλεγμένος εκτυπωτής επιλεγμένος</resstr>
+    <resstr name="SNoGetItemEventHandler" origstr="No OnGetItem event handler assigned">Κανένας OnGetItem χειριστής γεγονότος δεν έχει προσδιοριστεί</resstr>
+    <resstr name="SNoMDIForm" origstr="Cannot create form. No MDI forms are currently active">Αδυναμία δημιουργίας φόρμας. Δεν υπάρχουν ενεργές MDI φόρμες</resstr>
+    <resstr name="SNoTimers" origstr="Not enough timers available">Δεν υπάρχουν αρκετοί χρονομετρητές διαθέσιμοι</resstr>
+    <resstr name="SNotPrinting" origstr="Printer is not currently printing">Ο εκτυπωτής αυτή τη στιγμή δεν εκτυπώνει</resstr>
+    <resstr name="SOKButton" origstr="OK">ΟΚ</resstr>
+    <resstr name="SOutlineLongLine" origstr="Line too long">Η γραμμή είναι πολύ μεγάλη</resstr>
+    <resstr name="SOutOfRange" origstr="Value must be between %d and %d">Η τιμή πρέπει να είναι μεταξύ των %d και %d</resstr>
+    <resstr name="SOutOfResources" origstr="Out of system resources">Οι πόροι του συστήματος είναι εξαντλημένοι</resstr>
+    <resstr name="SParentGivenNotAParent" origstr="Parent given is not a parent of '%s'">Ο γονέας που δόθηκε δεν είναι γονέας του '%s'</resstr>
+    <resstr name="SParentRequired" origstr="Control '%s' has no parent window">Το εργαλείο '%s' δεν έχει παράθυρο γονέα</resstr>
+    <resstr name="SPrinting" origstr="Printing in progress">Η εκτύπωση βρίσκεται σε εξέλιξη</resstr>
+    <resstr name="SPropertyOutOfRange" origstr="%s property out of range">Η ιδιότητα %s είναι εκτός εύρους</resstr>
+    <resstr name="SReplaceImage" origstr="Unable to Replace Image">Αδυναμία αντικατάστασης εικόνας</resstr>
+    <resstr name="SRetryButton" origstr="&amp;Retry">Επανάληψη</resstr>
+    <resstr name="SScanLine" origstr="Scan line index out of range">Ο δείκτης της γραμμής σάρωσης είναι εκτός εύρους</resstr>
+    <resstr name="SStart" origstr="start">start</resstr>
+    <resstr name="SUnknownClipboardFormat" origstr="Unsupported clipboard format">Μη υποστηριζόμενη μορφή clipboard</resstr>
+    <resstr name="SVBitmaps" origstr="Bitmaps">Bitmaps</resstr>
+    <resstr name="SVEnhMetafiles" origstr="Enhanced Metafiles">Ενισχυμένα αρχεία meta</resstr>
+    <resstr name="SVIcons" origstr="Icons">Εικονίδια</resstr>
+    <resstr name="SVisibleChanged" origstr="Cannot change Visible in OnShow or OnHide">Το Visible δεν μπορεί να αλλαχθεί στο OnShow ή στο OnHide</resstr>
+    <resstr name="SVMetafiles" origstr="Metafiles">Αρχεία meta</resstr>
+    <resstr name="SWindowClass" origstr="Error creating window class">Προκλήθηκε σφάλμα κατά τη δημιουργία κλάσης παραθύρου</resstr>
+    <resstr name="SWindowDCError" origstr="Error creating window device context">Προκλήθηκε σφάλμα κατά τη δημιουργία παραθύρου περιεχομένου συσκευής</resstr>
+    <resstr name="SYesButton" origstr="&amp;Yes">Ναι</resstr>
+  </unit>
+  <unit name="ExtCtrls">
+    <resstr name="clName3DDkShadow" origstr="3D Dark Shadow">3D Σκοτεινή Σκίαση</resstr>
+    <resstr name="clName3DLight" origstr="3D Light">3D Φως</resstr>
+    <resstr name="clNameActiveBorder" origstr="Active Border">Ενεργό Περιθώριο</resstr>
+    <resstr name="clNameActiveCaption" origstr="Active Caption">Ενεργή Λεζάντα</resstr>
+    <resstr name="clNameAppWorkSpace" origstr="Application Workspace">Χώρος εργασίας εφαρμογής</resstr>
+    <resstr name="clNameAqua" origstr="Aqua">Άκουα</resstr>
+    <resstr name="clNameBackground" origstr="Background">Φόντο</resstr>
+    <resstr name="clNameBlack" origstr="Black">Μαύρο</resstr>
+    <resstr name="clNameBlue" origstr="Blue">Μπλε</resstr>
+    <resstr name="clNameBtnFace" origstr="Button Face">Όψη κουμπιού</resstr>
+    <resstr name="clNameBtnHighlight" origstr="Button Highlight">Επισήμανση κουμπιού</resstr>
+    <resstr name="clNameBtnShadow" origstr="Button Shadow">Σκιά κουμπιού</resstr>
+    <resstr name="clNameBtnText" origstr="Button Text">Κείμενο κουμπιού</resstr>
+    <resstr name="clNameCaptionText" origstr="Caption Text">Κείμενο λεζάντας</resstr>
+    <resstr name="clNameCream" origstr="Cream">Κρεμ</resstr>
+    <resstr name="clNameDefault" origstr="Default">Προεπιλεγμένο</resstr>
+    <resstr name="clNameFuchsia" origstr="Fuchsia">Φούξια</resstr>
+    <resstr name="clNameGray" origstr="Gray">Γκρι</resstr>
+    <resstr name="clNameGrayText" origstr="Gray Text">Γκρι κείμενο</resstr>
+    <resstr name="clNameGreen" origstr="Green">Πράσινο</resstr>
+    <resstr name="clNameHighlight" origstr="Highlight Background">Επισήμανση φόντου</resstr>
+    <resstr name="clNameHighlightText" origstr="Highlight Text">Επισήμανση κειμένου</resstr>
+    <resstr name="clNameInactiveBorder" origstr="Inactive Border">Ανενεργό περιθώριο</resstr>
+    <resstr name="clNameInactiveCaption" origstr="Inactive Caption">Ανενεργή λεζάντα</resstr>
+    <resstr name="clNameInactiveCaptionText" origstr="Inactive Caption Text">Ανενεργό κείμενο λεζάντας</resstr>
+    <resstr name="clNameInfoBk" origstr="Info Background">Πληροφορίες φόντου</resstr>
+    <resstr name="clNameInfoText" origstr="Info Text">Πληροφορίες κειμένου</resstr>
+    <resstr name="clNameLime" origstr="Lime">Λάιμ</resstr>
+    <resstr name="clNameMaroon" origstr="Maroon">Καστανό</resstr>
+    <resstr name="clNameMedGray" origstr="Medium Gray">Μέτριο γκρι</resstr>
+    <resstr name="clNameMenu" origstr="Menu Background">Φόντο μενού</resstr>
+    <resstr name="clNameMenuText" origstr="Menu Text">Κείμενο μενού</resstr>
+    <resstr name="clNameMoneyGreen" origstr="Money Green">Έντονο πράσινο</resstr>
+    <resstr name="clNameNavy" origstr="Navy">Έντονο μπλε</resstr>
+    <resstr name="clNameNone" origstr="None">Κανένα</resstr>
+    <resstr name="clNameOlive" origstr="Olive">Λαδί</resstr>
+    <resstr name="clNamePurple" origstr="Purple">Μωβ</resstr>
+    <resstr name="clNameRed" origstr="Red">Κόκκινο</resstr>
+    <resstr name="clNameScrollBar" origstr="Scroll Bar">Μπάρα κύλισης</resstr>
+    <resstr name="clNameSilver" origstr="Silver">Ασημί</resstr>
+    <resstr name="clNameSkyBlue" origstr="Sky Blue">Μπλε ουρανού</resstr>
+    <resstr name="clNameTeal" origstr="Teal">Κυπαρρισί</resstr>
+    <resstr name="clNameWhite" origstr="White">Άσπρο</resstr>
+    <resstr name="clNameWindow" origstr="Window Background">Φόντο παραθύρου</resstr>
+    <resstr name="clNameWindowFrame" origstr="Window Frame">Πλαίσιο παραθύρου</resstr>
+    <resstr name="clNameWindowText" origstr="Window Text">Κείμενο Παραθύρου</resstr>
+    <resstr name="clNameYellow" origstr="Yellow">Κίτρινο</resstr>
+  </unit>
+  <unit name="OleConst">
+    <resstr name="sNoRunningObject" origstr="Unable to retrieve a pointer to a running object registered with OLE for %s/%s">Αδυναμία ανάκτησης δείκτη προς εκτελούμενο αντικείμενο καταχωρημένο με OLE για %s/%s</resstr>
+  </unit>
+  <unit name="WinHelpViewer">
+    <resstr name="hNoKeyword" origstr="No help keyword specified.">Δεν έχει προσδιοριστεί λέξη-κλειδί για την βοήθεια.</resstr>
+  </unit>
+</languagefile>

@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<!DOCTYPE languagefile SYSTEM "languagefile.dtd">
+<languagefile version="1.1" guid="{399A6D08-15F8-474D-BD0D-3D2A842B4674}" localeID="1032" translatorNames="">
+  <unit name="JclResources">
+    <resstr name="RsEReplacementChar" origstr="Failed to get ANSI replacement character">Αποτυχία κατά την απόκτηση ANSI χαρακτήρα αντικατάστασης</resstr>
+    <resstr name="RsInconsistentPath" origstr="&quot;%s&quot; does not match RootKey">Το "%s" δεν ταιριάζει με το RootKey </resstr>
+    <resstr name="RsIntelCacheDescr00" origstr="Null descriptor">Null descriptor</resstr>
+    <resstr name="RsIntelCacheDescr01" origstr="Instruction TLB: 4 KByte pages, 4-way set associative, 32 entries">Οδηγία TLB: σελίδες 4 KByte, 4-way set associative, 32 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr02" origstr="Instruction TLB: 4 MByte pages, 4-way set associative, 2 entries">Οδηγία TLB: σελίδες 4 MByte, 4-way set associative, 2 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr03" origstr="Data TLB: 4 KByte pages, 4-way set associative, 64 entries">Δεδομένα TLB: σελίδες 4 KByte, 4-way set associative, 64 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr04" origstr="Data TLB: 4 MByte pages, 4-way set associative, 8 entries">Δεδομένα TLB: σελίδες 4 ΜByte, 4-way set associative, 8 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr05" origstr="Data TLB1: 4 MByte pages, 4-way set associative, 32 entries">Δεδομένα TLB1: σελίδες 4 ΜByte, 4-way set associative, 32 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr06" origstr="1st level instruction cache: 8 KBytes, 4-way set associative, 32 byte line size">1st level οδηγία cache: 8 KBytes, 4-way set associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr08" origstr="1st level instruction cache: 16 KBytes, 4-way set associative, 32 byte line size">1st level οδηγία cache: 16 KBytes, 4-way set associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr09" origstr="1st level instruction cache: 32 KBytes, 4-way set associative, 64 byte line size">1st level οδηγία cache: 32 KBytes, 4-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr0A" origstr="1st level data cache: 8 KBytes, 2-way set associative, 32 byte line size">1st level cache δεδομένων: 8 KBytes, 2-way set associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr0B" origstr="Instruction TLB: 4 MByte pages, 4-way set associative, 4 entries">Οδηγία TLB: σελίδες 4 MByte, 4-way set associative, 4 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr0C" origstr="1st level data cache: 16 KBytes, 4-way set associative, 32 byte line size">1st level cache δεδομένων: 16 KBytes, 4-way set associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr0D" origstr="1st level data cache: 16 KBytes, 4-way set associative, 64 byte line size">1st level cache δεδομένων: 16 KBytes, 4-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr0E" origstr="1st level data cache: 24 KBytes, 6-way set associative, 64 byte line size">1st level cache δεδομένων: 24 KBytes, 6-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr21" origstr="2nd level cache: 256 KBytes, 8-way set associative, 64 byte line size">2nd level cache: 256 KBytes, 8-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr22" origstr="3rd level cache: 512 KBytes, 4-way set associative, 64 byte line size, 2 lines per sector">3rd level cache: 512 KBytes, 4-way set associative, μέγεθος σειράς 64 byte, 2 σειρές ανά τομέα</resstr>
+    <resstr name="RsIntelCacheDescr23" origstr="3rd level cache: 1 MBytes, 8-way set associative, 64 byte line size, 2 lines per sector">3rd level cache: 1 MBytes, 8-way set associative, μέγεθος σειράς 64 byte, 2 σειρές ανά τομέα</resstr>
+    <resstr name="RsIntelCacheDescr25" origstr="3rd level cache: 2 MBytes, 8-way set associative, 64 byte line size, 2 lines per sector">3rd level cache: 2 MBytes, 8-way set associative, μέγεθος σειράς 64 byte, 2 σειρές ανά τομέα</resstr>
+    <resstr name="RsIntelCacheDescr29" origstr="3rd level cache: 4 MBytes, 8-way set associative, 64 byte line size, 2 lines per sector">3rd level cache: 4 MBytes, 8-way set associative, μέγεθος σειράς 64 byte, 2 σειρές ανά τομέα</resstr>
+    <resstr name="RsIntelCacheDescr2C" origstr="1st level data cache: 32 KBytes, 8-way set associative, 64 byte line size">1st level cache δεδομένων: 32 KBytes, 8-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr30" origstr="1st level instruction cache: 32 KBytes, 8-way set associative, 64 byte line size">1st level cache οδηγιών: 32 KBytes, 8-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr39" origstr="2nd-level cache: 128 KBytes, 4-way set associative, sectored cache, 64-byte line size">2nd-level cache: 128 KBytes, 4-way set associative, cache υπό τομέα, μέγεθος σειράς 64-byte</resstr>
+    <resstr name="RsIntelCacheDescr3A" origstr="2nd-level cache: 192 KBytes, 6-way set associative, sectored cache, 64-byte line size">2nd-level cache: 192 KBytes, 6-way set associative, cache υπό τομέα, μέγεθος σειράς 64-byte</resstr>
+    <resstr name="RsIntelCacheDescr3B" origstr="2nd-level cache: 128 KBytes, 2-way set associative, sectored cache, 64-byte line size">2nd-level cache: 128 KBytes, 2-way set associative, cache υπό τομέα, μέγεθος σειράς 64-byte</resstr>
+    <resstr name="RsIntelCacheDescr3C" origstr="2nd-level cache: 256 KBytes, 4-way set associative, sectored cache, 64-byte line size">2nd-level cache: 256 KBytes, 4-way set associative, cache σε τομέα, μέγεθος σειράς 64-byte</resstr>
+    <resstr name="RsIntelCacheDescr3D" origstr="2nd-level cache: 384 KBytes, 6-way set associative, sectored cache, 64-byte line size">2nd-level cache: 384 KBytes, 6-way set associative, cache σε τομέα, μέγεθος σειράς 64-byte</resstr>
+    <resstr name="RsIntelCacheDescr3E" origstr="2nd-level cache: 512 KBytes, 4-way set associative, sectored cache, 64-byte line size">2nd-level cache: 512 KBytes, 4-way set associative, cache σε τομέα, μέγεθος σειράς 64-byte</resstr>
+    <resstr name="RsIntelCacheDescr40" origstr="No 2nd-level cache or, if processor contains a valid 2nd-level cache, no 3rd-level cache">Δε βρέθηκε 2nd-level cache ή, εάν ο επεξεργαστής περιλαμβάνει μία 2nd-level cache, δεν υπάρχει 3rd-level cache</resstr>
+    <resstr name="RsIntelCacheDescr41" origstr="2nd-level cache: 128 KBytes, 4-way set associative, 32 byte line size">2nd-level cache: 128 KBytes, 4-way set associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr42" origstr="2nd-level cache: 256 KBytes, 4-way set associative, 32 byte line size">2nd-level cache: 256 KBytes, 4-way set associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr43" origstr="2nd-level cache: 512 KBytes, 4-way set associative, 32 byte line size">2nd-level cache: 512 KBytes, 4-way set associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr44" origstr="2nd-level cache: 1 MBytes, 4-way set associative, 32 byte line size">2nd-level cache: 1 MBytes, 4-way set associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr45" origstr="2nd-level cache: 2 MBytes, 4-way set associative, 32 byte line size">2nd-level cache: 2 MBytes, 4-way set associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr46" origstr="3rd-level cache: 4 MBytes, 4-way set associative, 64 byte line size">3rd-level cache: 4 MBytes, 4-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr47" origstr="3rd-level cache: 8 MBytes, 4-way set associative, 64 byte line size">3rd-level cache: 8 MBytes, 4-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr48" origstr="3rd-level cache: 8 MByte, 8-way set associative, 64 byte line size">3rd-level cache: 8 MByte, 8-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr49" origstr="2nd-level cache: 4 MBytes, 16-way set associative, 64 byte line size">2nd-level cache: 4 MBytes, 16-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr4A" origstr="3rd-level cache: 6MByte, 12-way set associative, 64 byte line size">3rd-level cache: 6MByte, 12-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr4B" origstr="3rd-level cache: 8MByte, 16-way set associative, 64 byte line size">3rd-level cache: 8MByte, 16-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr4C" origstr="3rd-level cache: 12MByte, 12-way set associative, 64 byte line size">3rd-level cache: 12MByte, 12-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr4D" origstr="3rd-level cache: 16MByte, 16-way set associative, 64 byte line size">3rd-level cache: 16MByte, 16-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr4E" origstr="2nd-level cache: 6MByte, 24-way set associative, 64 byte line size">2nd-level cache: 6MByte, 24-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr4F" origstr="Instruction TLB: 4 KByte pages, 32 Entries">Οδηγία TLB: 4 KByte σελίδες, 32 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr50" origstr="Instruction TLB: 4 KByte and 2 MByte or 4 MByte pages, 64 Entries">Οδηγία TLB: 4 KByte και 2 MByte ή 4 MByte σελίδες, 64 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr51" origstr="Instruction TLB: 4 KByte and 2 MByte or 4 MByte pages, 128 Entries">Οδηγία TLB: 4 KByte και 2 MByte ή 4 MByte σελίδες, 128 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr52" origstr="Instruction TLB: 4 KByte and 2 MByte or 4 MByte pages, 256 Entries">Οδηγία TLB: 4 KByte and 2 MByte or 4 MByte σελίδες, 256 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr55" origstr="Instruction TLB: 2-MByte or 4-MByte pages, fully associative, 7 entries">Οδηγία TLB: 2-MByte or 4-MByte σελίδες, fully associative, 7 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr56" origstr="Data TLB0: 4 MByte pages, 4-way set associative, 16 entries">Δεδομένα TLB: σελίδες 4 ΜByte, 4-way set associative, 16 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr57" origstr="Data TLB0: 4 KByte pages, 4-way associative, 16 entries">Δεδομένα TLB: σελίδες 4 ΚByte, 4-way associative, 16 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr59" origstr="Data TLB0: 4 KByte pages, fully associative, 16 entries">Δεδομένα TLB0: 4 KByte σελίδες, fully associative, 16 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr5A" origstr="Data TLB0: 2 MByte or 4 MByte pages, 4-way set associative, 32 entries">Δεδομένα TLB0: 2 MByte ή 4 MByte σελίδες, 4-way set associative, 32 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr5B" origstr="Data TLB: 4 KByte and 4 MByte pages, 64 Entries">Δεδομένα TLB: 4 KByte και 4 MByte σελίδες, 64 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr5C" origstr="Data TLB: 4 KByte and 4 MByte pages, 128 Entries">Δεδομένα TLB: 4 KByte και 4 MByte σελίδες, 128 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr5D" origstr="Data TLB: 4 KByte and 4 MByte pages, 256 Entries">Δεδομένα TLB: 4 KByte και 4 MByte σελίδες, 256 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr60" origstr="1st-level data cache: 16 KByte, 8-way set associative, 64 byte line size">1st-level cache δεδομένων: 16 KByte, 8-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr66" origstr="1st-level data cache: 8 KBytes, 4-way set associative, 64 byte line size">1st-level cache δεδομένων: 8 KBytes, 4-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr67" origstr="1st-level data cache: 16 KBytes, 4-way set associative, 64 byte line size">1st-level cache δεδομένων: 16 KBytes, 4-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr68" origstr="1st-level data cache: 32 KBytes, 4-way set associative, 64 byte line size">1st-level cache δεδομένων: 32 KBytes, 4-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr70" origstr="Trace cache: 12 K-Ops, 8-way set associative">Cache ιχνών: 12 K-Ops, 8-way set associative</resstr>
+    <resstr name="RsIntelCacheDescr71" origstr="Trace cache: 16 K-Ops, 8-way set associative">Cache ιχνών: 16 K-Ops, 8-way set associative</resstr>
+    <resstr name="RsIntelCacheDescr72" origstr="Trace cache: 32 K-Ops, 8-way set associative">Cache ιχνών: 32 K-Ops, 8-way set associative</resstr>
+    <resstr name="RsIntelCacheDescr73" origstr="Trace cache: 64 K-Ops, 8-way set associative">Cache ιχνών: 64 K-Ops, 8-way set associative</resstr>
+    <resstr name="RsIntelCacheDescr76" origstr="Instruction TLB: 2M/4M pages, fully associative, 8 entries">Οδηγία TLB: 2M/4M σελίδες, fully associative, 8 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr78" origstr="2nd-level cache: 1 MBytes, 4-way set associative, 64 bytes line size">2nd-level cache: 1 MBytes, 4-way set associative, μέγεθος σειράς 64 bytes</resstr>
+    <resstr name="RsIntelCacheDescr79" origstr="2nd-level cache: 128 KBytes, 8-way set associative, 64 bytes line size, 2 lines per sector">2nd-level cache: 128 KBytes, 8-way set associative, μέγεθος σειράς 64 bytes, 2 σειρές ανά τομέα</resstr>
+    <resstr name="RsIntelCacheDescr7A" origstr="2nd-level cache: 256 KBytes, 8-way set associative, 64 bytes line size, 2 lines per sector">2nd-level cache: 256 KBytes, 8-way set associative, μέγεθος σειράς 64 bytes, 2 σειρές ανά τομέα</resstr>
+    <resstr name="RsIntelCacheDescr7B" origstr="2nd-level cache: 512 KBytes, 8-way set associative, 64 bytes line size, 2 lines per sector">2nd-level cache: 512 KBytes, 8-way set associative, μέγεθος σειράς 64 bytes, 2 σειρές ανά τομέα</resstr>
+    <resstr name="RsIntelCacheDescr7C" origstr="2nd-level cache: 1 MBytes, 8-way set associative, 64 bytes line size, 2 lines per sector">2nd-level cache: 1 MBytes, 8-way set associative, μέγεθος σειράς 64 bytes, 2 σειρές ανά τομέα</resstr>
+    <resstr name="RsIntelCacheDescr7D" origstr="2nd-level cache: 2 MBytes, 8-way set associative, 64 byte line size">2nd-level cache: 2 MBytes, 8-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr7F" origstr="2nd-level cache: 512 KBytes, 2-way set associative, 64 byte line size">2nd-level cache: 512 KBytes, 2-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr80" origstr="2nd-level cache: 512 KBytes, 8-way set associative, 64 byte line size">2nd-level cache: 512 KBytes, 8-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr82" origstr="2nd-level cache: 256 KBytes, 8-way associative, 32 byte line size">2nd-level cache: 256 KBytes, 8-way associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr83" origstr="2nd-level cache: 512 KBytes, 8-way associative, 32 byte line size">2nd-level cache: 512 KBytes, 8-way associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr84" origstr="2nd-level cache: 1 MBytes, 8-way associative, 32 byte line size">2nd-level cache: 1 MBytes, 8-way associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr85" origstr="2nd-level cache: 2 MBytes, 8-way associative, 32 byte line size">2nd-level cache: 2 MBytes, 8-way associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr86" origstr="2nd-level cache: 512 KByte, 4-way set associative, 64 byte line size">2nd-level cache: 512 KByte, 4-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr87" origstr="2nd-level cache: 1 MByte, 8-way set associative, 64 byte line size">2nd-level cache: 1 MByte, 8-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrB0" origstr="Instruction TLB: 4 KByte pages, 4-way set associative, 128 entries">Οδηγία TLB: 4 KByte σελίδες, 4-way set associative, 128 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescrB1" origstr="Instruction TLB: 2 MByte pages, 4-way, 8 entries or 4 MByte pages, 4-way, 4 entries">Οδηγία TLB: 2 MByte σελίδες, 4-way, 8 entries ή 4 MByte σελίδες, 4-way, 4 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescrB2" origstr="Instruction TLB: 4 KByte pages, 4-way set associative, 64 entries">Οδηγία TLB: 4 KByte σελίδες, 4-way set associative, 64 entries</resstr>
+    <resstr name="RsIntelCacheDescrB3" origstr="Data TLB: 4 KByte pages, 4-way set associative, 128 entries">Δεδομένα TLB: 4 KByte σελίδες, 4-way set associative, 128 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescrB4" origstr="Data TLB1: 4 KByte pages, 4-way set associative, 256 entries">Δεδομένα TLB1: 4 KByte σελίδες, 4-way set associative, 256 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescrBA" origstr="Data TLB1: 4 KByte pages, 4-way set associative, 64 entries">Δεδομένα TLB1: 4 KByte σελίδες, 4-way set associative, 64 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescrC0" origstr="Data TLB: 4 KByte and 4 MByte pages, 4-way set associative, 8 entries">Δεδομένα TLB: 4 KByte και 4 MByte σελίδες, 4-way set associative, 8 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescrCA" origstr="Shared 2nd-Level TLB: 4 KByte pages, 4-way associative, 512 entries">Κοινόχρηστο 2nd-Level TLB: 4 KByte σελίδες, 4-way associative, 512 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescrD0" origstr="3rd-level cache: 512 KByte, 4-way set associative, 64 byte line size">3rd-level cache: 512 KByte, 4-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrD1" origstr="3rd-level cache: 1 MByte, 4-way set associative, 64 byte line size">3rd-level cache: 1 MByte, 4-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrD2" origstr="3rd-level cache: 2 MByte, 4-way set associative, 64 byte line size">3rd-level cache: 2 MByte, 4-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrD6" origstr="3rd-level cache: 1 MByte, 8-way set associative, 64 byte line size">3rd-level cache: 1 MByte, 8-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrD7" origstr="3rd-level cache: 2 MByte, 8-way set associative, 64 byte line size">3rd-level cache: 2 MByte, 8-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrD8" origstr="3rd-level cache: 4 MByte, 8-way set associative, 64 byte line size">3rd-level cache: 4 MByte, 8-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrDC" origstr="3rd-level cache: 1.5 MByte, 12-way set associative, 64 byte line size">3rd-level cache: 1.5 MByte, 12-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrDD" origstr="3rd-level cache: 3 MByte, 12-way set associative, 64 byte line size">3rd-level cache: 3 MByte, 12-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrDE" origstr="3rd-level cache: 6 MByte, 12-way set associative, 64 byte line size">3rd-level cache: 6 MByte, 12-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrE2" origstr="3rd-level cache: 2 MByte, 16-way set associative, 64 byte line size">3rd-level cache: 2 MByte, 16-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrE3" origstr="3rd-level cache: 4 MByte, 16-way set associative, 64 byte line size">3rd-level cache: 4 MByte, 16-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrE4" origstr="3rd-level cache: 8 MByte, 16-way set associative, 64 byte line size">3rd-level cache: 8 MByte, 16-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrEA" origstr="3rd-level cache: 12 MByte, 24-way set associative, 64 byte line size">3ο επίπεδο cache: 12 MByte, 24-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrEB" origstr="3rd-level cache: 18 MByte, 24-way set associative, 64 byte line size">3rd-level cache: 18 MByte, 24-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrEC" origstr="3rd-level cache: 24 MByte, 24-way set associative, 64 byte line size">3rd-level cache: 24 MByte, 24-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrF0" origstr="64-Byte Prefetching">Προανάκληση 64-Byte</resstr>
+    <resstr name="RsIntelCacheDescrF1" origstr="128-Byte Prefetching">Προανάκληση 128-Byte</resstr>
+    <resstr name="RsIntelCacheDescrFF" origstr="CPUID leaf 2 does not report cache descriptor information, use CPUID leaf 4 to query cache parameters">Το φύλλο CPUID δεν αναφέρει πληροφορίες cache, χρησιμοποιήστε το φύλλο CPUID 4 για να εξετάσετε τις παραμέτρους της cache</resstr>
+    <resstr name="RsOSVersionWin81" origstr="Windows 8.1">Windows 8.1</resstr>
+    <resstr name="RsOSVersionWinServer2012R2" origstr="Windows Server 2012 R2">Windows Server 2012 R2</resstr>
+    <resstr name="RsUnableToAccessValue" origstr="Unable to open key &quot;%s\%s&quot; and access value &quot;%s&quot;">Αδυναμία ανοίγματος του κλειδιού "%s\%s" και τιμής πρόσβασης "%s"</resstr>
+    <resstr name="RsUnableToOpenKeyRead" origstr="Unable to open key &quot;%s\%s&quot; for read">Αδυναμία ανοίγματος του κλειδιού "%s\%s" για ανάγνωση</resstr>
+    <resstr name="RsWrongDataType" origstr="&quot;%s\%s\%s&quot; is of wrong kind or size">Το "%s\%s\%s" είναι λάθος είδους μέγεθος</resstr>
+  </unit>
+</languagefile>

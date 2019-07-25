@@ -1,0 +1,1513 @@
+<?xml version="1.0"?>
+<!DOCTYPE languagefile SYSTEM "languagefile.dtd">
+<languagefile version="1.1" guid="{C526A1A1-31CC-43DD-B6C9-ABF0B92C5EE5}" localeID="1032" translatorNames="Stefanos Kiourkoulis">
+  <form name="TFormByteFillingTemplate">
+    <propstr name="ButtonCancel.Caption" origstr="Abbrechen">Ακύρωση</propstr>
+    <propstr name="ButtonOK.Caption" origstr="OK">OK</propstr>
+    <propstr name="CheckBoxDirectWriteIrrevocably.Caption" origstr="Direktes Schreiben (unwiderruflich)">Απευθείας γραφή (αμετάκλητα)</propstr>
+    <propstr name="GroupBoxFillPattern.LabelRange.Caption" origstr="Bereich (dezimal):">Εύρος (δεκαδικός):</propstr>
+    <propstr name="GroupBoxFillPattern.RadioButtonHexValues.Caption" origstr="He&amp;x-Werte:">Hex-τιμές:</propstr>
+    <propstr name="GroupBoxFillPattern.RadioButtonRandomBytes.Caption" origstr="&amp;Zufällige Bytefolge:">Τυχαία bytes:</propstr>
+  </form>
+  <form name="TFormBytesPerRow">
+    <propstr name="ButtonCancel.Caption" origstr="Abbrechen">Ακύρωση</propstr>
+    <propstr name="ButtonOK.Caption" origstr="OK">ΟΚ</propstr>
+    <propstr name="Caption" origstr="Bytes pro Zeile">Bytes ανά σειρά</propstr>
+    <propstr name="LabelBytesPerRow.Caption" origstr="&amp;Bytes pro Zeile:">&amp;Bytes ανά σειρά:</propstr>
+  </form>
+  <form name="TFormChecksumGen">
+    <propstr name="ActionList.ActionOK.Caption" origstr="OK">OK</propstr>
+    <propstr name="ButtonCancel.Caption" origstr="Abbrechen">Ακύρωση</propstr>
+    <propstr name="ButtonCustomCRC.Caption" origstr="Benutzerdefiniertes CRC...">Προσαρμοσμένο CRC...</propstr>
+    <propstr name="Caption" origstr="Erzeuge Prüfsummen">Παραγωγή αθροισμάτων ελέγχου</propstr>
+    <propstr name="CheckBoxCompareWithChecksum.Caption" origstr="Vergleichen mit Prüfsumme:">Σύγκριση με άθροισμα ελέγχου:</propstr>
+    <propstr name="Label1.Caption" origstr="Verfügbare Algorithmen:">Διαθέσιμοι αλγόριθμοι:</propstr>
+    <propstr name="RadioGroupScope.Caption" origstr="Bereich">Πεδίο</propstr>
+    <propstr name="RadioGroupScope.Items.Strings" origstr="Alles&#xA;Markierte Daten&#xA;">Όλα
+Επιλεγμένα δεδομένα</propstr>
+  </form>
+  <form name="TFormCloneOrRestoreDisk">
+    <propstr name="ButtonCancel.Caption" origstr="Abbrechen">Ακύρωση</propstr>
+    <propstr name="ButtonOK.Caption" origstr="OK">OK</propstr>
+    <propstr name="Caption" origstr="Datenträger klonen">Κλωνοποίηση δίσκου</propstr>
+    <propstr name="LabelSourceDisk.Caption" origstr="&amp;Quelldatenträger:">Δίσκος πηγή:</propstr>
+    <propstr name="LabelTargetDisk.Caption" origstr="&amp;Zieldatenträger:">Δίσκος στόχος:</propstr>
+    <propstr name="OpenDialogSourceFile.Filter" origstr="Alle Dateien (*.*)|*.*">Όλα τα αρχεία (*.*)|*.*</propstr>
+    <propstr name="OpenDialogTargetFile.Filter" origstr="Alle Dateien (*.*)|*.*">Όλα τα αρχεία (*.*)|*.*</propstr>
+  </form>
+  <form name="TFormCompare">
+    <propstr name="ButtonCancel.Caption" origstr="Abbrechen">Ακύρωση</propstr>
+    <propstr name="ButtonOK.Caption" origstr="OK">ΟΚ</propstr>
+    <propstr name="Caption" origstr="Vergleichen">Σύγκριση</propstr>
+    <propstr name="GroupBoxWindowArrangement.Caption" origstr="Fensteranordnung">Τακτοποίηση παραθύρων</propstr>
+    <propstr name="GroupBoxWindowArrangement.Items.Strings" origstr="&amp;Nebeneinander&#xA;&amp;Übereinander&#xA;">Κάθετη οργάνωση σε πλακάκια
+Οριζόντια οργάνωση σε πλακάκια</propstr>
+    <propstr name="LabelFirstSource.Caption" origstr="&amp;1. Datenquelle:">&amp;1. Πηγή δεδομένων:</propstr>
+    <propstr name="LabelSecondSource.Caption" origstr="&amp;2. Datenquelle:">&amp;2. Πηγή δεδομένων:</propstr>
+    <propstr name="OpenDialogFirstFile.Filter" origstr="Alle Dateien (*.*)|*.*">Όλα τα αρχεία (*.*)|*.*</propstr>
+    <propstr name="OpenDialogSecondFile.Filter" origstr="Alle Dateien (*.*)|*.*">Όλα τα αρχεία (*.*)|*.*</propstr>
+    <propstr name="RadioGroupScope.Caption" origstr="Bereich">Πεδίο δράσης</propstr>
+    <propstr name="RadioGroupScope.Items.Strings" origstr="&amp;Alles&#xA;&amp;Markierte Daten&#xA;">Όλα
+Επιλεγμένα δεδομένα</propstr>
+  </form>
+  <form name="TFormConcat">
+    <propstr name="ButtonCancel.Caption" origstr="Abbrechen">Ακύρωση</propstr>
+    <propstr name="ButtonOK.Caption" origstr="OK">ΟΚ</propstr>
+    <propstr name="Caption" origstr="Dateien verketten">Ένωση αρχείων</propstr>
+    <propstr name="GroupBoxFileList.ButtonAdd.Caption" origstr="&amp;Hinzufügen...">Προσθήκη...</propstr>
+    <propstr name="GroupBoxFileList.ButtonClear.Caption" origstr="&amp;Leeren">Καθάρισμα</propstr>
+    <propstr name="GroupBoxFileList.ButtonDelete.Caption" origstr="&amp;Entfernen">Διαγραφή</propstr>
+    <propstr name="GroupBoxFileList.Caption" origstr="Dateiliste (in Reihenfolge der Verkettung)">Λίστα αρχείων (ταξινομημένα σύμφωνα με την συνένωση)</propstr>
+    <propstr name="LabelOutputFilename.Caption" origstr="&amp;Ausgabedateiname:">Όνομα αρχείου εξόδου:</propstr>
+    <propstr name="OpenDialogAddFiles.Filter" origstr="Alle Dateien (*.*)|*.*">Όλα τα αρχεία (*.*)|*.*</propstr>
+    <propstr name="OpenDialogAddFiles.Title" origstr="Dateien hinzufügen">Προσθήκη αρχείων</propstr>
+    <propstr name="SaveDialogOutputFile.Filter" origstr="Alle Dateien (*.*)|*.*">Όλα τα αρχεία (*.*)|*.*</propstr>
+    <propstr name="SaveDialogOutputFile.Title" origstr="Ausgabedatei wählen">Επιλογή αρχείου εξόδου</propstr>
+  </form>
+  <form name="TFormCustomCRCSettings">
+    <propstr name="ButtonCancel.Caption" origstr="Abbrechen">Ακύρωση</propstr>
+    <propstr name="ButtonOK.Caption" origstr="OK">ΟΚ</propstr>
+    <propstr name="Caption" origstr="Einstellungen für benutzerdefiniertes CRC">Προσαρμοσμένες ρυθμίσεις CRC</propstr>
+    <propstr name="GroupBox1.Caption" origstr="Reflexion">Αντανάκλαση</propstr>
+    <propstr name="GroupBox1.CheckBoxReflectInput.Caption" origstr="Eingabe ">Είσοδος</propstr>
+    <propstr name="GroupBox1.CheckBoxReflectOutput.Caption" origstr="Ausgabe">Έξοδος</propstr>
+    <propstr name="Label1.Caption" origstr="Ausgabe XOR:">Έξοδος XOR:</propstr>
+    <propstr name="Label2.Caption" origstr="Polynom:">Πολυώνυμο:</propstr>
+    <propstr name="Label3.Caption" origstr="Startwert:">Αρχική τιμή:</propstr>
+    <propstr name="RadioGroupBitWidth.Caption" origstr="Bitbreite">Πλάτος bit</propstr>
+  </form>
+  <form name="TFormDiskOpen">
+    <propstr name="ButtonCancel.Caption" origstr="Abbrechen">Ακύρωση</propstr>
+    <propstr name="ButtonOK.Caption" origstr="OK">ΟΚ</propstr>
+    <propstr name="Caption" origstr="Datenträger öffnen">Άνοιγμα δίσκου</propstr>
+    <propstr name="CheckBoxReadOnly.Caption" origstr="Schreibgeschützt öffnen">Άνοιγμα ως "μόνο προς ανάγνωση"</propstr>
+    <propstr name="DiskTreeView.Columns[0].WideText" origstr="Name">Όνομα</propstr>
+    <propstr name="DiskTreeView.Columns[1].WideText" origstr="Typ">Τύπος</propstr>
+    <propstr name="DiskTreeView.Columns[2].WideText" origstr="Größe">Μέγεθος</propstr>
+    <propstr name="DiskTreeView.Columns[3].WideText" origstr="Hardware">Υλικό</propstr>
+    <propstr name="Label1.Caption" origstr="Eingelegte Datenträger:">Εισαχθέντες δίσκοι:</propstr>
+  </form>
+  <form name="TFormFillSelection">
+    <propstr name="Caption" origstr="Auswahl füllen">Συμπληρώστε το επιλεγόμενο</propstr>
+    <propstr name="GroupBoxDeletionMethod.ButtonDoDSanitizing.Caption" origstr="&amp;DoD Sanitizing">Απολύμαν. &amp;DoD </propstr>
+    <propstr name="GroupBoxDeletionMethod.ButtonZeroBytes.Caption" origstr="&amp;Nullbytes">Χωρίς δεδομένα</propstr>
+    <propstr name="GroupBoxDeletionMethod.Caption" origstr="Vorgegebene Löschverfahren">Προκαθορισμένες μέθοδοι διαγραφής</propstr>
+    <propstr name="GroupBoxFillPattern.Caption" origstr="Füllmuster des Durchlaufs">Συμπλήρωση πρότυπου περάσματος</propstr>
+    <propstr name="GroupBoxPasses.ButtonAdd.Caption" origstr="&amp;Hinzufügen">Προσθήκη</propstr>
+    <propstr name="GroupBoxPasses.ButtonDelete.Caption" origstr="&amp;Löschen">Διαγραφή</propstr>
+    <propstr name="GroupBoxPasses.Caption" origstr="Durchläufe">Περάσματα</propstr>
+  </form>
+  <form name="TFormGotoOffset">
+    <propstr name="ButtonCancel.Caption" origstr="Abbrechen">Ακύρωση</propstr>
+    <propstr name="ButtonOK.Caption" origstr="OK">ΟΚ</propstr>
+    <propstr name="Caption" origstr="Gehe zu">Goto</propstr>
+    <propstr name="GroupBoxNumberFormat.RadioButtonDec.Caption" origstr="dez">dec</propstr>
+    <propstr name="GroupBoxNumberFormat.RadioButtonHex.Caption" origstr="hex">hex</propstr>
+    <propstr name="GroupBoxNumberFormat.RadioButtonOct.Caption" origstr="okt">oct</propstr>
+    <propstr name="LabelOffset.Caption" origstr="&amp;Offset:">Offset:</propstr>
+    <propstr name="RadioGroupRelativeOffset.Caption" origstr="Offset relativ zum">Offset σχετικό με</propstr>
+    <propstr name="RadioGroupRelativeOffset.Items.Strings" origstr="Anfang&#xA;aktuellen Offset&#xA;Ende (rückwärts)&#xA;">αρχή
+τρέχον offset
+τέλος (ανάποδα)
+</propstr>
+  </form>
+  <form name="TFormHexView">
+    <propstr name="PanelBackground.MessageBarPanel.MessageBarToolBarPanel.MessageBarToolBar.CloseToolButton.Caption" origstr="&amp;Schließen">Κλείσιμο</propstr>
+  </form>
+  <form name="TFormInsertBytes">
+    <propstr name="Caption" origstr="Bytes einfügen">Προσθήκη bytes</propstr>
+    <propstr name="GroupBoxFillPattern.Caption" origstr="Füllmuster">Συμπλήρωση προτύπου</propstr>
+    <propstr name="GroupBoxNumberFormat.RadioButtonDec.Caption" origstr="dez">dec</propstr>
+    <propstr name="GroupBoxNumberFormat.RadioButtonHex.Caption" origstr="hex">hex</propstr>
+    <propstr name="GroupBoxNumberFormat.RadioButtonOct.Caption" origstr="okt">oct</propstr>
+    <propstr name="LabelByteCount.Caption" origstr="Byte&amp;anzahl:">Συνολικά bytes:</propstr>
+  </form>
+  <form name="TFormMain">
+    <propstr name="ActionList.AnalyseChecksum1.Caption" origstr="&amp;Prüfsummen...">Αθροίσματα ελέγχου...</propstr>
+    <propstr name="ActionList.AnalyseDataStructure1.Caption" origstr="&amp;Datenstruktur">Δομή δεδομένων</propstr>
+    <propstr name="ActionList.AnalyseStatistics1.Caption" origstr="&amp;Statistik">Στατιστικές</propstr>
+    <propstr name="ActionList.ChecksumCopy1.Caption" origstr="&amp;Kopieren">Αντιγραφή</propstr>
+    <propstr name="ActionList.ChecksumCopyDetailed1.Caption" origstr="Kopieren mit &amp;Details">Αντιγραφή με λεπτομέρειες</propstr>
+    <propstr name="ActionList.ChecksumDelete1.Caption" origstr="&amp;Entfernen">Διαγραφή</propstr>
+    <propstr name="ActionList.CloneDisk1.Caption" origstr="&amp;Klonen...">Κλωνοποίηση...</propstr>
+    <propstr name="ActionList.CompareFiles1.Caption" origstr="Vergleichen...">Σύγκριση...</propstr>
+    <propstr name="ActionList.CompareNextDiff1.Caption" origstr="Nächster Unterschied">Επόμενη διαφορά</propstr>
+    <propstr name="ActionList.ComparePrevDiff1.Caption" origstr="Vorheriger Unterschied">Προηγούμενη διαφορά</propstr>
+    <propstr name="ActionList.DataInspectorFirstArrayItem1.Caption" origstr="&amp;Erstes Arrayelement">Πρώτο αντικείμενο λίστας</propstr>
+    <propstr name="ActionList.DataInspectorLastArrayItem1.Caption" origstr="&amp;Letztes Arrayelement">Τελευταίο αντικείμενο λίστας</propstr>
+    <propstr name="ActionList.DataInspectorNextArrayItem1.Caption" origstr="&amp;Nächstes Arrayelement">Επόμενο αντικείμενο λίστας</propstr>
+    <propstr name="ActionList.DataInspectorOptions1.Caption" origstr="&amp;Optionen...">Επιλογές...</propstr>
+    <propstr name="ActionList.DataInspectorPrevArrayItem1.Caption" origstr="&amp;Vorheriges Arrayelement">Προηγούμενο αντικείμενο λίστας</propstr>
+    <propstr name="ActionList.DriveFirstSector1.Caption" origstr="&amp;Erster Sektor">Πρώτος τομέας</propstr>
+    <propstr name="ActionList.DriveLastSector1.Caption" origstr="&amp;Letzter Sektor">Τελευταίος τομέας</propstr>
+    <propstr name="ActionList.DriveNextSector1.Caption" origstr="&amp;Nächster Sektor">Επόμενος τομέας</propstr>
+    <propstr name="ActionList.DrivePrevSector1.Caption" origstr="&amp;Vorheriger Sektor">Προηγούμενος τομέας</propstr>
+    <propstr name="ActionList.DriveSetSectorPosition1.Caption" origstr="Sektorposition">Θέση τομέα</propstr>
+    <propstr name="ActionList.DriveSetSectorPosition1.Hint" origstr="Sektorposition">Θέση τομέα</propstr>
+    <propstr name="ActionList.DriveSetSectorSize1.Caption" origstr="Sektorgröße">Μέγεθος τομέα</propstr>
+    <propstr name="ActionList.DriveSetSectorSize1.Hint" origstr="Sektorgröße">Μέγεθος τομέα</propstr>
+    <propstr name="ActionList.EditCopy1.Caption" origstr="&amp;Kopieren">Αντιγραφή</propstr>
+    <propstr name="ActionList.EditCopyAsEditView1.Caption" origstr="&amp;Editoranzeige">Αρχείο κειμένου</propstr>
+    <propstr name="ActionList.EditCopyOffset1.Caption" origstr="&amp;Offset kopieren">Αντιγραφή &amp;offset</propstr>
+    <propstr name="ActionList.EditCut1.Caption" origstr="&amp;Ausschneiden">Αποκοπή</propstr>
+    <propstr name="ActionList.EditDelete1.Caption" origstr="&amp;Löschen">Διαγραφή</propstr>
+    <propstr name="ActionList.EditFillSelection1.Caption" origstr="Auswahl füllen...">Συμπλήρωση επιλογής...</propstr>
+    <propstr name="ActionList.EditInsertBytes1.Caption" origstr="Bytes einfügen...">Προσθέστε bytes...</propstr>
+    <propstr name="ActionList.EditPasteInsert1.Caption" origstr="&amp;Einfügen">Επικόλληση εισαγωγής</propstr>
+    <propstr name="ActionList.EditPasteWrite1.Caption" origstr="&amp;Schreiben">Επικόλληση καταγραφής</propstr>
+    <propstr name="ActionList.EditRedo1.Caption" origstr="&amp;Wiederholen">Επανάληψη</propstr>
+    <propstr name="ActionList.EditSelectAll1.Caption" origstr="Alles &amp;auswählen">Επιλογή όλων</propstr>
+    <propstr name="ActionList.EditSelectBlock1.Caption" origstr="&amp;Block auswählen...">Επιλογή μπλοκ...</propstr>
+    <propstr name="ActionList.EditUndo1.Caption" origstr="&amp;Rückgängig">Αναίρεση</propstr>
+    <propstr name="ActionList.Exit1.Caption" origstr="&amp;Beenden">Έξοδος</propstr>
+    <propstr name="ActionList.ExtrasOpenDisk1.Caption" origstr="&amp;Datenträger öffnen...">Άνοιγμα δίσκου...</propstr>
+    <propstr name="ActionList.ExtrasOpenDiskImage1.Caption" origstr="Datenträger&amp;abbild öffnen...">Άνοιγμα εικονικού δίσκου...</propstr>
+    <propstr name="ActionList.ExtrasOpenDiskImage1.Dialog.Filter" origstr="Alle Dateien (*.*)|*.*">Όλα τα αρχεία (*.*)|*.*</propstr>
+    <propstr name="ActionList.ExtrasOpenDiskImage1.Dialog.Title" origstr="Datenträgerabbild öffnen">Άνοιγμα εικόνας δίσκου</propstr>
+    <propstr name="ActionList.ExtrasOpenRAM1.Caption" origstr="Arbeits&amp;speicher öffnen...">Άνοιγμα πρωτεύουσας μνήμης....</propstr>
+    <propstr name="ActionList.ExtrasOptions1.Caption" origstr="&amp;Optionen...">Επιλογές...</propstr>
+    <propstr name="ActionList.FileClose1.Caption" origstr="S&amp;chließen">Κλείσιμο</propstr>
+    <propstr name="ActionList.FileClose1.SecondaryShortCuts.Strings" origstr="Strg+W&#xA;">Ctrl+W
+</propstr>
+    <propstr name="ActionList.FileCloseAll1.Caption" origstr="Alle sc&amp;hließen">Κλείσιμο όλων</propstr>
+    <propstr name="ActionList.FileExportAs16BitIntelHex.Caption" origstr="16 Bit &amp;Intel Hex">16 Bit Intel Hex</propstr>
+    <propstr name="ActionList.FileExportAs20BitIntelHex.Caption" origstr="20 Bit &amp;Intel Hex">20 Bit &amp;Intel Hex</propstr>
+    <propstr name="ActionList.FileExportAs32BitIntelHex.Caption" origstr="32 Bit &amp;Intel Hex">32 Bit &amp;Intel Hex</propstr>
+    <propstr name="ActionList.FileExportAsDecodedText1.Caption" origstr="Dekodierter &amp;Text">Αποκωδικοποιημένο κείμενο</propstr>
+    <propstr name="ActionList.FileExportAsEditView1.Caption" origstr="&amp;Editoranzeige">Αρχείο κειμένου</propstr>
+    <propstr name="ActionList.FileExportAsHexValues1.Caption" origstr="&amp;Hexadezimale Werte">Δεκαεξαδικές τιμές</propstr>
+    <propstr name="ActionList.FileExportAsRawData1.Caption" origstr="&amp;Rohe Daten">Μη επεξεργασμένα δεδομένα</propstr>
+    <propstr name="ActionList.FileNew1.Caption" origstr="&amp;Neu">Νέο</propstr>
+    <propstr name="ActionList.FileNew1.Hint" origstr="Neu|Neue Datei erstellen">Νέο|Δημιουργία νέου αρχείου</propstr>
+    <propstr name="ActionList.FileOpConcat1.Caption" origstr="&amp;Verketten...">Ένωση...</propstr>
+    <propstr name="ActionList.FileOpen1.Caption" origstr="Ö&amp;ffnen...">Άνοιγμα...</propstr>
+    <propstr name="ActionList.FileOpen1.Dialog.Filter" origstr="Alle Dateien (*.*)|*.*">Όλα τα αρχεία (*.*)|*.*</propstr>
+    <propstr name="ActionList.FileOpen1.Hint" origstr="Öffnen|Vorhandene Datei öffnen">Άνοιγμα|Άνοιγμα υπάρχοντος αρχείου</propstr>
+    <propstr name="ActionList.FileOpShredder1.Caption" origstr="Sicher löschen (Reißwolf)...">Διαγραφή με ασφάλεια (Shredder)...</propstr>
+    <propstr name="ActionList.FileOpSplit1.Caption" origstr="&amp;Zerlegen...">Χώρισμα...</propstr>
+    <propstr name="ActionList.FilePrint1.Caption" origstr="&amp;Drucken...">Εκτύπωση...</propstr>
+    <propstr name="ActionList.FileSave1.Caption" origstr="&amp;Speichern">Αποθήκευση</propstr>
+    <propstr name="ActionList.FileSave1.Hint" origstr="Speichern|Speichern der aktiven Datei">Αποθήκευση|Αποθήκευση τρέχοντος αρχείου</propstr>
+    <propstr name="ActionList.FileSaveAll1.Caption" origstr="&amp;Alles speichern">Αποθήκευση όλων</propstr>
+    <propstr name="ActionList.FileSaveAs1.Caption" origstr="Speichern &amp;unter...">Αποθήκευση ως..</propstr>
+    <propstr name="ActionList.FileSaveAs1.Dialog.Filter" origstr="Alle Dateien (*.*)|*.*">Όλα τα αρχεία (*.*)|*.*</propstr>
+    <propstr name="ActionList.FileSaveAs1.Hint" origstr="Speichern unter|Aktive Datei unter einem neuen Namen speichern">Αποθήκευση|Αποθήκευση τρέχοντος αρχείου με καινούργιο όνομα</propstr>
+    <propstr name="ActionList.FileSaveSelection1.Caption" origstr="Auswahl speichern...">Αποθήκευση επιλεγμένου...</propstr>
+    <propstr name="ActionList.HelpDonate1.Caption" origstr="&amp;Spenden...">Προσφορά...</propstr>
+    <propstr name="ActionList.HelpFindUpdates1.Caption" origstr="&amp;Updates suchen...">Αναζήτηση ενημερώσεων...</propstr>
+    <propstr name="ActionList.HelpInfo1.Caption" origstr="&amp;Info">Σχετικά</propstr>
+    <propstr name="ActionList.OffsetBaseDecimal1.Caption" origstr="&amp;Dezimal">Δεκαδικό</propstr>
+    <propstr name="ActionList.OffsetBaseHexadecimal1.Caption" origstr="&amp;Hexadezimal">Δεκαεξαδικό</propstr>
+    <propstr name="ActionList.OffsetBaseOctal1.Caption" origstr="&amp;Oktal">Οκταδικό</propstr>
+    <propstr name="ActionList.SearchFind1.Caption" origstr="&amp;Suchen...">Εύρεση</propstr>
+    <propstr name="ActionList.SearchFindAgain1.Caption" origstr="&amp;Weitersuchen">Εύρεση ξανά</propstr>
+    <propstr name="ActionList.SearchFindAgainReversed1.Caption" origstr="&amp;Umgekehrt weitersuchen">Εύρεση ξανά (αντίστροφα)</propstr>
+    <propstr name="ActionList.SearchGoto1.Caption" origstr="&amp;Gehe zu...">&amp;Goto...</propstr>
+    <propstr name="ActionList.SearchReplace1.Caption" origstr="&amp;Ersetzen...">Αντικατάσταση...</propstr>
+    <propstr name="ActionList.ToolbarsCustomize1.Caption" origstr="&amp;Anpassen...">Προσαρμογή...</propstr>
+    <propstr name="ActionList.ToolbarsLock1.Caption" origstr="&amp;Sperren">Κλείδωμα</propstr>
+    <propstr name="ActionList.ViewActionCharFilter.Caption" origstr="&amp;Filtern von Zeichen...">Φιλτράρισμα χαρακτήρων...</propstr>
+    <propstr name="ActionList.ViewFitRows1.Caption" origstr="&amp;Anpassen an Fensterbreite">Προσαρμογή στο μήκος του παράθυρου</propstr>
+    <propstr name="ActionList.ViewHex1.Caption" origstr="Hex">Hex</propstr>
+    <propstr name="ActionList.ViewHexAndText1.Caption" origstr="Hex und Text">Hex και κείμενο</propstr>
+    <propstr name="ActionList.ViewRefresh1.Caption" origstr="&amp;Aktualisieren">Ανανέωση</propstr>
+    <propstr name="ActionList.ViewSetBytesPerRow1.Caption" origstr="Bytes pro Zeile">Bytes ανά σειρά</propstr>
+    <propstr name="ActionList.ViewSetBytesPerRow1.Hint" origstr="Bytes pro Zeile">Bytes ανά σειρά</propstr>
+    <propstr name="ActionList.ViewSetBytesPerRow2.Caption" origstr="Bytes pro Zeile...">Bytes ανά σειρά...</propstr>
+    <propstr name="ActionList.ViewSetEncoding1.Caption" origstr="Textkodierung">Κωδικοποίηση κειμένου</propstr>
+    <propstr name="ActionList.ViewSetEncoding1.Hint" origstr="Textkodierung">Κωδικοποίηση κειμένου</propstr>
+    <propstr name="ActionList.ViewSetOffsetBase1.Caption" origstr="Offset-Basis">Βάση offset</propstr>
+    <propstr name="ActionList.ViewSetOffsetBase1.Hint" origstr="Offset-Basis">Βάση offset</propstr>
+    <propstr name="ActionList.ViewText1.Caption" origstr="Text">Κείμενο</propstr>
+    <propstr name="ActionList.WindowCascade1.Caption" origstr="Über&amp;lappend">Καταρράκτης</propstr>
+    <propstr name="ActionList.WindowTileHorizontally1.Caption" origstr="&amp;Übereinander">Οριζόντια ταξινόμηση</propstr>
+    <propstr name="ActionList.WindowTileVertically1.Caption" origstr="&amp;Nebeneinander">Κάθετη ταξινόμηση</propstr>
+    <propstr name="InfoDialog1.Credits.Strings" origstr="NASM © die NASM Autoren&#xA;https://nasm.us&#xA;Lizenz: https://nasm.us/doc/nasmdoc1.html#section-1.1.2&#xA;&#xA;Digest-Implementierungen (SHA-X, MD-X):&#xA;HashLib! © Alex Demchenko&#xA;&#xA;Werkzeugleisten:&#xA;Toolbar2000 © Jordan Russell&#xA;TBX © Alex A. Denisov&#xA;&#xA;Virtual TreeView © Mike Lischke (jetzt, Virtual-TreeView-Team)&#xA;https://github.com/virtual-treeview/virtual-treeview&#xA;Lizenz: https://opensource.org/licenses/MPL-1.1&#xA;">NASM © the NASM authors
+https://nasm.us
+Licence: https://nasm.us/doc/nasmdoc1.html#section-1.1.2
+
+Digest implementations (SHA-X, MD-X):
+HashLib! © Alex Demchenko
+
+Toolbars:
+Toolbar2000 © Jordan Russell
+TBX © Alex A. Denisov
+
+Virtual TreeView © Mike Lischke (now, Virtual TreeView team)
+https://github.com/virtual-treeview/virtual-treeview
+Licence: https://opensource.org/licenses/MPL-1.1</propstr>
+    <propstr name="OpenDialogFileImport.Title" origstr="Importieren">Εισαγωγή</propstr>
+    <propstr name="SaveDialogFileExport.OptionsButtonLabel" origstr="Export-Optionen...">Εξαγωγή επιλογών...</propstr>
+    <propstr name="SaveDialogFileExport.Title" origstr="Exportieren als">Εξαγωγή ως</propstr>
+    <propstr name="SaveDialogSaveSelection.Title" origstr="Auswahl speichern unter">Αποθήκευση επιλογής ως</propstr>
+    <propstr name="TBXDockBottom.ResultsPanel.Caption" origstr="Ergebnisse">Αποτελέσματα</propstr>
+    <propstr name="TBXDockBottom.ResultsPanel.ResultsPageControl.TabSheetChecksums.ButtonRefreshChecksums.Caption" origstr="Aktualisieren">Ανανέωση</propstr>
+    <propstr name="TBXDockBottom.ResultsPanel.ResultsPageControl.TabSheetChecksums.Caption" origstr="Prüfsummen">Checksum</propstr>
+    <propstr name="TBXDockBottom.ResultsPanel.ResultsPageControl.TabSheetChecksums.LabelExpectedChecksumResult.Caption" origstr="Erwartetes Ergebnis:">Αναμενόμενο αποτέλεσμα:</propstr>
+    <propstr name="TBXDockBottom.ResultsPanel.ResultsPageControl.TabSheetChecksums.ListViewChecksums.Columns[1].Caption" origstr="Algorithmus">Αλγόριθμος</propstr>
+    <propstr name="TBXDockBottom.ResultsPanel.ResultsPageControl.TabSheetChecksums.ListViewChecksums.Columns[2].Caption" origstr="Prüfsumme">Checksum</propstr>
+    <propstr name="TBXDockBottom.ResultsPanel.ResultsPageControl.TabSheetChecksums.ListViewChecksums.Columns[3].Caption" origstr="Verwendung">Χρήση</propstr>
+    <propstr name="TBXDockBottom.ResultsPanel.ResultsPageControl.TabSheetSearchResults.Caption" origstr="Suche">Αναζήτηση</propstr>
+    <propstr name="TBXDockBottom.ResultsPanel.ResultsPageControl.TabSheetSearchResults.ListViewSearchResults.Columns[0].WideText" origstr="Offset">Οφσετ</propstr>
+    <propstr name="TBXDockBottom.ResultsPanel.ResultsPageControl.TabSheetSearchResults.ListViewSearchResults.Columns[1].WideText" origstr="Auszug (Hex)">Απόσπασμα (hex)</propstr>
+    <propstr name="TBXDockBottom.ResultsPanel.ResultsPageControl.TabSheetSearchResults.ListViewSearchResults.Columns[2].WideText" origstr="Auszug (Text)">Απόσπασμα (κείμενο)</propstr>
+    <propstr name="TBXDockRight.SpecialEditorsPanel.Caption" origstr="Spezielle Editoren">Ειδικοί συντάκτες</propstr>
+    <propstr name="TBXDockRight.SpecialEditorsPanel.SpecialEditorsPageControl.TabSheetDatainspector.ByteOrderRadioGroup.Caption" origstr="Bytereihenfolge">Σειρά του Byter</propstr>
+    <propstr name="TBXDockRight.SpecialEditorsPanel.SpecialEditorsPageControl.TabSheetDatainspector.ByteOrderRadioGroup.Items.Strings" origstr="Little Endian&#xA;Big Endian&#xA;">Μικρό endian
+Μεγάλο endian</propstr>
+    <propstr name="TBXDockRight.SpecialEditorsPanel.SpecialEditorsPageControl.TabSheetDatainspector.Caption" origstr="Dateninspektor">Επιθεωρητής δεδομένων</propstr>
+    <propstr name="TBXDockRight.SpecialEditorsPanel.SpecialEditorsPageControl.TabSheetDatainspector.IntsAsHexCheckBox.Caption" origstr="Ganze Zahlen in Hexadezimal-Basis anzeigen">Εμφάνιση ακεραίων σε δεκαεξαδική βάση</propstr>
+    <propstr name="TBXDockTop.TBXDriveToolbar.Caption" origstr="Navigator">Πλοηγός</propstr>
+    <propstr name="TBXDockTop.TBXDriveToolbar.TBXLabelItem1.Caption" origstr="Sektor">Τομέας</propstr>
+    <propstr name="TBXDockTop.TBXFormatToolbar.Caption" origstr="Ansicht">Προβολή</propstr>
+    <propstr name="TBXDockTop.TBXFormatToolbar.TBXComboBoxItem2.Strings.Strings" origstr="hex&#xA;dez&#xA;okt&#xA;">hex
+dec
+oct
+</propstr>
+    <propstr name="TBXDockTop.TBXMenubar.Caption" origstr="Menüleiste">Μπάρα menu</propstr>
+    <propstr name="TBXDockTop.TBXMenubar.TBXSubmenuItem1.Caption" origstr="&amp;Datei">Αρχείο</propstr>
+    <propstr name="TBXDockTop.TBXMenubar.TBXSubmenuItem1.SubMenuRecentDiskImages.Caption" origstr="Z&amp;uletzt geöffnete Datenträgerabbilder">Πρόσφατες εικόνες δίσκων</propstr>
+    <propstr name="TBXDockTop.TBXMenubar.TBXSubmenuItem1.SubMenuRecentFiles.Caption" origstr="&amp;Zuletzt geöffnete Dateien">Πρόσφατα αρχεία</propstr>
+    <propstr name="TBXDockTop.TBXMenubar.TBXSubmenuItem1.TBXSubmenuItem11.Caption" origstr="&amp;Exportieren">Εξαγωγή</propstr>
+    <propstr name="TBXDockTop.TBXMenubar.TBXSubmenuItem1.TBXSubmenuItem19.Caption" origstr="&amp;Importieren">Εισαγωγή</propstr>
+    <propstr name="TBXDockTop.TBXMenubar.TBXSubmenuItem2.Caption" origstr="&amp;Bearbeiten">Επεξεργασία</propstr>
+    <propstr name="TBXDockTop.TBXMenubar.TBXSubmenuItem2.TBXSubmenuItem10.Caption" origstr="Kopieren als">Αντιγραφή ως</propstr>
+    <propstr name="TBXDockTop.TBXMenubar.TBXSubmenuItem2.TBXSubmenuItem15.Caption" origstr="Einfügen als">Εισαγωγή ως</propstr>
+    <propstr name="TBXDockTop.TBXMenubar.TBXSubmenuItem3.Caption" origstr="&amp;Suchen">Αναζήτηση</propstr>
+    <propstr name="TBXDockTop.TBXMenubar.TBXSubmenuItem4.Caption" origstr="&amp;Ansicht">Προβολή</propstr>
+    <propstr name="TBXDockTop.TBXMenubar.TBXSubmenuItem4.SubMenuToolbars.Caption" origstr="&amp;Werkzeugleisten">Μπάρες εργαλειών</propstr>
+    <propstr name="TBXDockTop.TBXMenubar.TBXSubmenuItem4.TBXSubmenuItem12.Caption" origstr="&amp;Offset-Basis">Βάση offset</propstr>
+    <propstr name="TBXDockTop.TBXMenubar.TBXSubmenuItem4.TBXSubmenuItem16.Caption" origstr="Sichtbare &amp;Spalten">Ορατές στήλες</propstr>
+    <propstr name="TBXDockTop.TBXMenubar.TBXSubmenuItem4.TBXSubmenuItem17.Caption" origstr="Bytegruppengröße">Μέγεθος byte group</propstr>
+    <propstr name="TBXDockTop.TBXMenubar.TBXSubmenuItem4.TBXSubmenuItem9.Caption" origstr="&amp;Textkodierung">Κωδικοποίηση κειμένου</propstr>
+    <propstr name="TBXDockTop.TBXMenubar.TBXSubmenuItem5.Caption" origstr="A&amp;nalyse">Ανάλυση</propstr>
+    <propstr name="TBXDockTop.TBXMenubar.TBXSubmenuItem5.TBXSubmenuItem18.Caption" origstr="Daten-Vergleich">Σύγκριση δεδομένων</propstr>
+    <propstr name="TBXDockTop.TBXMenubar.TBXSubmenuItem6.Caption" origstr="&amp;Hilfe">Βοήθεια</propstr>
+    <propstr name="TBXDockTop.TBXMenubar.TBXSubmenuItem7.Caption" origstr="&amp;Fenster">Παράθυρο</propstr>
+    <propstr name="TBXDockTop.TBXMenubar.TBXSubmenuItem8.Caption" origstr="E&amp;xtras">Επιπρόσθετα</propstr>
+    <propstr name="TBXDockTop.TBXMenubar.TBXSubmenuItem8.TBXSubmenuItem14.Caption" origstr="Datei-Operationen">Εργαλεία αρχείου</propstr>
+    <propstr name="TBXDockTop.TBXStandardToolbar.Caption" origstr="Standard">Βασικά</propstr>
+  </form>
+  <form name="TFormOptions">
+    <propstr name="ButtonCancel.Caption" origstr="Abbrechen">Ακύρωση</propstr>
+    <propstr name="ButtonOK.Caption" origstr="OK">ΟΚ</propstr>
+    <propstr name="Caption" origstr="Optionen">Επιλογές</propstr>
+    <propstr name="PageControlOptions.TabSheetDataInspector.Caption" origstr="Dateninspektor">Επιθεωρητής δεδομένων</propstr>
+    <propstr name="PageControlOptions.TabSheetDataInspector.GroupBoxDatatypes.ButtonRename.Caption" origstr="&amp;Umbenennen...">Μετονομασία...</propstr>
+    <propstr name="PageControlOptions.TabSheetDataInspector.GroupBoxDatatypes.ButtonReset.Caption" origstr="&amp;Zurücksetzen">Επαναφορά</propstr>
+    <propstr name="PageControlOptions.TabSheetDataInspector.GroupBoxDatatypes.Caption" origstr="Verfügbare Datentypen">Διαθέσιμες δομές δεδομένων</propstr>
+    <propstr name="PageControlOptions.TabSheetExport.Caption" origstr="Export">Εξαγωγή</propstr>
+    <propstr name="PageControlOptions.TabSheetExport.GroupBoxIntelHex.LabelBytePerLineIntelHex.Caption" origstr="Bytes Pro Zeile:">Bytes ανά γραμμή:</propstr>
+    <propstr name="PageControlOptions.TabSheetExport.GroupBoxSRecord.LabelBytesPerLineSRecord.Caption" origstr="Bytes Pro Zeile:">Bytes ανά γραμμή:</propstr>
+    <propstr name="PageControlOptions.TabSheetFormat.Caption" origstr="Format">Μορφή</propstr>
+    <propstr name="PageControlOptions.TabSheetFormat.GroupBoxAttributes.Caption" origstr="Textattribute">Ιδιότητες κειμένου</propstr>
+    <propstr name="PageControlOptions.TabSheetFormat.GroupBoxAttributes.CheckBoxBold.Caption" origstr="&amp;Fett">Έντονα</propstr>
+    <propstr name="PageControlOptions.TabSheetFormat.GroupBoxAttributes.CheckBoxItalic.Caption" origstr="&amp;Kursiv">Πλάγια</propstr>
+    <propstr name="PageControlOptions.TabSheetFormat.GroupBoxAttributes.CheckBoxUnderlined.Caption" origstr="&amp;Unterstrichen">Υπογραμμισμένα</propstr>
+    <propstr name="PageControlOptions.TabSheetFormat.GroupBoxFont.ButtonChooseFont.Caption" origstr="Wählen...">Επιλογή...</propstr>
+    <propstr name="PageControlOptions.TabSheetFormat.GroupBoxFont.Caption" origstr="Schriftart">Γραμματοσειρά</propstr>
+    <propstr name="PageControlOptions.TabSheetFormat.LabelBackColor.Caption" origstr="&amp;Hintergrundfarbe:">Χρώμα φόντου:</propstr>
+    <propstr name="PageControlOptions.TabSheetFormat.LabelElement.Caption" origstr="&amp;Element:">Στοιχείο:</propstr>
+    <propstr name="PageControlOptions.TabSheetFormat.LabelForeColor.Caption" origstr="&amp;Vordergrundfarbe:">Χρώμα προσκήνιου:</propstr>
+    <propstr name="PageControlOptions.TabSheetFormat.ListBoxElement.Items.Strings" origstr="Offsets und Kopfzeile&#xA;Hex &amp; Text&#xA;Hex (ungerade Spalten)&#xA;Veränderte Daten&#xA;Auswahl&#xA;">Offsets και επικεφαλίδα
+Hex &amp; κείμενο
+Hex (περιττές στήλες)
+Τροποποιημένα δεδομένα
+Επιλογή</propstr>
+    <propstr name="PageControlOptions.TabSheetGeneral.Caption" origstr="Allgemein">Γενικά</propstr>
+    <propstr name="PageControlOptions.TabSheetGeneral.GroupBoxConfigPersistance.Caption" origstr="Konfigurationsänderungen (nach Beenden)">Αλλαγές στη διαμόρφωση (μετά την έξοδο)</propstr>
+    <propstr name="PageControlOptions.TabSheetGeneral.GroupBoxConfigPersistance.Items.Strings" origstr="Erhalten&#xA;Erhalten, danach Konfiguration schreibschützen&#xA;Verwerfen (= Konfiguration ist schreibgeschützt)&#xA;">Διατήρηση
+Διατήρηση, και μετά μετατροπή της διαμόρφωσης ως 'μόνο για ανάγνωση'
+Απόρριψη (= η διαμόρφωση είναι μόνο για ανάγνωση)</propstr>
+    <propstr name="PageControlOptions.TabSheetGeneral.GroupBoxExplorerIntegration.ButtonCustomizeExplorerContextMenu.Caption" origstr="Explorer-Kontextmenü anpassen">Διαμόρφωση μενού πλαισίου του Explorer</propstr>
+    <propstr name="PageControlOptions.TabSheetGeneral.GroupBoxExplorerIntegration.Caption" origstr="Integration in Explorer-Kontextmenü">Ενσωμάτωση στο μενού πλαισίου του Explorer</propstr>
+    <propstr name="PageControlOptions.TabSheetGeneral.GroupBoxExplorerIntegration.CheckBoxOpenWithHxDExplorerContextmenu.Caption" origstr="Öffnen mit HxD">Άνοιγμα με HxD</propstr>
+    <propstr name="PageControlOptions.TabSheetGeneral.GroupBoxExplorerIntegration.CheckBoxOpenWithHxDReadOnlyExplorerContextmenu.Caption" origstr="Öffnen mit HxD (Schreibgeschützt)">Άνοιγμα με HxD (μόνο για ανάγνωση)</propstr>
+    <propstr name="PageControlOptions.TabSheetGeneral.GroupBoxMisc.Caption" origstr="Verschiedenes">Διάφορα</propstr>
+    <propstr name="PageControlOptions.TabSheetGeneral.GroupBoxMisc.CheckBoxMultipleInstances.Caption" origstr="Mehrmals zugleich ausführbar (mehrere Instanzen)">Εκτελέσιμο παράλληλα (πολλαπλές εργασίες)</propstr>
+    <propstr name="PageControlOptions.TabSheetGeneral.GroupBoxMisc.CheckBoxOpenFirstHexViewMaximized.Caption" origstr="Erstes Editierfenster maximiert öffnen">Άνοιγμα πρώτου παραθύρου σύνταξης ως μεγιστοποιημένο</propstr>
+    <propstr name="PageControlOptions.TabSheetGeneral.GroupBoxMisc.LabelTheme.Caption" origstr="Thema:">Θέμα:</propstr>
+    <propstr name="PageControlOptions.TabSheetGeneral.GroupBoxNotifications.Caption" origstr="Meldungen">Ειδοποιήσεις</propstr>
+    <propstr name="PageControlOptions.TabSheetGeneral.GroupBoxNotifications.CheckBoxAllowStreamResizeQuestion.Caption" origstr="Änderungen der Dateigröße bestätigen">Επιβεβαίωση των αλλαγών στα μεγέθη αρχείων</propstr>
+    <propstr name="PageControlOptions.TabSheetGeneral.GroupBoxNotifications.CheckBoxDiskWriteAccessWarning.Caption" origstr="Warnung beim Öffnen eines Datenträgers ohne Schreibschutz">Προειδοποίηση κατά το άνοιγμα σκληρού δίσκου με δυνατότητα εγγραφής</propstr>
+    <propstr name="PageControlOptions.TabSheetGeneral.GroupBoxNotifications.CheckBoxWarnAboutFilteredCopiedTextToClipboard.Caption" origstr="Hinweis wenn Text beim Kopieren in die Zwischenablage gefiltert wurde">Ειδοποίηση όταν το αντιγραμένο στο πρόχειρο κείμενο φιλτραρίστηκε</propstr>
+    <propstr name="PageControlOptions.TabSheetGeneral.GroupBoxNotifications.CheckBoxWarnAboutFilteredSelText.Caption" origstr="Hinweis wenn Zeichen einer Textauswahl gefiltert wurden">Ειδοποίηση όταν οι χαρακτήρες επιλεγμένου κειμένου φιλτραρίστηκαν </propstr>
+    <propstr name="PageControlOptions.TabSheetGeneral.GroupBoxSecurity.Caption" origstr="Sicherheit">Ασφάλεια</propstr>
+    <propstr name="PageControlOptions.TabSheetGeneral.GroupBoxSecurity.CheckBoxMakeBackupFiles.Caption" origstr="Sicherungskopien erstellen (BAK-Dateien)">Δημιουργία αντιγράφων ασφαλείας (Αρχεία BAK)</propstr>
+    <propstr name="PageControlOptions.TabSheetGeneral.GroupBoxSecurity.CheckBoxOpenDiskReadOnlyByDefault.Caption" origstr="Datenträger standardmäßig schreibgeschützt öffnen">Προεπιλεγμένο άνοιγμα δίσκων ως "μόνο για ανάγνωση" </propstr>
+    <propstr name="PageControlOptions.TabSheetView.Caption" origstr="Ansicht">Προβολή</propstr>
+    <propstr name="PageControlOptions.TabSheetView.GroupBoxLayout.Caption" origstr="Layout">Διάταξη</propstr>
+    <propstr name="PageControlOptions.TabSheetView.GroupBoxLayout.CheckBoxFitRows.Caption" origstr="Anpassen an Fensterbreite">Προσαρμογή στο μήκος παραθύρου</propstr>
+    <propstr name="PageControlOptions.TabSheetView.GroupBoxLayout.LabelBytesPerRow.Caption" origstr="Bytes pro Zeile:">Bytes ανά σειρά:</propstr>
+    <propstr name="PageControlOptions.TabSheetView.GroupBoxLayout.RadioGroupByteGroupSize.Caption" origstr="Bytegruppengröße">Μέγεθος του byte group</propstr>
+    <propstr name="PageControlOptions.TabSheetView.GroupBoxLayout.RadioGroupByteGroupSize.Items.Strings" origstr="1 Byte&#xA;2 Bytes&#xA;4 Bytes&#xA;8 Bytes&#xA;16 Bytes&#xA;">1 byte
+2 bytes
+4 bytes
+8 bytes
+16 bytes</propstr>
+    <propstr name="PageControlOptions.TabSheetView.RadioGroupEncoding.Caption" origstr="Textkodierung">Κωδικοποίηση κειμένου</propstr>
+    <propstr name="PageControlOptions.TabSheetView.RadioGroupHexCasing.Caption" origstr="Hexadezimalzahlen Groß/Kleinschreibung">Μετατροπή των δεκαεξαδικών αριθμών σε κεφαλαία</propstr>
+    <propstr name="PageControlOptions.TabSheetView.RadioGroupHexCasing.Items.Strings" origstr="Großschreibung (ABCDEF)&#xA;Kleinschreibung (abcdef)&#xA;">Κεφαλαία (ABCDEF)
+Μικρά (abcdef)</propstr>
+    <propstr name="PageControlOptions.TabSheetView.RadioGroupOffsetBase.Caption" origstr="Offset-Basis">Βάση offset</propstr>
+    <propstr name="PageControlOptions.TabSheetView.RadioGroupOffsetBase.Items.Strings" origstr="hexadezimal (16)&#xA;dezimal (10)&#xA;oktal (8)&#xA;">Δεκαεξαδικό (16)
+Δεκαδικό (10)
+Οκταδικό (8)</propstr>
+  </form>
+  <form name="TFormProgress">
+    <propstr name="ButtonCancel.Caption" origstr="Abbrechen">Ακύρωση</propstr>
+    <propstr name="Caption" origstr="FormProgress">Φόρμα Προόδου</propstr>
+  </form>
+  <form name="TFormRAMOpen">
+    <propstr name="ButtonCancel.Caption" origstr="Abbrechen">Ακύρωση</propstr>
+    <propstr name="ButtonOK.Caption" origstr="OK">ΟΚ</propstr>
+    <propstr name="Caption" origstr="Arbeitsspeicher öffnen">Άνοιγμα πρωτεύουσας μήνης</propstr>
+    <propstr name="CheckBoxFoldUnaccessible.Caption" origstr="Nicht lesbare Speicherbereiche ausblenden">Απόκρυψη μη αναγνώσιμων περιοχών μνήμης</propstr>
+    <propstr name="ProcessListView.Columns[0].Caption" origstr="Prozessname">Όνομα διεργασίας</propstr>
+    <propstr name="ProcessListView.Columns[1].Caption" origstr="ProzessID">ID διεργασίας</propstr>
+  </form>
+  <form name="TFormReplace">
+    <propstr name="ButtonFindOrReplaceAll.Caption" origstr="&amp;Alles ersetzen">Αντικατάσταση όλων</propstr>
+    <propstr name="Caption" origstr="Ersetzen">Αντικατάσταση</propstr>
+    <propstr name="TabControlDatatype.CheckBoxPromptOnReplace.Caption" origstr="Ersetzungen &amp;bestätigen">Υπενθύμιση κατά την αντικατάσταση</propstr>
+    <propstr name="TabControlDatatype.LabelReplace.Caption" origstr="&amp;Ersetzen durch:">Αντικατάσταση με:</propstr>
+  </form>
+  <form name="TFormSafeDeletion">
+    <propstr name="Caption" origstr="Sicher löschen (Reißwolf)">Διαγραφή με ασφάλεια (Shredder)</propstr>
+    <propstr name="FileDialogDeleteFile.Filter" origstr="Alle Dateien (*.*)|*.*">Όλα τα αρχεία (*.*)|*.*</propstr>
+    <propstr name="FileDialogDeleteFile.Title" origstr="Dateien löschen (UNWIDERRUFLICH)">Διαγραφή αρχείων (ΜΗ ΑΝΑΣΤΡΕΨΙΜΟ)</propstr>
+  </form>
+  <form name="TFormSearch">
+    <propstr name="ButtonCancel.Caption" origstr="Abbrechen">Ακύρωση</propstr>
+    <propstr name="ButtonFindOrReplaceAll.Caption" origstr="&amp;Alle suchen">Αναζήτηση όλων</propstr>
+    <propstr name="ButtonOK.Caption" origstr="OK">ΟΚ</propstr>
+    <propstr name="Caption" origstr="Suchen">Εύρεση</propstr>
+    <propstr name="TabControlDatatype.LabelSearchFor.Caption" origstr="&amp;Suchen nach:">Αναζήτηση για:</propstr>
+    <propstr name="TabControlDatatype.RadioGroupSerachDirection.Caption" origstr="Suchrichtung">Κατεύθυνση αναζήτησης</propstr>
+    <propstr name="TabControlDatatype.RadioGroupSerachDirection.Items.Strings" origstr="All&amp;e&#xA;&amp;Vorwärts&#xA;Rück&amp;wärts&#xA;">Όλα
+Μπροστά
+Πίσω</propstr>
+  </form>
+  <form name="TFormSectorSize">
+    <propstr name="ButtonOK.Caption" origstr="OK">ΟΚ</propstr>
+    <propstr name="Caption" origstr="Sektorgröße">Μέγεθος τομέα</propstr>
+    <propstr name="Label1.Caption" origstr="Geben Sie die Sektorgröße an:">Καθορισμός μεγέθους τομέα:</propstr>
+  </form>
+  <form name="TFormSelectBlock">
+    <propstr name="ButtonCancel.Caption" origstr="Abbrechen">Ακύρωση</propstr>
+    <propstr name="ButtonOK.Caption" origstr="OK">ΟΚ</propstr>
+    <propstr name="Caption" origstr="Block markieren">Επιλογή block</propstr>
+    <propstr name="GroupBoxNumberFormat.RadioButtonDec.Caption" origstr="dez">dec</propstr>
+    <propstr name="GroupBoxNumberFormat.RadioButtonHex.Caption" origstr="hex">hex</propstr>
+    <propstr name="GroupBoxNumberFormat.RadioButtonOct.Caption" origstr="okt">oct</propstr>
+    <propstr name="LabelStartOffset.Caption" origstr="&amp;Start-Offset:">Offset-έναρξης:</propstr>
+    <propstr name="RadioButtonEndOffset.Caption" origstr="&amp;Ende-Offset:">Offset-Λήξης:</propstr>
+    <propstr name="RadioButtonLength.Caption" origstr="&amp;Länge:">Μήκος:</propstr>
+  </form>
+  <form name="TFormSplitFile">
+    <propstr name="ButtonCancel.Caption" origstr="Abbrechen">Ακύρωση</propstr>
+    <propstr name="ButtonOK.Caption" origstr="OK">ΟΚ</propstr>
+    <propstr name="Caption" origstr="Datei zerlegen">Διαχωρισμός αρχείου</propstr>
+    <propstr name="GroupBoxPartialFileSize.Caption" origstr="Größe der Teildateien">Μέγεθος μερικών αρχείων</propstr>
+    <propstr name="GroupBoxPartialFileSize.ComboBoxMaxFileSize.Items.Strings" origstr="Benutzerdefiniert&#xA;5¼-Diskette (1200 KiB)&#xA;3½-Diskette (1440 KiB)&#xA;Zip 100 Disk (100 MiB)&#xA;Zip 200 Disk (200 MiB)&#xA;CD-ROM (650 MiB)&#xA;CD-ROM (700 MiB)&#xA;">Προσαρμοσμένο
+5¼-Floppy δίσκος (1200 KiB)
+3½-Floppy δίσκος (1440 KiB)
+Zip 100 δίσκος (100 MiB)
+Zip 200 δίσκος (200 MiB)
+CD-ROM (650 MiB)
+CD-ROM (700 MiB)</propstr>
+    <propstr name="GroupBoxPartialFileSize.ComboBoxMaxFileSize.Text" origstr="Benutzerdefiniert">Προκαθορισμένο από τον χρήστη</propstr>
+    <propstr name="Label1.Caption" origstr="Zu &amp;zerlegende Datei:">Αρχείο προς διαχωρισμό:</propstr>
+    <propstr name="Label2.Caption" origstr="&amp;Basisname für Teildateien (mit Pfad):">Βασικό όνομα για τα μερικά αρχεία (και το μονοπάτι)</propstr>
+    <propstr name="OpenDialogSplitFile.Filter" origstr="Alle Dateien (*.*)|*.*">Όλα τα αρχεία (*.*)|*.*</propstr>
+    <propstr name="RadioGroupNamePattern.Caption" origstr="Benennungsschema der Teildateien">Ονομαστικό πρότυπο για τα μερικά αρχεία</propstr>
+    <propstr name="RadioGroupNamePattern.Items.Strings" origstr="Durchnummerieren&#xA;Nach Namen fragen&#xA;">Διαδοχική αρίθμηση
+Υπενθύμιση για εκχώρηση ονόματος</propstr>
+    <propstr name="SaveDialogPartialFile.Filter" origstr="Alle Dateien (*.*)|*.*">Όλα τα αρχεία (*.*)|*.*</propstr>
+  </form>
+  <form name="TFormStatistics">
+    <propstr name="Caption" origstr="Statistik">Στατιστικές</propstr>
+    <propstr name="TBXPopupMenu1.TBXItemHideMax1.Caption" origstr="&amp;Maximum ausblenden">Απόκρυψη μέγιστου</propstr>
+  </form>
+  <form name="TFormUpdateChecker">
+    <propstr name="ButtonClose.Caption" origstr="Schließen">Κλείσιμο</propstr>
+    <propstr name="ButtonDownload.Caption" origstr="Download">Λήψη</propstr>
+    <propstr name="Caption" origstr="HxD Versionsprüfung">Έλεγχος έκδοσης HxD </propstr>
+    <propstr name="Panel1.PanelVersionInfo.GroupBoxVersion.Caption" origstr="Version">Έκδοση</propstr>
+    <propstr name="Panel1.PanelVersionInfo.GroupBoxVersion.LabelCurrentVersion.Caption" origstr="Aktuelle Version:">Τρέχουσα έκδοση:</propstr>
+    <propstr name="Panel1.PanelVersionInfo.GroupBoxVersion.LabelInstalledVersion.Caption" origstr="Installierte Version:">Εγκατεστημένη έκδοση:</propstr>
+    <propstr name="Panel1.PanelVersionInfo.LabelChangelog.Caption" origstr="Neuerungen:">Αλλαγές:</propstr>
+    <propstr name="Panel1.PanelVersionInfo.LabelUpdateAvailable.Caption" origstr="Update verfügbar">Διαθέσιμη ενημέρωση</propstr>
+  </form>
+  <form name="TFrameFloatOptions">
+    <propstr name="GroupBoxFloatType.Caption" origstr="Gleitkommatyp">Τύπου κινητής υποδιαστολής</propstr>
+    <propstr name="GroupBoxFloatType.RadioButtonDouble.Caption" origstr="&amp;Double, 8 Bytes">Διπλός, 8 bytes</propstr>
+    <propstr name="GroupBoxFloatType.RadioButtonExtended.Caption" origstr="&amp;Extended (long double), 10 Bytes">Εκτεταμένος (long double), 10 bytes</propstr>
+    <propstr name="GroupBoxFloatType.RadioButtonReal.Caption" origstr="&amp;Real, 6 Bytes">Πραγματικός, 6 bytes</propstr>
+    <propstr name="GroupBoxFloatType.RadioButtonSingle.Caption" origstr="&amp;Single (float), 4 Bytes">Μοναδιαίος (κινητής υποδιαστολής), 4 bytes</propstr>
+  </form>
+  <form name="TFrameIntegerOptions">
+    <propstr name="GroupBoxOptions.Caption" origstr="Optionen">Επιλογές</propstr>
+    <propstr name="GroupBoxOptions.ComboBoxBitWidth.Items.Strings" origstr="(beliebig)&#xA;8 Bit Byte (ShortInt)&#xA;16 Bit Word (SmallInt)&#xA;32 Bit Double Word (LongInt)&#xA;64 Bit Quad Word (Int64)&#xA;">(οποιοδήποτε)
+8 bit Byte (ShortInt)
+16 bit Word (SmallInt)
+32 bit Double Word (LongInt)
+64 bit Quad Word (Int64)</propstr>
+    <propstr name="GroupBoxOptions.ComboBoxBitWidth.Text" origstr="(beliebig)">(οποιοδήποτε)</propstr>
+    <propstr name="GroupBoxOptions.ComboBoxByteOrder.Items.Strings" origstr="Little Endian (Intel, AMD64, ...)&#xA;Big Endian (Motorola, SPARC, ...)&#xA;">Μικρό endian (Intel, AMD64, ...)
+Μεγάλο endian (Motorola, SPARC, ...)</propstr>
+    <propstr name="GroupBoxOptions.ComboBoxByteOrder.Text" origstr="Little Endian (Intel, AMD64, ...)">Μικρό endian (Intel, AMD64, ...)</propstr>
+    <propstr name="GroupBoxOptions.LabelBitWidth.Caption" origstr="&amp;Bitbreite:">&amp;Bitwidth:</propstr>
+    <propstr name="GroupBoxOptions.LabelEndianness.Caption" origstr="Byte-&amp;Reihenfolge:">Σειρά των bytes:</propstr>
+  </form>
+  <form name="TFrameTextOptions">
+    <propstr name="GroupBoxOptions.Caption" origstr="Optionen">Επιλογές</propstr>
+    <propstr name="GroupBoxOptions.CheckBoxCaseSensitive.Caption" origstr="&amp;Groß-/Kleinschreibung unterscheiden">Διαφοροποίηση κεφαλαίων / μικρών</propstr>
+    <propstr name="GroupBoxOptions.LabelEncoding.Caption" origstr="&amp;Textkodierung:">Κωδικοποίηση κειμένου:</propstr>
+  </form>
+  <form name="TXmInfoForm">
+    <propstr name="ButtonOK.Caption" origstr="OK">ΟΚ</propstr>
+    <propstr name="Caption" origstr="Info">Σχετικά</propstr>
+    <propstr name="Label4.Caption" origstr="Alle Rechte vorbehalten">Διατηρούνται όλα τα πνευματικά 
+δικαιώματα </propstr>
+  </form>
+  <unit name="ByteFillingTemplate">
+    <resstr name="SInvalidHexValues" origstr="Das Füllmuster &quot;%s&quot; enthält ungültige Hex-Werte">Το πρότυπο συμπληρώματος "%s" περιέχει μη έγκυρες δεκαεξαδικές τιμές</resstr>
+    <resstr name="SNoHexValues" origstr="Das Füllmuster muß mindestens einen Hex-Wert enthalten">Το πρότυπο συμπληρώματος πρέπει να περιέχει τουλάχιστον μία δεκαεξαδική τιμή</resstr>
+    <resstr name="SRandomMinMaxError" origstr="Der angegebene Bereich für zufällige Werte ist fehlerhaft. Das Minimum muß kleiner als das Maximum sein">Το καθορισμένο εύρος για τις τυχαίες τιμές είναι λανθασμένο. Το ελάχιστο πρέπει να είναι μικρότερο από το μέγιστο</resstr>
+  </unit>
+  <unit name="Checksums">
+    <resstr name="SCalculatingChecksums" origstr="Prüfsummen berechnen...">Γίνεται υπολογισμός των αθροισμάτων ελέγχου...</resstr>
+    <resstr name="SCRC32CUsage" origstr="VHDX Festplattenabbilder">Εικονικοί σκληροί δίσκοι VHDX</resstr>
+    <resstr name="SCRC32Usage" origstr="Ethernet und PKZIP">Ethernet και PKZIP</resstr>
+    <resstr name="SCustomCRC" origstr="Benutzerdefiniertes CRC (%d-Bit)">Προσαρμοσμένο CRC (%d-bit)</resstr>
+  </unit>
+  <unit name="Compare">
+    <resstr name="SComparing" origstr="Vergleichen...">Γίνεται σύγκριση...</resstr>
+    <resstr name="SFileNamesIdentical" origstr="Quell- und Zieldateiname sind identisch, wählen Sie verschiedene Dateinamen">Τα αρχεία πηγής και στόχου είναι πανομοιότυπα, επιλέξτε διαφορικά ονόματα αρχείων</resstr>
+    <resstr name="SFilesIdentical" origstr="Die ausgewählten Dateien sind identisch.">Τα επιλεγμένα αρχείων είναι πανομοιότυπα.</resstr>
+    <resstr name="SFilesIdenticalExceptSize" origstr="Die Dateigrößen sind verschieden. Der Anfang der größeren Datei ist jedoch identisch mit dem gesamten Inhalt der kleineren Datei.">Τα μεγέθη των αρχείων είναι διαφορετικά. Παρόλα αυτά, η αρχή του μεγαλύτερου αρχείου είναι ίδια με όλο το περιεχόμενου του μικρότερου αρχείου.</resstr>
+    <resstr name="SNoFileNameSpecified" origstr="Der Quell- oder Zieldateiname ist leer.&#xA;Geben Sie sowohl einen gültigen Quell- als auch Zieldateinamen an!">Το όνομα του αρχείου πηγής-ή στόχου είναι άδειο.
+Εισάγετε έγκυρα ονόματα αρχείων πηγής-στόχου!</resstr>
+    <resstr name="SNoFurtherDiffsFound" origstr="Keine weiteren Unterschiede gefunden.">Δε βρέθηκαν περαιτέρω διαφορές.</resstr>
+    <resstr name="SNoFurtherDiffsFoundButMoreDataFollows" origstr="Keine weiteren Unterschiede gefunden.&#xA;&#xA;Bei einer der Dateien folgen jedoch noch Daten in Vergleichsrichtung.">Δεν βρέθηκαν περαιτέρω διαφορές.
+
+Όμως σε ένα από τα αρχεία, περισσότερα δεδομένα ακολοθούν τη λογική της σύγκρισης.</resstr>
+    <resstr name="SNothingToCompare" origstr="Die ausgewählten Dateien sind unterschiedlich. Allerdings gibt es nichts zu vergleichen, da eine der ausgewählten Dateien leer ist.">Τα επιλεγμένα αρχεία είναι διαφορετικά.  Αν και δεν μπορεί να γίνει σύγκριση καθώς ένα από τα αρχεία είναι άδειο.</resstr>
+    <resstr name="SUnknownFileName" origstr="Es gibt keine Datei die &quot;%s&quot; heißt">Δεν υπάρχει αρχείο με το όνομα "%s"</resstr>
+  </unit>
+  <unit name="Concat">
+    <resstr name="SConcatenatingCaption" origstr="Verketten...">Γίνεται ένωση...</resstr>
+    <resstr name="SFilePartialAndOutput" origstr="Datei &quot;%s&quot; kann nicht zugleich in der Liste der Teildateien stehen und Ausgabedatei sein">Το αρχείο "%s" δεν γίνεται να είναι ταυτόχρονα και αρχείο εξόδου και στην λίστα των μερικών αρχείων</resstr>
+    <resstr name="SOverwriteOutputFile" origstr="Die Ausgabedatei &quot;%s&quot; existiert bereits.&#xA;Möchten Sie sie ersetzen?">Το αρχείο εξόδου "%s" υπάρχει ήδη.
+Αντικατάσταση αρχείου;</resstr>
+  </unit>
+  <unit name="DataInspector">
+    <resstr name="SAssemblyEditingNotSupported" origstr="Assembler-Editieren wird nicht unterstützt.">Η επεξεργασία της assembly δεν υποστηρίζεται.</resstr>
+    <resstr name="SBigEndian" origstr="Big Endian">Πολύ Ενδιανό</resstr>
+    <resstr name="SBinaryConversionError" origstr="Es müssen genau 8 Bits angegeben werden.">Πρέπει να δωθούν 8 bits ακριβώς.</resstr>
+    <resstr name="SBinaryConvName" origstr="Binär (8 Bit)">Δυαδικό (8 bit)</resstr>
+    <resstr name="SDOSDateConvName" origstr="DOS Datum">Ημερομηνία DOS</resstr>
+    <resstr name="SDOSTimeConvName" origstr="DOS Uhrzeit">Ώρα DOS</resstr>
+    <resstr name="SDOSTimeDateConvName" origstr="DOS Uhrzeit &amp; Datum">Ώρα / Ημερομηνία DOS</resstr>
+    <resstr name="SFunctionUnsupportedForDynamicSize" origstr="Funktion '%s' wird nicht unterstützt wenn TypeSize &lt;= 0.">Η συνάρτηση '%s' δεν υποστηρίζεται εάν TypeSize &lt;= 0.</resstr>
+    <resstr name="SGUIDConvName" origstr="GUID">GUID</resstr>
+    <resstr name="SInvalidBytesConv" origstr="Die Bytes &quot;%0:s&quot; lassen sich nicht in einen gültigen Wert des Typs &quot;%1:s&quot; übersetzen">Τα bytes "%0:s" δε μπορούν να μετατραπούν σε έγκυρη τιμή τύπου "%1:s"</resstr>
+    <resstr name="SInvalidItemIndex" origstr="Element %0:d vom Typ %1:s ist nicht in dem übergebenen Byte-Array enthalten (gültige Indexe sind im Bereich: %2:d-%3:d).">Το αντικείμενο %0:d τύπου %1:s δεν περιέχεται στο περασμένο byte array (οι έγκυροι δείκτες είναι στο εύρος: %2:d-%3:d).</resstr>
+    <resstr name="SInvalidStrConv" origstr="&quot;%0:s&quot; ist kein gültiger &quot;%1:s&quot;-Wert">Η "%0:s" δεν είναι έγκυρη "%1:s"-τιμή</resstr>
+    <resstr name="SLittleEndian" origstr="Little Endian">Λίγο Ενδιάνο</resstr>
+    <resstr name="STime32_tConvName" origstr="time_t (32 Bit)">time_t (32 bit)</resstr>
+    <resstr name="STime64_tConvName" origstr="time_t (64 Bit)">time_t (64 bit)</resstr>
+    <resstr name="SUnsupportedByteOrder" origstr="Der Datentyp %0:s unterstützt die Bytereihenfolge &quot;%1:s&quot; nicht.">Ο τύπος δεδομένων %0:s δεν υποστηρίζει τη σειρά των byte "%1:s".</resstr>
+    <resstr name="SUTF8CodepointConvName" origstr="UTF-8 Codepoint">κωδικοποίηση σημείου UTF-8</resstr>
+    <resstr name="Sx86_16AssemblyConvName" origstr="Disassemblat (x86-16)">Disassembly (x86-16)</resstr>
+    <resstr name="Sx86_32AssemblyConvName" origstr="Disassemblat (x86-32)">Disassembly (x86-32)</resstr>
+    <resstr name="Sx86_64AssemblyConvName" origstr="Disassemblat (x86-64)">Disassembly (x86-64)</resstr>
+  </unit>
+  <unit name="DataInspectorPluginClient">
+    <resstr name="SCallToDynLoadedFunctionFailed" origstr="Der Aufruf der dynamisch geladenen Plugin-Funktion %s ist fehlgeschlagen">Η κλήση του δυναμικά καλεσμένου πρόσθετου-συνάρτησης  %s απέτυχε.</resstr>
+    <resstr name="SDTCInitializationFailed" origstr="Die Initialisierung des Datentypconverters %s ist fehlgeschlagen.">Η αρχικοποίηση του μετατροπέα τύπου δεδομένων %s απέτυχε.</resstr>
+    <resstr name="SUnsupportedDataWidthKind" origstr="Die Datentypbreite %s wird nicht unterstützt.">Το πλάτος του τύπου δεδομένων %s δεν υποστηρίζεται.</resstr>
+  </unit>
+  <unit name="DiskInfo">
+    <resstr name="SAdminPrivilegesRequired" origstr="Administratorrechte benötigt um direkten Zugriff auf Laufwerke zu erhalten!">Χρειάζονται προνόμοια διαχειριστή για απόκτηση άμεσης πρόσβασης στους δίσκους!</resstr>
+    <resstr name="SAdminPrivilegesRequiredVista" origstr="Ab Windows Vista, mit aktiviertem Benutzerkontenschutz (UAC), muß HxD explizit als Administrator ausgeführt werden, auch wenn Sie als Administrator angemeldet sind.&#xA;&#xA;Dies ist z.B. mit dem Eintrag &quot;Als Administrator ausführen&quot; im Windows-Explorer-Kontextmenü möglich, das bei einem Rechtsklick auf das HxD-Startsymbol erscheint.">Ξεκινώντας με τα Windows Vista , και με ενεργοποιημένο το user account control (UAC), το HxD πρέπει να τρέχει αποκλειστικά ως διαχειριστής, ακόμη και αν είστε συνδεδεμένος ως διαχειριστής.
+
+Αυτό μπορείτε να το πετύχετε με την εντολή "Εκτέλεση ως διαχειριστής", που εμφανίζεται πατώντας δεξί κλικ πάνω στο εικονίδιο του HxD.</resstr>
+  </unit>
+  <unit name="DiskOpen">
+    <resstr name="SLogicalDisks" origstr="Logische Datenträger">Λογικοί δίσκοι</resstr>
+    <resstr name="SNotEnoughRightsForOpeningDisk" origstr="Sie haben nicht genügend Rechte um diesen Datenträger zu öffnen. Führen Sie HxD als Administrator aus und versuchen Sie es erneut.">Μη επαρκή δικαιώματα για άνοιγμα του δίσκου. Εκτελέστε το HxD ως διαχειριστής και προσπαθείστε ξανά.</resstr>
+    <resstr name="SNotEnoughRightsForOpeningDiskEvenAsAdmin" origstr="Sie haben nicht genügend Rechte um diesen Datenträger zu öffnen, selbst als Administrator.">Μη επαρκή δικαιώματα για άνοιγμα του δίσκου, ακόμη και ως διαχειριστής.</resstr>
+    <resstr name="SPhysicalDisks" origstr="Physische Datenträger">Φυσικοί δίσκοι</resstr>
+  </unit>
+  <unit name="ExplorerContextMenuUtils">
+    <resstr name="SOpenWithHxDAsReadonlyDescription" origstr="Öffnen mit H&amp;xD (Schreibgeschützt)">Άνοιγμα με H&amp;xD (μόνο για ανάγνωση)</resstr>
+    <resstr name="SOpenWithHxDDescription" origstr="Öffnen mit &amp;HxD">Άνοιγμα με H&amp;xD</resstr>
+  </unit>
+  <unit name="FillSelection">
+    <resstr name="SFilling" origstr="Füllen...">Γίνεται γέμισμα...</resstr>
+    <resstr name="SPass" origstr="%d. Durchlauf">%d. πέρασμα</resstr>
+  </unit>
+  <unit name="FloatNumberOptions">
+    <resstr name="SFloatOptionsCaption" origstr="Gleitkommazahl">Αριθμός κινητής υποδιαστολής</resstr>
+  </unit>
+  <unit name="FormOptionsU">
+    <resstr name="SData" origstr="Daten">Δεδομένα</resstr>
+    <resstr name="SDefaultTheme" origstr="Standard">Προκαθορισμένο</resstr>
+    <resstr name="SFailedToSetExplorerContextMenu" origstr="Fehler beim Setzen des Windows-Explorer-Kontextmenüs">Αποτυχία ρύθμισης του μενού περιβάλλοντος του Windows Explorer</resstr>
+    <resstr name="SInvalidBytesPerRow" origstr="Ungültige Eingabe für 'Bytes pro Zeile'.&#xA;Geben Sie einen Wert zwischen %d und %d an">Λανθασμένη καταχώριση για "Bytes ανά σειρά".
+Δώστε τιμή μεταξύ %d και %d.</resstr>
+    <resstr name="SModifiedData" origstr="Veränderte Daten">Τροποποιημένα δεδομένα</resstr>
+    <resstr name="SNotPortable" origstr="(nicht portabel)">(μη μεταφέρσιμο)</resstr>
+    <resstr name="SRename" origstr="Umbenennen">Μετονομασία</resstr>
+    <resstr name="SRenameDataTypeConverterPrompt" origstr="Geben Sie den neuen Namen des ausgewählten Datentyps ein:">Δώστε το καινούργιο όνομα της επιλεγμένης δομής δεδομένων:</resstr>
+    <resstr name="SSelection" origstr="Auswahl">Επιλογή</resstr>
+  </unit>
+  <unit name="GotoOffset">
+    <resstr name="SInvalidOffset" origstr="Die Datei enthält den Offset %s nicht.">Το αρχείο δεν περιέχει το offset %s.</resstr>
+    <resstr name="SInvalidRelativeOffset" origstr="Die Datei enthält den relativen Offset %s nicht.">Το αρχείο δεν περίεχει το σχετικό offset %s.</resstr>
+  </unit>
+  <unit name="HexValuesOptions">
+    <resstr name="SHexOptionsCaption" origstr="Hex-Werte">Δεκαεξαδικές τιμές</resstr>
+    <resstr name="SInvalidHexValues" origstr="Das Muster '%s' enthält ungültige Hex-Werte">Το πρότυπο '%s' περιέχει μη έγκυρες δεκαεξαδικές τιμές</resstr>
+    <resstr name="SNoHexValues" origstr="Das Muster muß mindestens einen Hex-Wert enthalten">Το πρότυπο πρέπει να περιέχει τουλάχιστον μία δεκαεξαδική τιμή</resstr>
+  </unit>
+  <unit name="HexView">
+    <resstr name="SBlockShort" origstr="Block(%0:s): %1:s-%2:s">Block(%0:s): %1:s-%2:s</resstr>
+    <resstr name="SCanOnlyReloadFromFile" origstr="Neuladen funktioniert nur mit Dateien">Μόνο τα αρχεία μπορούν να ξαναφορτωθούν</resstr>
+    <resstr name="SConfirmDeleteInsertBytes" origstr="Diese Operation verändert die Dateigröße. Wollen Sie fortfahren?">Αυτή η διεργασία τροποποιεί το μέγεθος του αρχείου. Θέλετε να συνεχίσετε;</resstr>
+    <resstr name="SInsert" origstr="Einfügen">Τοποθέτηση</resstr>
+    <resstr name="SLengthShort" origstr="Länge(%0:s): %1:s">Μήκος(%0:s): %1:s</resstr>
+    <resstr name="SModified" origstr="* Verändert *">* Τροποποιημένο *</resstr>
+    <resstr name="SOffsetShort" origstr="Offset(%0:s): %1:s">Offset(%0:s): %1:s</resstr>
+    <resstr name="SOverwrite" origstr="Überschreiben">Αντικατάσταση</resstr>
+    <resstr name="SSaveQuestion" origstr="&quot;%s&quot; wurde verändert.&#xA;&#xA;Änderungen speichern?">Το "%s" τροποποιήθηκε.
+
+Αποθήκευση αλλαγών;</resstr>
+    <resstr name="SSearchHits" origstr="Suche (%d Treffer)">Αναζήτηση (%d φορές)</resstr>
+    <resstr name="SSourceStreamMustBeLockable" origstr="Der Quellstrom muß ein sperrbarer Datenstrom sein">Το πηγαίο ρεύμα πρέπει να είναι ρεύμα δεδομένων με δυνατότητα κλειδώματος</resstr>
+    <resstr name="SUntitled" origstr="Unbenannt%d">Άτιτλο%d</resstr>
+    <resstr name="SWriteAccessWarning" origstr="Sie könnten Ihren Datenträger UNLESBAR MACHEN.&#xA;Ändern Sie nur Daten, wenn Sie genau wissen was Sie tun.&#xA;Für eventuelle Schäden kann keine Haftung übernommen werden.">Ο δίσκος σας θα μπορούσε να γίνει ΜΗ ΑΝΑΓΝΩΣΙΜΟΣ.
+Τροποποιείστε δεδομένα μόνο εάν είστε σίγουροι για το τι κάνετε.
+Δεν υπάρχει εγγύηση σε περίπτωση βλάβης.</resstr>
+    <resstr name="SWriteProtected" origstr="Schreibgeschützt">Μόνο για ανάγνωση</resstr>
+  </unit>
+  <unit name="InsertBytes">
+    <resstr name="SInsertingBytes" origstr="Bytes einfügen...">Εισαγωγή bytes...</resstr>
+    <resstr name="SInvalidByteCount" origstr="Byteanzahl muß ein Wert größer 0 sein">Το σύνολο των bytes πρέπει να είναι μια τιμή μεγαλύτερη του 0</resstr>
+  </unit>
+  <unit name="IntegerNumberOptions">
+    <resstr name="SErrorOutOfChoosenBounds" origstr="&quot;%s&quot; überschreitet den in %d Bit darstellbaren Wertebereich">Το "%s" είναι εκτός εύρους και αντιπροσωπεύεται με %d bits</resstr>
+    <resstr name="SIntegerOptionsCaption" origstr="Ganze Zahl">Ακέραιος αριθμός</resstr>
+  </unit>
+  <unit name="JclResources">
+    <resstr name="RsEReplacementChar" origstr="Failed to get ANSI replacement character">Αποτυχία κατά την απόκτηση ANSI χαρακτήρα αντικατάστασης</resstr>
+    <resstr name="RsInconsistentPath" origstr="&quot;%s&quot; does not match RootKey">Το "%s" δεν ταιριάζει με το RootKey </resstr>
+    <resstr name="RsIntelCacheDescr00" origstr="Null descriptor">Null descriptor</resstr>
+    <resstr name="RsIntelCacheDescr01" origstr="Instruction TLB: 4 KByte pages, 4-way set associative, 32 entries">Οδηγία TLB: σελίδες 4 KByte, 4-way set associative, 32 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr02" origstr="Instruction TLB: 4 MByte pages, 4-way set associative, 2 entries">Οδηγία TLB: σελίδες 4 MByte, 4-way set associative, 2 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr03" origstr="Data TLB: 4 KByte pages, 4-way set associative, 64 entries">Δεδομένα TLB: σελίδες 4 KByte, 4-way set associative, 64 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr04" origstr="Data TLB: 4 MByte pages, 4-way set associative, 8 entries">Δεδομένα TLB: σελίδες 4 ΜByte, 4-way set associative, 8 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr05" origstr="Data TLB1: 4 MByte pages, 4-way set associative, 32 entries">Δεδομένα TLB1: σελίδες 4 ΜByte, 4-way set associative, 32 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr06" origstr="1st level instruction cache: 8 KBytes, 4-way set associative, 32 byte line size">1st level οδηγία cache: 8 KBytes, 4-way set associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr08" origstr="1st level instruction cache: 16 KBytes, 4-way set associative, 32 byte line size">1st level οδηγία cache: 16 KBytes, 4-way set associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr09" origstr="1st level instruction cache: 32 KBytes, 4-way set associative, 64 byte line size">1st level οδηγία cache: 32 KBytes, 4-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr0A" origstr="1st level data cache: 8 KBytes, 2-way set associative, 32 byte line size">1st level cache δεδομένων: 8 KBytes, 2-way set associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr0B" origstr="Instruction TLB: 4 MByte pages, 4-way set associative, 4 entries">Οδηγία TLB: σελίδες 4 MByte, 4-way set associative, 4 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr0C" origstr="1st level data cache: 16 KBytes, 4-way set associative, 32 byte line size">1st level cache δεδομένων: 16 KBytes, 4-way set associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr0D" origstr="1st level data cache: 16 KBytes, 4-way set associative, 64 byte line size">1st level cache δεδομένων: 16 KBytes, 4-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr0E" origstr="1st level data cache: 24 KBytes, 6-way set associative, 64 byte line size">1st level cache δεδομένων: 24 KBytes, 6-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr21" origstr="2nd level cache: 256 KBytes, 8-way set associative, 64 byte line size">2nd level cache: 256 KBytes, 8-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr22" origstr="3rd level cache: 512 KBytes, 4-way set associative, 64 byte line size, 2 lines per sector">3rd level cache: 512 KBytes, 4-way set associative, μέγεθος σειράς 64 byte, 2 σειρές ανά τομέα</resstr>
+    <resstr name="RsIntelCacheDescr23" origstr="3rd level cache: 1 MBytes, 8-way set associative, 64 byte line size, 2 lines per sector">3rd level cache: 1 MBytes, 8-way set associative, μέγεθος σειράς 64 byte, 2 σειρές ανά τομέα</resstr>
+    <resstr name="RsIntelCacheDescr25" origstr="3rd level cache: 2 MBytes, 8-way set associative, 64 byte line size, 2 lines per sector">3rd level cache: 2 MBytes, 8-way set associative, μέγεθος σειράς 64 byte, 2 σειρές ανά τομέα</resstr>
+    <resstr name="RsIntelCacheDescr29" origstr="3rd level cache: 4 MBytes, 8-way set associative, 64 byte line size, 2 lines per sector">3rd level cache: 4 MBytes, 8-way set associative, μέγεθος σειράς 64 byte, 2 σειρές ανά τομέα</resstr>
+    <resstr name="RsIntelCacheDescr2C" origstr="1st level data cache: 32 KBytes, 8-way set associative, 64 byte line size">1st level cache δεδομένων: 32 KBytes, 8-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr30" origstr="1st level instruction cache: 32 KBytes, 8-way set associative, 64 byte line size">1st level cache οδηγιών: 32 KBytes, 8-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr39" origstr="2nd-level cache: 128 KBytes, 4-way set associative, sectored cache, 64-byte line size">2nd-level cache: 128 KBytes, 4-way set associative, cache υπό τομέα, μέγεθος σειράς 64-byte</resstr>
+    <resstr name="RsIntelCacheDescr3A" origstr="2nd-level cache: 192 KBytes, 6-way set associative, sectored cache, 64-byte line size">2nd-level cache: 192 KBytes, 6-way set associative, cache υπό τομέα, μέγεθος σειράς 64-byte</resstr>
+    <resstr name="RsIntelCacheDescr3B" origstr="2nd-level cache: 128 KBytes, 2-way set associative, sectored cache, 64-byte line size">2nd-level cache: 128 KBytes, 2-way set associative, cache υπό τομέα, μέγεθος σειράς 64-byte</resstr>
+    <resstr name="RsIntelCacheDescr3C" origstr="2nd-level cache: 256 KBytes, 4-way set associative, sectored cache, 64-byte line size">2nd-level cache: 256 KBytes, 4-way set associative, cache σε τομέα, μέγεθος σειράς 64-byte</resstr>
+    <resstr name="RsIntelCacheDescr3D" origstr="2nd-level cache: 384 KBytes, 6-way set associative, sectored cache, 64-byte line size">2nd-level cache: 384 KBytes, 6-way set associative, cache σε τομέα, μέγεθος σειράς 64-byte</resstr>
+    <resstr name="RsIntelCacheDescr3E" origstr="2nd-level cache: 512 KBytes, 4-way set associative, sectored cache, 64-byte line size">2nd-level cache: 512 KBytes, 4-way set associative, cache σε τομέα, μέγεθος σειράς 64-byte</resstr>
+    <resstr name="RsIntelCacheDescr40" origstr="No 2nd-level cache or, if processor contains a valid 2nd-level cache, no 3rd-level cache">Δε βρέθηκε 2nd-level cache ή, εάν ο επεξεργαστής περιλαμβάνει μία 2nd-level cache, δεν υπάρχει 3rd-level cache</resstr>
+    <resstr name="RsIntelCacheDescr41" origstr="2nd-level cache: 128 KBytes, 4-way set associative, 32 byte line size">2nd-level cache: 128 KBytes, 4-way set associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr42" origstr="2nd-level cache: 256 KBytes, 4-way set associative, 32 byte line size">2nd-level cache: 256 KBytes, 4-way set associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr43" origstr="2nd-level cache: 512 KBytes, 4-way set associative, 32 byte line size">2nd-level cache: 512 KBytes, 4-way set associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr44" origstr="2nd-level cache: 1 MBytes, 4-way set associative, 32 byte line size">2nd-level cache: 1 MBytes, 4-way set associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr45" origstr="2nd-level cache: 2 MBytes, 4-way set associative, 32 byte line size">2nd-level cache: 2 MBytes, 4-way set associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr46" origstr="3rd-level cache: 4 MBytes, 4-way set associative, 64 byte line size">3rd-level cache: 4 MBytes, 4-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr47" origstr="3rd-level cache: 8 MBytes, 4-way set associative, 64 byte line size">3rd-level cache: 8 MBytes, 4-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr48" origstr="3rd-level cache: 8 MByte, 8-way set associative, 64 byte line size">3rd-level cache: 8 MByte, 8-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr49" origstr="2nd-level cache: 4 MBytes, 16-way set associative, 64 byte line size">2nd-level cache: 4 MBytes, 16-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr4A" origstr="3rd-level cache: 6MByte, 12-way set associative, 64 byte line size">3rd-level cache: 6MByte, 12-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr4B" origstr="3rd-level cache: 8MByte, 16-way set associative, 64 byte line size">3rd-level cache: 8MByte, 16-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr4C" origstr="3rd-level cache: 12MByte, 12-way set associative, 64 byte line size">3rd-level cache: 12MByte, 12-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr4D" origstr="3rd-level cache: 16MByte, 16-way set associative, 64 byte line size">3rd-level cache: 16MByte, 16-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr4E" origstr="2nd-level cache: 6MByte, 24-way set associative, 64 byte line size">2nd-level cache: 6MByte, 24-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr4F" origstr="Instruction TLB: 4 KByte pages, 32 Entries">Οδηγία TLB: 4 KByte σελίδες, 32 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr50" origstr="Instruction TLB: 4 KByte and 2 MByte or 4 MByte pages, 64 Entries">Οδηγία TLB: 4 KByte και 2 MByte ή 4 MByte σελίδες, 64 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr51" origstr="Instruction TLB: 4 KByte and 2 MByte or 4 MByte pages, 128 Entries">Οδηγία TLB: 4 KByte και 2 MByte ή 4 MByte σελίδες, 128 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr52" origstr="Instruction TLB: 4 KByte and 2 MByte or 4 MByte pages, 256 Entries">Οδηγία TLB: 4 KByte and 2 MByte or 4 MByte σελίδες, 256 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr55" origstr="Instruction TLB: 2-MByte or 4-MByte pages, fully associative, 7 entries">Οδηγία TLB: 2-MByte or 4-MByte σελίδες, fully associative, 7 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr56" origstr="Data TLB0: 4 MByte pages, 4-way set associative, 16 entries">Δεδομένα TLB: σελίδες 4 ΜByte, 4-way set associative, 16 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr57" origstr="Data TLB0: 4 KByte pages, 4-way associative, 16 entries">Δεδομένα TLB: σελίδες 4 ΚByte, 4-way associative, 16 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr59" origstr="Data TLB0: 4 KByte pages, fully associative, 16 entries">Δεδομένα TLB0: 4 KByte σελίδες, fully associative, 16 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr5A" origstr="Data TLB0: 2 MByte or 4 MByte pages, 4-way set associative, 32 entries">Δεδομένα TLB0: 2 MByte ή 4 MByte σελίδες, 4-way set associative, 32 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr5B" origstr="Data TLB: 4 KByte and 4 MByte pages, 64 Entries">Δεδομένα TLB: 4 KByte και 4 MByte σελίδες, 64 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr5C" origstr="Data TLB: 4 KByte and 4 MByte pages, 128 Entries">Δεδομένα TLB: 4 KByte και 4 MByte σελίδες, 128 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr5D" origstr="Data TLB: 4 KByte and 4 MByte pages, 256 Entries">Δεδομένα TLB: 4 KByte και 4 MByte σελίδες, 256 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr60" origstr="1st-level data cache: 16 KByte, 8-way set associative, 64 byte line size">1st-level cache δεδομένων: 16 KByte, 8-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr66" origstr="1st-level data cache: 8 KBytes, 4-way set associative, 64 byte line size">1st-level cache δεδομένων: 8 KBytes, 4-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr67" origstr="1st-level data cache: 16 KBytes, 4-way set associative, 64 byte line size">1st-level cache δεδομένων: 16 KBytes, 4-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr68" origstr="1st-level data cache: 32 KBytes, 4-way set associative, 64 byte line size">1st-level cache δεδομένων: 32 KBytes, 4-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr70" origstr="Trace cache: 12 K-Ops, 8-way set associative">Cache ιχνών: 12 K-Ops, 8-way set associative</resstr>
+    <resstr name="RsIntelCacheDescr71" origstr="Trace cache: 16 K-Ops, 8-way set associative">Cache ιχνών: 16 K-Ops, 8-way set associative</resstr>
+    <resstr name="RsIntelCacheDescr72" origstr="Trace cache: 32 K-Ops, 8-way set associative">Cache ιχνών: 32 K-Ops, 8-way set associative</resstr>
+    <resstr name="RsIntelCacheDescr73" origstr="Trace cache: 64 K-Ops, 8-way set associative">Cache ιχνών: 64 K-Ops, 8-way set associative</resstr>
+    <resstr name="RsIntelCacheDescr76" origstr="Instruction TLB: 2M/4M pages, fully associative, 8 entries">Οδηγία TLB: 2M/4M σελίδες, fully associative, 8 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescr78" origstr="2nd-level cache: 1 MBytes, 4-way set associative, 64 bytes line size">2nd-level cache: 1 MBytes, 4-way set associative, μέγεθος σειράς 64 bytes</resstr>
+    <resstr name="RsIntelCacheDescr79" origstr="2nd-level cache: 128 KBytes, 8-way set associative, 64 bytes line size, 2 lines per sector">2nd-level cache: 128 KBytes, 8-way set associative, μέγεθος σειράς 64 bytes, 2 σειρές ανά τομέα</resstr>
+    <resstr name="RsIntelCacheDescr7A" origstr="2nd-level cache: 256 KBytes, 8-way set associative, 64 bytes line size, 2 lines per sector">2nd-level cache: 256 KBytes, 8-way set associative, μέγεθος σειράς 64 bytes, 2 σειρές ανά τομέα</resstr>
+    <resstr name="RsIntelCacheDescr7B" origstr="2nd-level cache: 512 KBytes, 8-way set associative, 64 bytes line size, 2 lines per sector">2nd-level cache: 512 KBytes, 8-way set associative, μέγεθος σειράς 64 bytes, 2 σειρές ανά τομέα</resstr>
+    <resstr name="RsIntelCacheDescr7C" origstr="2nd-level cache: 1 MBytes, 8-way set associative, 64 bytes line size, 2 lines per sector">2nd-level cache: 1 MBytes, 8-way set associative, μέγεθος σειράς 64 bytes, 2 σειρές ανά τομέα</resstr>
+    <resstr name="RsIntelCacheDescr7D" origstr="2nd-level cache: 2 MBytes, 8-way set associative, 64 byte line size">2nd-level cache: 2 MBytes, 8-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr7F" origstr="2nd-level cache: 512 KBytes, 2-way set associative, 64 byte line size">2nd-level cache: 512 KBytes, 2-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr80" origstr="2nd-level cache: 512 KBytes, 8-way set associative, 64 byte line size">2nd-level cache: 512 KBytes, 8-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr82" origstr="2nd-level cache: 256 KBytes, 8-way associative, 32 byte line size">2nd-level cache: 256 KBytes, 8-way associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr83" origstr="2nd-level cache: 512 KBytes, 8-way associative, 32 byte line size">2nd-level cache: 512 KBytes, 8-way associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr84" origstr="2nd-level cache: 1 MBytes, 8-way associative, 32 byte line size">2nd-level cache: 1 MBytes, 8-way associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr85" origstr="2nd-level cache: 2 MBytes, 8-way associative, 32 byte line size">2nd-level cache: 2 MBytes, 8-way associative, μέγεθος σειράς 32 byte</resstr>
+    <resstr name="RsIntelCacheDescr86" origstr="2nd-level cache: 512 KByte, 4-way set associative, 64 byte line size">2nd-level cache: 512 KByte, 4-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescr87" origstr="2nd-level cache: 1 MByte, 8-way set associative, 64 byte line size">2nd-level cache: 1 MByte, 8-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrB0" origstr="Instruction TLB: 4 KByte pages, 4-way set associative, 128 entries">Οδηγία TLB: 4 KByte σελίδες, 4-way set associative, 128 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescrB1" origstr="Instruction TLB: 2 MByte pages, 4-way, 8 entries or 4 MByte pages, 4-way, 4 entries">Οδηγία TLB: 2 MByte σελίδες, 4-way, 8 entries ή 4 MByte σελίδες, 4-way, 4 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescrB2" origstr="Instruction TLB: 4 KByte pages, 4-way set associative, 64 entries">Οδηγία TLB: 4 KByte σελίδες, 4-way set associative, 64 entries</resstr>
+    <resstr name="RsIntelCacheDescrB3" origstr="Data TLB: 4 KByte pages, 4-way set associative, 128 entries">Δεδομένα TLB: 4 KByte σελίδες, 4-way set associative, 128 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescrB4" origstr="Data TLB1: 4 KByte pages, 4-way set associative, 256 entries">Δεδομένα TLB1: 4 KByte σελίδες, 4-way set associative, 256 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescrBA" origstr="Data TLB1: 4 KByte pages, 4-way set associative, 64 entries">Δεδομένα TLB1: 4 KByte σελίδες, 4-way set associative, 64 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescrC0" origstr="Data TLB: 4 KByte and 4 MByte pages, 4-way set associative, 8 entries">Δεδομένα TLB: 4 KByte και 4 MByte σελίδες, 4-way set associative, 8 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescrCA" origstr="Shared 2nd-Level TLB: 4 KByte pages, 4-way associative, 512 entries">Κοινόχρηστο 2nd-Level TLB: 4 KByte σελίδες, 4-way associative, 512 καταχωρήσεις</resstr>
+    <resstr name="RsIntelCacheDescrD0" origstr="3rd-level cache: 512 KByte, 4-way set associative, 64 byte line size">3rd-level cache: 512 KByte, 4-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrD1" origstr="3rd-level cache: 1 MByte, 4-way set associative, 64 byte line size">3rd-level cache: 1 MByte, 4-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrD2" origstr="3rd-level cache: 2 MByte, 4-way set associative, 64 byte line size">3rd-level cache: 2 MByte, 4-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrD6" origstr="3rd-level cache: 1 MByte, 8-way set associative, 64 byte line size">3rd-level cache: 1 MByte, 8-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrD7" origstr="3rd-level cache: 2 MByte, 8-way set associative, 64 byte line size">3rd-level cache: 2 MByte, 8-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrD8" origstr="3rd-level cache: 4 MByte, 8-way set associative, 64 byte line size">3rd-level cache: 4 MByte, 8-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrDC" origstr="3rd-level cache: 1.5 MByte, 12-way set associative, 64 byte line size">3rd-level cache: 1.5 MByte, 12-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrDD" origstr="3rd-level cache: 3 MByte, 12-way set associative, 64 byte line size">3rd-level cache: 3 MByte, 12-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrDE" origstr="3rd-level cache: 6 MByte, 12-way set associative, 64 byte line size">3rd-level cache: 6 MByte, 12-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrE2" origstr="3rd-level cache: 2 MByte, 16-way set associative, 64 byte line size">3rd-level cache: 2 MByte, 16-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrE3" origstr="3rd-level cache: 4 MByte, 16-way set associative, 64 byte line size">3rd-level cache: 4 MByte, 16-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrE4" origstr="3rd-level cache: 8 MByte, 16-way set associative, 64 byte line size">3rd-level cache: 8 MByte, 16-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrEA" origstr="3rd-level cache: 12 MByte, 24-way set associative, 64 byte line size">3ο επίπεδο cache: 12 MByte, 24-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrEB" origstr="3rd-level cache: 18 MByte, 24-way set associative, 64 byte line size">3rd-level cache: 18 MByte, 24-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrEC" origstr="3rd-level cache: 24 MByte, 24-way set associative, 64 byte line size">3rd-level cache: 24 MByte, 24-way set associative, μέγεθος σειράς 64 byte</resstr>
+    <resstr name="RsIntelCacheDescrF0" origstr="64-Byte Prefetching">Προανάκληση 64-Byte</resstr>
+    <resstr name="RsIntelCacheDescrF1" origstr="128-Byte Prefetching">Προανάκληση 128-Byte</resstr>
+    <resstr name="RsIntelCacheDescrFF" origstr="CPUID leaf 2 does not report cache descriptor information, use CPUID leaf 4 to query cache parameters">Το φύλλο CPUID δεν αναφέρει πληροφορίες cache, χρησιμοποιήστε το φύλλο CPUID 4 για να εξετάσετε τις παραμέτρους της cache</resstr>
+    <resstr name="RsOSVersionWin81" origstr="Windows 8.1">Windows 8.1</resstr>
+    <resstr name="RsOSVersionWinServer2012R2" origstr="Windows Server 2012 R2">Windows Server 2012 R2</resstr>
+    <resstr name="RsUnableToAccessValue" origstr="Unable to open key &quot;%s\%s&quot; and access value &quot;%s&quot;">Αδυναμία ανοίγματος του κλειδιού "%s\%s" και τιμής πρόσβασης "%s"</resstr>
+    <resstr name="RsUnableToOpenKeyRead" origstr="Unable to open key &quot;%s\%s&quot; for read">Αδυναμία ανοίγματος του κλειδιού "%s\%s" για ανάγνωση</resstr>
+    <resstr name="RsWrongDataType" origstr="&quot;%s\%s\%s&quot; is of wrong kind or size">Το "%s\%s\%s" είναι λάθος είδους μέγεθος</resstr>
+  </unit>
+  <unit name="Main">
+    <resstr name="SAcceptSmallPrintRegion" origstr="Der druckbare Bereich (%d Bytes pro Zeile) ist kleiner als der geforderte Bereich (%d Bytes pro Zeile).&#xA;Wollen Sie fortfahren und den druckbaren Bereich verwenden, oder abbrechen?">Η εκτυπώσιμη περιοχή (%d bytes ανά σειρά) είναι μικρότερη από την απαιτούμενη περιοχή (%d bytes ανά σειρά).
+Θέλετε να συνεχίσετε και να χρησιμοποιήσετε την εκτυπώσιμη περιοχή, ή να γίνει ακύρωση;</resstr>
+    <resstr name="SConfirmDirectSaving" origstr="Die Daten werden direkt und ohne Sicherungskopie geschrieben und Änderungen können nicht rückgängig gemacht werden.&#xA;Trotzdem speichern?">Τα δεδομένα θα εγγραφούν απευθείας χωρίς να παρθεί αντίγραφο ασφαλείας και οι αλλαγές δεν μπορούν να αναιρεθούν.
+Αποθήκευση ούτως η άλλως;</resstr>
+    <resstr name="SConfirmSaveCanceledBackup" origstr="Speichern obwohl Erstellen der Sicherungskopie abgebrochen wurde?">Αποθήκευση παρά το γεγονός ότι η δημιουργία αντιγράφου ασφαλείας ακυρώθηκε;</resstr>
+    <resstr name="SConfirmSaveErrorBackup" origstr="Beim Erstellen der Sicherungskopie ist folgender Fehler aufgetreten:&#xA;&#xA;&quot;%s&quot;&#xA;&#xA;Trotzdem speichern?">Κατά τη δημιουργία αντιγράφου ασφαλείας, συνέβη το επόμενο σφάλμα:
+
+"%s"
+
+Συνέχεια αποθήκευσης;</resstr>
+    <resstr name="SCreatingBackup" origstr="Sicherungskopie erstellen...">Δημιουργία αντιγράφου ασφαλείας...</resstr>
+    <resstr name="SDataInspectorGotoAnnotation" origstr="gehe zu:">πήγαινε στο:</resstr>
+    <resstr name="SInvalidValue" origstr="Ungültig">Μη έγκυρο</resstr>
+    <resstr name="SLabelSectorCount" origstr="von %t">του %t</resstr>
+    <resstr name="SSaveSelectionFilenameFormat" origstr="%s - Auswahl">%s - Επιλογή</resstr>
+    <resstr name="SSavingSelection" origstr="Auswahl speichern...">Αποθήκευση επιλογής...</resstr>
+  </unit>
+  <unit name="RAMOpen">
+    <resstr name="S32Bit" origstr="(32 Bit)">(32 bit)</resstr>
+  </unit>
+  <unit name="Replace">
+    <resstr name="SCountReplaced" origstr="%d Vorkommen von &quot;%s&quot; ersetzt.">Αντικαταστήθηκαν %d εμφανίσεις του "%s".</resstr>
+    <resstr name="SPatternSizeMustMatch" origstr="Die Größe des Such- und des Ersetzungsmusters stimmen nicht überein (%d &lt;&gt; %d).&#xA;&#xA;Dies ist aber notwendig, da der gewählte Datenstrom eine unveränderliche Größe hat.">Το μέγεθος της αναζήτησης και το πρότυπο αντικατάστασης δεν ταιριάζουν (%d &lt;&gt; %d).
+</resstr>
+    <resstr name="SReplaceChangesStreamSize" origstr="Diese Ersetzung verändert die Dateigröße. Wollen Sie fortfahren?">Η λειτουργία αντικατάστασης αλλάζει το μέγεθος του αρχείου. Θέλετε να συνεχίσετε;</resstr>
+    <resstr name="SReplaceOccurrenceQuestion" origstr="Dieses Vorkommen von &quot;%s&quot; durch &quot;%s&quot; ersetzen?">Αντικατάσταση της εμφάνισης "%s" με "%s";</resstr>
+    <resstr name="SReplacing" origstr="Ersetzen...">Γίνεται αντικατάσταση...</resstr>
+  </unit>
+  <unit name="SafeDeletion">
+    <resstr name="SConfirmIrrevocableDelete" origstr="Die folgenden Dateien werden unwiderruflich gelöscht!&#xA;%s">Τα παρακάτω αρχεία θα διαγραφούν μόνιμα!
+%s</resstr>
+    <resstr name="SSecurelyDeleteButtonCaption" origstr="&amp;Löschen...">Διαγραφή...</resstr>
+    <resstr name="SSecurelyDeleteProgressCaption" origstr="Sicher löschen...">Ασφαλής διαγραφή...</resstr>
+    <resstr name="SSomeToBeDeletedFilesAreStillOpen" origstr="Einige Dateien die gelöscht werden sollen sind noch in HxD geöffnet. Sollen sie geschlossen und mit dem Löschen begonnen werden?">Κάποια αρχεία που έπρεπε να διαγραφούν είναι ακόμη ανοικτά στο HxD. Να κλείσουν και να ξεκινήσει η διαγραφή;</resstr>
+  </unit>
+  <unit name="Search">
+    <resstr name="SCouldNotFindPattern" origstr="&quot;%s&quot; kann nicht gefunden werden.">Το "%s" δεν βρέθηκε.</resstr>
+    <resstr name="SSearching" origstr="Suchen...">Αναζήτηση...</resstr>
+  </unit>
+  <unit name="SectorSize">
+    <resstr name="SectorSizeRangeError" origstr="SectorSize muss im Bereich 1 bis 2147483647 sein.">Το SectorSize πρέπει να είναι μεταξύ 1 και 2147483647.</resstr>
+    <resstr name="SSectorSizeFloppy256" origstr="256 (einige alte Disketten)">256 (κάποιες παλιές δισκέτες)</resstr>
+    <resstr name="SSectorSizeFloppyOrHardDisk512" origstr="512 (Festplatten/Disketten)">512 (σκληροί δίσκοι/δισκέτες)</resstr>
+    <resstr name="SSectorSizeHardDisk4096" origstr="4096 (einige moderne Festplatten)">4096 (κάποιοι μοντέρνοι σκληροί δίσκοι)</resstr>
+    <resstr name="SSectorSizeOptical2048" origstr="2048 (CD/DVD)">2048 (CD/DVD)</resstr>
+    <resstr name="SSectorSizeOptical2352" origstr="2352 (RAW-CD/DVD)">2352 (RAW-CD/DVD)</resstr>
+  </unit>
+  <unit name="SelectBlock">
+    <resstr name="SEmptySelection" origstr="Die angegebenen Offsets ergeben eine leere Auswahl.">Τα προσδιορισμένα offsets καταλήγουν σε κενή επιλογή.</resstr>
+  </unit>
+  <unit name="SplitFile">
+    <resstr name="SAskOverwriteFile" origstr="Soll die Datei &quot;%s&quot; überschrieben werden?">Αντικατάσταση του αρχείου "%s";</resstr>
+    <resstr name="SFileNamePrefixCaption" origstr="Dateinamenpräfix">Πρόθεμα ονόματος αρχείου</resstr>
+    <resstr name="SInvalidPartialFileName" origstr="Der Präfix für Teildateien enthält ungültige Zeichen">Το πρόθεμα των μερικών αρχείων περιέχει μη έγκυρους χαρακτήρες</resstr>
+    <resstr name="SInvalidPartialFilePath" origstr="Der angegebene Pfad für die Teildateien ist ungültig">Το καθορισμένο μονοπάτι για ονόματα μερικών αρχείων δεν είναι έγκυρο</resstr>
+    <resstr name="SInvalidPartialFileSize" origstr="Die Größe der Teildateien muß größer 0 sein">Το μέγεθος των μερικών αρχείων πρέπει να είναι μεγαλύτερο από 0</resstr>
+    <resstr name="SPartialFileCaption" origstr="%d. Teildatei">%d. μερικό αρχείο</resstr>
+    <resstr name="SSplitFileDoesNotExist" origstr="Die zu zerlegende Datei &quot;%s&quot; existiert nicht">Το αρχείο προς διαχωρισμό "%s" δεν υπάρχει</resstr>
+    <resstr name="SSplittingCaption" origstr="Zerteilen...">Γίνεται διαχωρισμός...</resstr>
+  </unit>
+  <unit name="Statistics">
+    <resstr name="SAnalyzing" origstr="Analysieren...">Γίνεται ανάλυση...</resstr>
+    <resstr name="SCount" origstr="Anzahl: %d">Καταμέτρηση: %d</resstr>
+    <resstr name="SMaximum" origstr="(Maximum)">(Μέγιστο)</resstr>
+  </unit>
+  <unit name="System.RTLConsts">
+    <resstr name="hNoFilterViewer" origstr="Kein Hilfe-Viewer, der Filter unterstützt">Δεν υπάρχει προβολή βοήθειας που να υποστηρίζει φίλτρα</resstr>
+    <resstr name="SAncestorNotFound" origstr="Vorfahr für '%s' nicht gefunden">Δεν βρέθηκε πρόγονος για το '%s'</resstr>
+    <resstr name="sArgument_InvalidHighSurrogate" origstr="Hohes Ersatzzeichen ohne folgendes niedriges Ersatzzeichen bei Index: %d. Überprüfen Sie, ob der String korrekt codiert ist">Υψηλός αναπληρωτής χαρακτήρας χωρίς επακόλουθο χαμηλό αναπληρωτή χαρακτήρα στο δείκτη: %d. Ελέγξτε ότι το string χαρακτήρων είναι σωστά κωδικοποιημένο</resstr>
+    <resstr name="sArgument_InvalidLowSurrogate" origstr="Niedriges Ersatzzeichen ohne vorausgehendes hohes Ersatzzeichen bei Index: %d. Überprüfen Sie, ob der String korrekt codiert ist">Χαμηλός αναπληρωτής χαρακτήρα χωρίς πρωταρχικό υψηλό αναπληρωτή χαρακτήρα στο δείκτη: %d. Ελέγξτε ότι το string χαρακτήρων είναι σωστά κωδικοποιημένο</resstr>
+    <resstr name="SArgumentOutOfRange" origstr="Argument außerhalb des Bereichs">Η παράμετρος είναι εκτός ορίου</resstr>
+    <resstr name="sArgumentOutOfRange_InvalidUTF32" origstr="Ungültiger UTF32-Zeichenwert.  Muss &gt;= 0 und &lt;= $10FFFF sein, ausgenommen Ersatzpaarbereiche">Λανθασμένη τιμή χαρακτήρας UTF32. Πρέπει να είναι &gt;= 0 και &lt;= $10FFFF, χωρίς το ζεύγος των αναπληρωτικών ορίων.</resstr>
+    <resstr name="sArgumentOutOfRange_StringIndex" origstr="String-Index außerhalb des Bereichs (%d).  Muss &gt;= %d und &lt;= %d sein">Ο δείκτης του string χαρακτήρων είναι εκτός ωρίων (%d). Πρέπει να είναι &gt;= %d και &lt;= %d</resstr>
+    <resstr name="SAssignError" origstr="%s kann nicht zu %s zugewiesen werden">Δεν μπορεί να γίνει απόδοση του %s στο %s</resstr>
+    <resstr name="SBitsIndexError" origstr="Bits-Index außerhalb des zulässigen Bereichs">Ο δείκτης bit είναι εκτός εύρους</resstr>
+    <resstr name="SByRefArgMismatch" origstr="VAR- und OUT-Argumente müssen exakt mit dem Parametertyp übereinstimmen">Οι παράμετροι VAR και OUT πρέπει να ταιριάζουν ακριβώς με τον τύπο παραμέτρων</resstr>
+    <resstr name="SCantWriteResourceStreamError" origstr="In einen zum Lesen geöffneten Ressourcen-Stream kann nicht geschrieben werden">Δεν μπορεί να γίνει εγγραφή σε ένα "μόνο προς ανάγνωση" ρεύμα πόρων</resstr>
+    <resstr name="SCheckSynchronizeError" origstr="CheckSynchronize wurde vom Thread $%x aufgerufen, der NICHT der Haupt-Thread ist.">Η CheckSynchronize καλέστηκε από το νήμα $%x, το οποίο ΔΕΝ είναι το βασικό νήμα</resstr>
+    <resstr name="SClassNotFound" origstr="Klasse %s nicht gefunden">Η κλάση %s δεν βρέθηκε</resstr>
+    <resstr name="SDriveNotFound" origstr="Das Laufwerk wurde nicht gefunden">Δε βρέθηκε ο δίσκος</resstr>
+    <resstr name="SDuplicateClass" origstr="Klasse mit der Bezeichnung %s existiert bereits">Μια κλάση με όνομα %s υπάρχει ήδη</resstr>
+    <resstr name="SDuplicateItem" origstr="Liste gestattet keine doppelten Einträge ($0%x)">Η λίστα δεν επιτρέπει διπλότυπα ($0%x)</resstr>
+    <resstr name="SDuplicateName" origstr="Komponente mit der Bezeichnung %s existiert bereits">Ένα συστατικό με όνομα %s υπάρχει ήδη</resstr>
+    <resstr name="SDuplicateString" origstr="In der Stringliste sind Duplikate nicht erlaubt">Η λίστα συμβολοσειρών δεν επιτρέπει διπλότυπα</resstr>
+    <resstr name="SFCreateErrorEx" origstr="Datei &quot;%s&quot; kann nicht erstellt werden. %s">Αδυναμία δημιουργίας αρχείου "%s". %s</resstr>
+    <resstr name="SFileNotFound" origstr="Die angegebene Datei wurde nicht gefunden">Δε βρέθηκε το συγκεκριμένο αρχείο</resstr>
+    <resstr name="SFOpenErrorEx" origstr="Datei %s kann nicht geöffnet werden. %s">Αδυναμία ανοίγματος αρχείου "%s". %s</resstr>
+    <resstr name="SGenericDuplicateItem" origstr="Duplikate nicht zulässig">Δεν επιτρέπονται τα διπλότυπα</resstr>
+    <resstr name="SGenericItemNotFound" origstr="Eintrag nicht gefunden">Το αντικείμενο δε βρέθηκε</resstr>
+    <resstr name="SInputBufferExceed" origstr="Eingabepuffer für %s = %d, %s = %d überschritten">Ο Input buffer υπερχείλησε για %s = %d, %s = %d</resstr>
+    <resstr name="SInsufficientRtti" origstr="Unzureichende RTTI zur Unterstützung dieser Operation verfügbar">Μη επαρκής RTTI για υποστήριξη αυτής της ενέργειας</resstr>
+    <resstr name="SInvalidCharsInPath" origstr="Ungültige Zeichen im Pfad">Μη έγκυροι χαρακτήρες στο μονοπάτι</resstr>
+    <resstr name="SInvalidDate" origstr="''%s'' ist kein gültiges Datum">Η "'%s'' δεν είναι έγκυρη ημερομηνία</resstr>
+    <resstr name="SInvalidDateTime" origstr="''%s'' ist keine gültige Datums-/Zeitangabe">Η "%s'' δεν είναι έγκυρη ημερομηνία και ώρα</resstr>
+    <resstr name="SInvalidFileName" origstr="Ungültiger Dateiname - %s">Μη έγκυρο όνομα αρχείο - %s</resstr>
+    <resstr name="SInvalidImage" origstr="Ungültiges Stream-Format">Μη έγκυρη μορφή ρεύματος</resstr>
+    <resstr name="SInvalidInteger" origstr="''%s'' ist kein gültiger Integer-Wert">Το "%s" δεν είναι έγκυρη ακέραια τιμή</resstr>
+    <resstr name="SInvalidName" origstr="''%s'' ist kein gültiger Komponentenname">Το "%s" δεν είναι έγκυρο όνομα συστατικού</resstr>
+    <resstr name="SInvalidProperty" origstr="Ungültiger Eigenschaftswert">Μη έγκυρη τιμή ιδιότητας</resstr>
+    <resstr name="SInvalidPropertyPath" origstr="Ungültiger Pfad für Eigenschaft">Μη έγκυρο μονοπάτι ιδιότητας</resstr>
+    <resstr name="SInvalidPropertyValue" origstr="Ungültiger Eigenschaftswert">Μη έγκυρη τιμή ιδιότητας</resstr>
+    <resstr name="SInvalidRegType" origstr="Ungültiger Datentyp für '%s'">Μη έγκυρη δομή δεδομένων για το '%s'</resstr>
+    <resstr name="SInvalidTime" origstr="''%s'' ist keine gültige Zeitangabe">Η "%s'' δεν είναι έγκυρη ώρα</resstr>
+    <resstr name="SListCapacityError" origstr="Kapazität der Liste ist erschöpft (%d)">Μέγεθος λίστας εκτός ορίων (%d)</resstr>
+    <resstr name="SListCountError" origstr="Zu viele Einträge in der Liste (%d)">Αρίθμηση λίστας εκτός ορίων (%d)</resstr>
+    <resstr name="SListIndexError" origstr="Listenindex überschreitet das Maximum (%d)">Δείκτης λίστας εκτός ορίων (%d)</resstr>
+    <resstr name="SMemoryStreamError" origstr="Expandieren des Speicher-Stream wegen Speichermangel nicht möglich">Εξάντληση μνήμης κατα την εξάπλωση του ρεύματος μνήμης</resstr>
+    <resstr name="SNoComSupport" origstr="%s wurde nicht als COM-Klasse registriert">Το %s δεν έχει καταχωρηθεί ως κλάση COM</resstr>
+    <resstr name="SNoContext" origstr="Keine kontextsensitive Hilfe installiert">Δεν υπάρχει βοήθεια "ευαίσθητη στα συμφραζόμενα" εγκατεστημένη</resstr>
+    <resstr name="SNoContextFound" origstr="Keine Hilfe für Kontext %d gefunden">Δε βρέθηκε βοήθεια για το %d</resstr>
+    <resstr name="SNoIndex" origstr="Index kann nicht geöffnet werden">Αδυναμία ανοίγματος του ευρετηρίου</resstr>
+    <resstr name="SNonPublicType" origstr="Typ '%s' ist im interface-Abschnitt einer Unit nicht deklariert">Ο τύπος '%s' δεν είναι προκαθορισμένος στον τομέα διεπαφής μιας μονάδας</resstr>
+    <resstr name="SNoSearch" origstr="Suche kann nicht geöffnet werden">Αδυναμία ανοίγματος της Αναζήτησης</resstr>
+    <resstr name="SNoTableOfContents" origstr="Inhaltsverzeichnis nicht gefunden">Αδυναμία εύρεσης Πίνακα Περιεχομένων</resstr>
+    <resstr name="SNothingFound" origstr="Keine Hilfe für %s gefunden">Δεν βρέθηκε βοήθεια για το %s</resstr>
+    <resstr name="SNoTopics" origstr="Kein themenbezogenes Hilfesystem installiert">Δεν υπάρχει εγκατεστημένο σύστημα βοήθειας "βασισμένο σε θέμα"</resstr>
+    <resstr name="sObserverMultipleSingleCast" origstr="Der Observer-Kollektion können nicht mehrere Einfach-Typumwandlungs-Observer hinzugefügt werden">Δε μπορείτε να έχετε πολλαπλούς  single cast observers προστεθημένους στη συλλογή των observers</resstr>
+    <resstr name="sObserverNoInterface" origstr="Das Objekt implementiert das Observer-Interface nicht">Το αντικείμενο δεν υλοποιεί τη διεπαφή observer</resstr>
+    <resstr name="sObserverNoMulticastFound" origstr="Der Observer-Kollektion wurde kein Mehrfach-Typumwandlungs-Observer mit der ID %d hinzugefügt">Κανένας παρατηρητής πολλαπλών διανομών με ID %d δεν προστέθηκε στη συλλογή παρατηρητών</resstr>
+    <resstr name="sObserverNoSinglecastFound" origstr="Der Observer-Kollektion wurde kein Einfach-Typumwandlungs-Observer mit der ID %d hinzugefügt">Κανένας παρατηρητής μονών διανομών με ID %d δεν προστέθηκε στη συλλογή παρατηρητών</resstr>
+    <resstr name="sObserverNotAvailable" origstr="Observer ist nicht verfügbar">Ο Observer δεν είναι διαθέσιμος</resstr>
+    <resstr name="sObserverUnsupported" origstr="Observer wird nicht unterstützt">Ο Observer δεν υποστηρίζεται</resstr>
+    <resstr name="SParameterCountExceeded" origstr="Parameteranzahl überschritten">Ξεπεράστηκε ο αριθμός παραμέτρων</resstr>
+    <resstr name="SParameterCountMismatch" origstr="Parameteranzahl stimmt nicht überein">Λανθασμένη αντιστοιχία κατά τη μέτρηση παραμέτρων</resstr>
+    <resstr name="SParamIsNegative" origstr="Parameter %s darf kein negativer Wert sein">Η παράμετρος %s δεν μπορεί να είναι αρνητική τιμή</resstr>
+    <resstr name="SParamIsNil" origstr="Parameter %s darf nicht Nil sein">Η παράμετρος %s δεν μπορεί να είναι nil</resstr>
+    <resstr name="SPropertyException" origstr="Fehler beim Lesen von %s%s%s: %s">Σφάλμα ανάγνωσης %s%s%s: %s</resstr>
+    <resstr name="SReadError" origstr="Stream-Lesefehler">Σφάλμα ανάγνωσης ρεύματος</resstr>
+    <resstr name="SReadOnlyProperty" origstr="Eigenschaft kann nur gelesen werden">Η ιδιότητα είναι μόνο για ανάγνωση</resstr>
+    <resstr name="SRegGetDataFailed" origstr="Fehler beim Holen der Daten für '%s'">Αποτυχία απόκτησης δεδομένων για '%s'</resstr>
+    <resstr name="SRegSetDataFailed" origstr="Fehler beim Setzen der Daten für '%s'">Αποτυχία ορισμού δεδομένων για '%s'</resstr>
+    <resstr name="SResNotFound" origstr="Ressource %s nicht gefunden">Ο πόρος %s δεν βρέθηκε</resstr>
+    <resstr name="SSeekNotImplemented" origstr="%s.Seek nicht implementiert">%s. Η αναζήτηση δεν είναι υλοποιημένη</resstr>
+    <resstr name="SSortedListError" origstr="Operation für sortierte Listen nicht zulässig">Η λειτουργία δεν επιτρέπεται σε ταξινομημένη λίστα</resstr>
+    <resstr name="SSPVersionStr" origstr="%s Service Pack %4:d (Version %1:d.%2:d, Build %3:d, %5:s)">%s Service Pack %4:d (Version %1:d.%2:d, Build %3:d, %5:s)</resstr>
+    <resstr name="SThreadCreateError" origstr="Fehler beim Erzeugen des Thread: %s">Σφάλμα δημιουργίας νήματος: %s</resstr>
+    <resstr name="SThreadError" origstr="Thread-Fehler: %s (%d)">Σφάλμα νήματος: %s (%d)</resstr>
+    <resstr name="SThreadExternalTerminate" origstr="Ein extern erstellter Thread kann nicht beendet werden">Αδυναμία τερματισμού νήματος που δημιουργήθηκε εξωτερικά</resstr>
+    <resstr name="SThreadExternalWait" origstr="Auf einen extern erstellten Thread kann nicht gewartet werden">Αδυναμία αναμονής νήματος που δημιουργήθηκε εξωτερικά</resstr>
+    <resstr name="SThreadStartError" origstr="Start kann für einen laufenden oder unterbrochenen Thread nicht aufgerufen werden">Αδυναμία κλήσης της Start σε τρεχούμενο ή υπό αναστολή νήμα</resstr>
+    <resstr name="STimeEncodeError" origstr="Ungültiges Argument zum Codieren der Uhrzeit">Μη έγκυρη παράμετρος στην κωδικοποίηση χρόνου</resstr>
+    <resstr name="sTimespanTooLong" origstr="TimeSpan zu lang">Το χρονικό εύρος είναι πολύ μεγάλο</resstr>
+    <resstr name="sTimespanValueCannotBeNan" origstr="Wert darf nicht NaN">Η τιμή δε μπορεί να είναι NaN</resstr>
+    <resstr name="SUnbalancedOperation" origstr="Stack- oder Warteschlangenoperation nicht abgeschlossen">Μη ισορροπημένος σωρός ή λειτουργία ουράς</resstr>
+    <resstr name="SUnknownGroup" origstr="%s befindet sich nicht in einer Gruppe für Klassenregistrierungen">Το %s δεν βρίσκεται σε γκρουπ καταχώρησης κλάσης</resstr>
+    <resstr name="SUnknownProperty" origstr="Eigenschaft %s existiert nicht">Η ιδιότητα %s δεν υπάρχει</resstr>
+    <resstr name="SVersion32" origstr="32-Bit-Edition">Έκδοση 32-bit</resstr>
+    <resstr name="SVersion64" origstr="64-Bit-Edition">Έκδοση 64-bit</resstr>
+    <resstr name="SVersionStr" origstr="%s (Version %d.%d, Build %d, %5:s)">%s (Έκδοση %d.%d, Build %d, %5:s)</resstr>
+    <resstr name="SWindows" origstr="Windows">Windows</resstr>
+    <resstr name="SWindows2000" origstr="Windows 2000">Windows 2000</resstr>
+    <resstr name="SWindows7" origstr="Windows 7">Windows 7</resstr>
+    <resstr name="SWindows8" origstr="Windows 8">Windows 8</resstr>
+    <resstr name="SWindowsServer2003" origstr="Windows Server 2003">Windows Server 2003</resstr>
+    <resstr name="SWindowsServer2003R2" origstr="Windows Server 2003 R2">Windows Server 2003 R2</resstr>
+    <resstr name="SWindowsServer2008" origstr="Windows Server 2008">Windows Server 2008</resstr>
+    <resstr name="SWindowsServer2008R2" origstr="Windows Server 2008 R2">Windows Server 2008 R2</resstr>
+    <resstr name="SWindowsServer2012" origstr="Windows Server 2012">Windows Server 2012</resstr>
+    <resstr name="SWindowsVista" origstr="Windows Vista">Windows Vista</resstr>
+    <resstr name="SWindowsXP" origstr="Windows XP">Windows XP</resstr>
+    <resstr name="SWriteError" origstr="Stream-Schreibfehler">Σφάλμα εγγραφής ρεύματος</resstr>
+  </unit>
+  <unit name="System.SysConst">
+    <resstr name="SAbstractError" origstr="Abstrakter Fehler">Γενικό Σφάλμα</resstr>
+    <resstr name="SAccessDenied" origstr="Dateizugriff verweigert">Η πρόσβαση στο αρχείο δεν είναι δυνατή</resstr>
+    <resstr name="SAccessViolationArg3" origstr="Zugriffsverletzung bei Adresse %p. %s von Adresse %p">Παραβίαση πρόσβασης στην διεύθυνση %p. %s της διεύθυνσης %p</resstr>
+    <resstr name="SAccessViolationNoArg" origstr="Zugriffsverletzung">Παραβίαση πρόσβασης</resstr>
+    <resstr name="SArgumentMissing" origstr="Kein Argument für Format '%s'">Καμία παράμετρος για τη μορφή '%s'</resstr>
+    <resstr name="SAssertError" origstr="%s (%s, Zeile %d)">%s (%s, γραμμή %d)</resstr>
+    <resstr name="SAssertionFailed" origstr="Auswertung von assert fehlgeschlagen">Αποτυχία υπόθεσης</resstr>
+    <resstr name="SByteIndexOutOfBounds" origstr="Startindex außerhalb des gültigen Bereichs (%d)">Αρχικός δείκτης εκτός ορίων (%d)</resstr>
+    <resstr name="SCharIndexOutOfBounds" origstr="Zeichenindex außerhalb des gültigen Bereichs (%d)">Δείκτης χαρακτήρων εκτός ορίων (%d)</resstr>
+    <resstr name="SControlC" origstr="Strg+C gedrückt">Πληκτρολογήθηκε Control-C</resstr>
+    <resstr name="SDateEncodeError" origstr="Ungültiges Argument zum Codieren des Datums">Μη έγκυρη παράμετρος στην κωδικοποίηση ημερομηνίας</resstr>
+    <resstr name="SDiskFull" origstr="Zu wenig Speicherplatz">Ο δίσκος είναι γεμάτος</resstr>
+    <resstr name="SDispatchError" origstr="Variant-Methodenaufruf nicht unterstützt">Κλήσεις μεθόδων μεταβλητών δεν είναι επιτρεπτές</resstr>
+    <resstr name="SDivByZero" origstr="Division durch Null">Διαίρεση με το μηδέν</resstr>
+    <resstr name="SEndOfFile" origstr="Versuch hinter dem Dateiende zu lesen">Ανάγνωση πέρα από το τέλος του αρχείου</resstr>
+    <resstr name="SException" origstr="Exception %s in Modul %s bei %p.&#xA;%s%s&#xA;">Εξαίρεση %s στη μονάδα %s στη %p.
+%s%s
+</resstr>
+    <resstr name="SExceptTitle" origstr="Anwendungsfehler">Σφάλμα εφαρμογής</resstr>
+    <resstr name="SExternalException" origstr="Externe Exception %x">Εξωτερική εξαίρεση %x</resstr>
+    <resstr name="SInOutError" origstr="E/A-Fehler %d">Σφάλμα Ε/Ε %d</resstr>
+    <resstr name="SIntfCastError" origstr="Interface nicht unterstützt">Η διεπαφή δεν υποστηρίζεται</resstr>
+    <resstr name="SIntOverflow" origstr="Integerüberlauf">Υπερχείλιση ακέραιου</resstr>
+    <resstr name="SInvalidCast" origstr="Ungültige Typumwandlung">Μη έγκυρη μετατροπή τύπου κλάσης</resstr>
+    <resstr name="SInvalidCharCount" origstr="Ungültige Anzahl (%d)">Λανθασμένη αρίθμηση (%d)</resstr>
+    <resstr name="SInvalidCodePage" origstr="Ungültige Codeseite">Λανθασμένος κωδικός σελίδας</resstr>
+    <resstr name="SInvalidDestinationArray" origstr="Ungültiges Ziel-Array">Λανθασμένος προορισμός πίνακα</resstr>
+    <resstr name="SInvalidDestinationIndex" origstr="Ungültiger Zielindex (%d)">Λανθασμένος προορισμός δείκτη (%d)</resstr>
+    <resstr name="SInvalidFloat" origstr="'%s' ist kein gültiger Gleitkommawert">Η '%s' δεν είναι έγκυρη τιμή κινητής υποδιαστολής</resstr>
+    <resstr name="SInvalidFormat" origstr="Format '%s' ungültig oder nicht kompatibel mit Argument">Η μορφή '%s' δεν είναι έγκυρη ή είναι ασύμβατη με παράμετρο</resstr>
+    <resstr name="SInvalidGUID" origstr="'%s' kein gültiger Wert für GUID">Το '%s' δεν είναι έγκυρη GUID τιμή</resstr>
+    <resstr name="SInvalidInput" origstr="Ungültige numerische Eingabe">Μη έγκυρη αριθμητική είσοδος</resstr>
+    <resstr name="SInvalidInteger" origstr="'%s' ist kein gültiger Integerwert">Το '%s' δεν είναι έγκυρη τιμή ακεραίου</resstr>
+    <resstr name="SInvalidOp" origstr="Ungültige Gleitkommaoperation">Μη έγκυρη λειτουργία κινητής υποδιαστολής</resstr>
+    <resstr name="SInvalidPointer" origstr="Ungültige Zeigeroperation">Μη έγκυρη λειτουργία δείκτη</resstr>
+    <resstr name="SInvalidSourceArray" origstr="Ungültiges Quell-Array">Λανθασμένος πίνακας-πηγή</resstr>
+    <resstr name="SInvalidTimeStamp" origstr="'%d.%d' ist kein gültiger Zeitstempel">Το '%d.%d' δεν είναι έγκυρο  timestamp</resstr>
+    <resstr name="SInvalidVarCast" origstr="Ungültige Varianten-Typumwandlung">Μη έγκυρη τροποποίηση τύπου μεταβλητής</resstr>
+    <resstr name="SInvalidVarNullOp" origstr="Ungültige NULL-Variantenoperation">Μη έγκυρη λειτουργία μεταβλητής NULL</resstr>
+    <resstr name="SInvalidVarOp" origstr="Ungültige Variantenoperation">Μη έγκυρη λειτουργία μεταβλητής</resstr>
+    <resstr name="SInvalidVarOpWithHResultWithPrefix" origstr="Ungültige Variantenoperation (%s%.8x)&#xA;%s">Μη έγκυρη λειτουργία μεταβλητής  (%s%.8x)
+%s</resstr>
+    <resstr name="SLongDayNameFri" origstr="Freitag">Παρασκευή</resstr>
+    <resstr name="SLongDayNameMon" origstr="Montag">Δευτέρα</resstr>
+    <resstr name="SLongDayNameSat" origstr="Samstag">Σάββατο</resstr>
+    <resstr name="SLongDayNameSun" origstr="Sonntag">Κυριακή</resstr>
+    <resstr name="SLongDayNameThu" origstr="Donnerstag">Πέμπτη</resstr>
+    <resstr name="SLongDayNameTue" origstr="Dienstag">Τρίτη</resstr>
+    <resstr name="SLongDayNameWed" origstr="Mittwoch">Τετάρτη</resstr>
+    <resstr name="SLongMonthNameApr" origstr="April">Απρίλιος</resstr>
+    <resstr name="SLongMonthNameAug" origstr="August">Αύγουστος</resstr>
+    <resstr name="SLongMonthNameDec" origstr="Dezember">Δεκέμβριος</resstr>
+    <resstr name="SLongMonthNameFeb" origstr="Februar">Φεβρουάριος</resstr>
+    <resstr name="SLongMonthNameJan" origstr="Januar">Ιανουάριος</resstr>
+    <resstr name="SLongMonthNameJul" origstr="Juli">Ιούλιος</resstr>
+    <resstr name="SLongMonthNameJun" origstr="Juni">Ιούνιος</resstr>
+    <resstr name="SLongMonthNameMar" origstr="März">Μάρτιος</resstr>
+    <resstr name="SLongMonthNameMay" origstr="Mai">Μάι</resstr>
+    <resstr name="SLongMonthNameNov" origstr="November">Νοέμβριος</resstr>
+    <resstr name="SLongMonthNameOct" origstr="Oktober">Οκτώβριος</resstr>
+    <resstr name="SLongMonthNameSep" origstr="September">Σεπτέμβριος</resstr>
+    <resstr name="SModuleAccessViolation" origstr="Zugriffsverletzung bei Adresse %p in Modul '%s'. %s von Adresse %p">Παραβίαση πρόσβασης στη διέθυνση %p στη μονάδα '%s'. %s της διεύθυνσης %p</resstr>
+    <resstr name="SMonitorLockException" origstr="Kein Eigentümer der Objektsperre">Κλειδαριά αντικειμένου χωρίς ιδιοκτησία</resstr>
+    <resstr name="SNoMonitorSupportException" origstr="Unterstützungsfunktion für Monitor nicht initialisiert">Η λειτουργία υποστήριξης οθόνης δεν έχει ενεργοποιηθεί</resstr>
+    <resstr name="SNotImplemented" origstr="Feature nicht implementiert">Το χαρακτηριστικό δεν έχει υλοποιηθεί</resstr>
+    <resstr name="SOperationAborted" origstr="Operation abgebrochen">Η εργασία διακόπηκε</resstr>
+    <resstr name="SOSError" origstr="Systemfehler.  Code: %d.&#xA;%s%s">Σφάλμα συστήματος. Κωδικός: %d.
+%s%s</resstr>
+    <resstr name="SOutOfMemory" origstr="Zu wenig Arbeitsspeicher">Η μνήμη εξαντλήθηκε</resstr>
+    <resstr name="SOverflow" origstr="Gleitkommaüberlauf">Υπερχείλιση αριθμού κινητής υποδιαστολής</resstr>
+    <resstr name="SPrivilege" origstr="Privilegierte Anweisung">Προνομιούχα οδηγία</resstr>
+    <resstr name="SRangeError" origstr="Fehler bei Bereichsprüfung">Σφάλμα ελέγχου εύρους</resstr>
+    <resstr name="SReadAccess" origstr="Lesen">Ανάγνωση</resstr>
+    <resstr name="SSafecallException" origstr="Exception in safecall-Methode">Εξαίρεση σε safecall μέθοδο</resstr>
+    <resstr name="SShortDayNameFri" origstr="Fr">Παρ</resstr>
+    <resstr name="SShortDayNameMon" origstr="Mo">Δευ</resstr>
+    <resstr name="SShortDayNameSat" origstr="Sa">Σαβ</resstr>
+    <resstr name="SShortDayNameSun" origstr="So">Κυρ</resstr>
+    <resstr name="SShortDayNameThu" origstr="Do">Πεμ</resstr>
+    <resstr name="SShortDayNameTue" origstr="Di">Τρι</resstr>
+    <resstr name="SShortDayNameWed" origstr="Mi">Τετ</resstr>
+    <resstr name="SShortMonthNameApr" origstr="Apr">Απρ</resstr>
+    <resstr name="SShortMonthNameAug" origstr="Aug">Αυγ</resstr>
+    <resstr name="SShortMonthNameDec" origstr="Dez">Δεκ</resstr>
+    <resstr name="SShortMonthNameFeb" origstr="Feb">Φεβ</resstr>
+    <resstr name="SShortMonthNameJan" origstr="Jan">Ιαν</resstr>
+    <resstr name="SShortMonthNameJul" origstr="Jul">Ιουν</resstr>
+    <resstr name="SShortMonthNameJun" origstr="Jun">Ιουλ</resstr>
+    <resstr name="SShortMonthNameMar" origstr="Mär">Μάρ</resstr>
+    <resstr name="SShortMonthNameMay" origstr="Mai">Μάι</resstr>
+    <resstr name="SShortMonthNameNov" origstr="Nov">Νοέ</resstr>
+    <resstr name="SShortMonthNameOct" origstr="Okt">Οκτ</resstr>
+    <resstr name="SShortMonthNameSep" origstr="Sep">Σεπ</resstr>
+    <resstr name="SStackOverflow" origstr="Stack-Überlauf">Υπερχείλιση στοίβας</resstr>
+    <resstr name="STooManyOpenFiles" origstr="Zu viele geöffnete Dateien">Πολλά ανοιγμένα αρχεία</resstr>
+    <resstr name="SUnderflow" origstr="Gleitkommaunterlauf">Υποχείλιση αριθμού κινητής υποδιαστολής</resstr>
+    <resstr name="SUnkOSError" origstr="Ein Aufruf einer Betriebssystemfunktion ist fehlgeschlagen">Μια κλήση σε λειτουργία του ΛΣ απέτυχε</resstr>
+    <resstr name="SVarArrayBounds" origstr="Variante oder sicheres Array-Index außerhalb des gültigen Bereichs">Δείκτης μεταβλητής ή ασφαλούς πίνακα εκτός ορίου</resstr>
+    <resstr name="SVarArrayCreate" origstr="Fehler beim Erzeugen von Variante oder sicherem Array">Σφάλμα κατά την δημιουργία μεταβλητής ή ασφαλούς πίνακα</resstr>
+    <resstr name="SVarArrayLocked" origstr="Variante oder sicheres Array ist gesperrt">Η μεταβλητή ή ο ασφαλής πίνακας είναι κλειδωμένα</resstr>
+    <resstr name="SVarBadType" origstr="Ungültiger Variant-Typ">Μη έγκυρος τύπος μεταβλητής</resstr>
+    <resstr name="SVarInvalid" origstr="Ungültiges Argument">Μη έγκυρη παράμετρος</resstr>
+    <resstr name="SVarNotImplemented" origstr="Operation nicht unterstützt">Η λειτουργία δεν υποστηρίζεται</resstr>
+    <resstr name="SVarOverflow" origstr="Variant-Überlauf">Υπερχείλιση μεταβλητής</resstr>
+    <resstr name="SVarTypeConvertOverflow" origstr="Überlauf bei der Konvertierung einer Variante vom Typ (%s) in Typ (%s)">Συνέβη υπερχείλιση κατά τη μετροπή μεταβλητής τύπου (%s) σε τύπο (%s)</resstr>
+    <resstr name="SVarTypeCouldNotConvert" origstr="Variante des Typs (%s) konnte nicht in Typ (%s) konvertiert werden">Αδυναμία μετατροπής μεταβλητής τύπου (%s) σε τύπο (%s)</resstr>
+    <resstr name="SVarUnexpected" origstr="Unerwarteter Variant-Fehler">Μη αναμενόμενο σφάλμα μεταβλητής</resstr>
+    <resstr name="SWriteAccess" origstr="Schreiben">Εγγραφή</resstr>
+    <resstr name="SZeroDivide" origstr="Gleitkommadivision durch Null">Διαίρεση αριθμού κινητής υποδιαστολής με το μηδέν</resstr>
+  </unit>
+  <unit name="System.Win.ComConst">
+    <resstr name="SNoMethod" origstr="Die Methode '%s' wird vom Automatisierungsobjekt nicht unterstützt">Η μέθοδος '%s' δεν υποστηρίζεται από το αντικείμενο αυτοματοποίησης</resstr>
+    <resstr name="SOleError" origstr="OLE-Fehler %.8x">OLE σφάλμα %.8x</resstr>
+    <resstr name="STooManyParams" origstr="Dispatch-Methoden unterstützen maximal 64 Parameter.">Οι μέθοδοι αποστολής δεν υποστηρίζουν παραπάνω από 64 παραμέτρους</resstr>
+    <resstr name="SVarNotObject" origstr="Variante referenziert kein Automatisierungsobjekt">Η μεταβλητή δεν κάνει αναφορά σε αντικείμενο αυτοματοποίησης</resstr>
+  </unit>
+  <unit name="TB2Consts">
+    <resstr name="STBChevronItemMoreButtonsHint" origstr="More Buttons|">Περισσότερα κουμπιά</resstr>
+    <resstr name="STBDockCannotChangePosition" origstr="Cannot change Position of a TTBDock if it already contains controls">Η θέση ενός TTBDock δεν μπορεί να αλλαχθεί εάν ήδη περιέχει λειτουργίες</resstr>
+    <resstr name="STBDockParentNotAllowed" origstr="A TTBDock control cannot be placed inside a tool window or another TTBDock">Ένας χειριστής TTBDock δεν μπορεί να τοποθετηθεί μέσα σε ένα παράθυρο εργαλείων ή σε άλλο TTBDock</resstr>
+    <resstr name="STBMDIWindowItemDefCaption" origstr="(Window List)">(Λίστα παραθύρων)</resstr>
+    <resstr name="STBToolbarIndexOutOfBounds" origstr="Toolbar item index out of range">Ο δείκτης του αντικειμένου εργαλειοθήκης είναι εκτός εύρους</resstr>
+    <resstr name="STBToolbarItemReinserted" origstr="Toolbar item already inserted">Το αντικείμενο εργαλειοθήκης έχει ήδη προστεθεί</resstr>
+    <resstr name="STBToolwinDockedToNameNotSet" origstr="Cannot save dockable window's position because DockedTo's Name property not set">Η θέση του συνδεδεμένου παραθύρου δε μπορεί να αποθηκευτεί επειδή το όνομα της ιδιότητας DockedTo δεν έχει ρυθμιστεί</resstr>
+    <resstr name="STBViewerNotFound" origstr="An item viewer associated the specified item could not be found">Ένας προβολέας αντικειμένου συσχετιζόμενος με το καθορισμένο αντικείμενο δεν βρέθηκε</resstr>
+  </unit>
+  <unit name="TBXToolPals">
+    <resstr name="STBXNameAqua" origstr="Aqua">Aqua</resstr>
+    <resstr name="STBXNameBlack" origstr="Black">Μαύρο</resstr>
+    <resstr name="STBXNameBlue" origstr="Blue">Μπλε</resstr>
+    <resstr name="STBXNameBlueGray" origstr="Blue-Gray">Μπλε-Γκρι</resstr>
+    <resstr name="STBXNameBrightGreen" origstr="Bright Green">Ανοικτό Πράσινο</resstr>
+    <resstr name="STBXNameBrown" origstr="Brown">Καφέ</resstr>
+    <resstr name="STBXNameDarkBlue" origstr="Dark Blue">Σκοτεινό Μπλε</resstr>
+    <resstr name="STBXNameDarkGreen" origstr="Dark Green">Σκοτεινό Πράσινο</resstr>
+    <resstr name="STBXNameDarkRed" origstr="Dark Red">Σκοτεινό Κόκκινο</resstr>
+    <resstr name="STBXNameDarkTeal" origstr="Dark Teal">Σκοτεινό Tιλ</resstr>
+    <resstr name="STBXNameDarkYellow" origstr="Dark Yellow">Σκοτεινό Κίτρινο</resstr>
+    <resstr name="STBXNameGold" origstr="Gold">Χρυσό</resstr>
+    <resstr name="STBXNameGray25" origstr="Gray-25%">Γκρι-25%</resstr>
+    <resstr name="STBXNameGray40" origstr="Gray-40%">Γκρι-40%</resstr>
+    <resstr name="STBXNameGray50" origstr="Gray-50%">Γκρι-50%</resstr>
+    <resstr name="STBXNameGray80" origstr="Gray-80%">Γκρι-80%</resstr>
+    <resstr name="STBXNameGreen" origstr="Green">Πράσινο</resstr>
+    <resstr name="STBXNameIndigo" origstr="Indigo">Ίντιγκο</resstr>
+    <resstr name="STBXNameLavender" origstr="Lavender">Λεβάντα</resstr>
+    <resstr name="STBXNameLightBlue" origstr="Light Blue">Ανοικτό Μπλε</resstr>
+    <resstr name="STBXNameLightGreen" origstr="Light Green">Ανοικτό Πράσινο</resstr>
+    <resstr name="STBXNameLightOrange" origstr="Light Orange">Ανοικτό Πορτοκαλί</resstr>
+    <resstr name="STBXNameLightTurquoise" origstr="Light Turquoise">Ανοικτό Τουρκουάζ</resstr>
+    <resstr name="STBXNameLightYellow" origstr="Light Yellow">Ανοικτό Κίτρινο</resstr>
+    <resstr name="STBXNameLime" origstr="Lime">Λεμονί</resstr>
+    <resstr name="STBXNameNone" origstr="None">Κανένα</resstr>
+    <resstr name="STBXNameOliveGreen" origstr="Olive Green">Πράσινο Ελιάς</resstr>
+    <resstr name="STBXNameOrange" origstr="Orange">Πορτοκαλί</resstr>
+    <resstr name="STBXNamePaleBlue" origstr="Pale Blue">Ωχρό Μπλε</resstr>
+    <resstr name="STBXNamePink" origstr="Pink">Ροζ</resstr>
+    <resstr name="STBXNamePlum" origstr="Plum">Δαμασκηνί</resstr>
+    <resstr name="STBXNameRed" origstr="Red">Κόκκινο</resstr>
+    <resstr name="STBXNameRose" origstr="Rose">Τριανταφυλλί</resstr>
+    <resstr name="STBXNameSeaGreen" origstr="Sea Green">Πράσινο Θάλασσας</resstr>
+    <resstr name="STBXNameSkyBlue" origstr="Sky Blue">Μπλε Ουρανού</resstr>
+    <resstr name="STBXNameTan" origstr="Tan">Ταν (Ηλίου)</resstr>
+    <resstr name="STBXNameTeal" origstr="Teal">Τιλ</resstr>
+    <resstr name="STBXNameTurquoise" origstr="Turquoise">Τουρκουάζ</resstr>
+    <resstr name="STBXNameViolet" origstr="Violet">Βιολετί</resstr>
+    <resstr name="STBXNameWhite" origstr="White">Άσπρο</resstr>
+    <resstr name="STBXNameYellow" origstr="Yellow">Κίτρινο</resstr>
+  </unit>
+  <unit name="TextStringOptions">
+    <resstr name="SCharNotValidInTextencoding" origstr="Das Such- oder Ersetzungsmuster enthält Zeichen die die gewählte Textkodierung (%s) nicht darstellen kann">Η αναζήτηση ή το πρότυπο αντικατάστασης περιέχουν χαρακτήρες που η επιλεγμένη κωδικοποίηση κειμένου (%s) δεν μπορεί να αναπαραστήσει</resstr>
+    <resstr name="SEditorEncoding" origstr="(Editor-Kodierung)">(κωδικοποίηση του Editor)</resstr>
+    <resstr name="STextOptionsCaption" origstr="Text-String">Συμβολοσειρά κειμένου</resstr>
+  </unit>
+  <unit name="UpdateChecker">
+    <resstr name="SErrorGettingVersionInfo" origstr="Fehler beim Laden der Versionsinformationen!">Συνέβη ένα σφάλμα κατά τη φόρτωση των πληροφοριών έκδοσης!</resstr>
+    <resstr name="SGettingVersionInfo" origstr="Laden der Versionsinformationen...">Φόρτωση πληροφοριών έκδοσης...</resstr>
+    <resstr name="SNoNewVersionAvailable" origstr="Keine neue Version vorhanden!">Δεν υπάρχει νέα έκδοση διαθέσιμη!</resstr>
+  </unit>
+  <unit name="Vcl.ComStrs">
+    <resstr name="sInvalidComCtl32" origstr="Dieses Element benötigt COMCTL32.DLL in der Version 4.70 oder höher">Αυτός ο χειριστής απαιτεί έκδοση 4.70 ή μεγαλύτερη του COMCTL32.DLL</resstr>
+    <resstr name="sInvalidOwner" origstr="Ungültiger Besitzer">Μη έγκυρος ιδιοκτήτης</resstr>
+    <resstr name="sPageIndexError" origstr="%d ist ein ungültiger Wert für PageIndex.  PageIndex muss zwischen 0 und %d liegen">Το %d είναι μη έγκυρη PageIndex τιμή. Το PageIndex πρέπει να είναι ανάμεσα στο 0 και στο %d</resstr>
+    <resstr name="sRichEditInsertError" origstr="Fehler beim Einfügen einer Zeile in RichEdit">Σφάλμα προσθήκης RichEdit γραμμής</resstr>
+    <resstr name="sRichEditLoadFail" origstr="Stream konnte nicht geladen werden">Αποτυχία φόρτωσης του ρεύματος</resstr>
+    <resstr name="sRichEditSaveFail" origstr="Stream konnte nicht gespeichert werden">Αποτυχία αποθήκευσης του ρεύματος</resstr>
+    <resstr name="sTabFailClear" origstr="Registerelement konnte nicht geleert werden">Αποτυχία καθαρισμού του ελέγχου καρτέλας</resstr>
+    <resstr name="sTabFailDelete" origstr="Registerseite mit Index %d konnte nicht gelöscht werden">Αποτυχία διαγραφής καρτέλας στο δείκτη %d</resstr>
+    <resstr name="sTabFailGetObject" origstr="Objekt mit Index %d konnte nicht gelesen werden">Αποτυχία απόκτησης αντικειμένου στη διεύθυνση με δείκτη %d</resstr>
+    <resstr name="sTabFailRetrieve" origstr="Registerseite mit Index %d konnte nicht gelesen werden">Αποτυχία ανάκτησης καρτέλας στη διεύθυνση με δείκτη %d</resstr>
+    <resstr name="sTabFailSet" origstr="Registerseite  &quot;%s&quot; mit Index %d konnte nicht gesetzt werden">Αποτυχία τοποθέτησης καρτέλας στη διεύθυνση με δείκτη %d</resstr>
+    <resstr name="sTabFailSetObject" origstr="Objekt mit Index %d konnte nicht gesetzt werden">Αποτυχία τοποθέτησης αντικειμένου στη διεύθυνση με δείκτη %d</resstr>
+    <resstr name="sTabMustBeMultiLine" origstr="Für TabPosition tpLeft und tpRight muss MultiLine True sein">Το MultiLine πρέπει να είναι True όταν το TabPosition είναι tpLeft ή tpRight</resstr>
+  </unit>
+  <unit name="Vcl.Consts">
+    <resstr name="SAbortButton" origstr="Abbrechen">Ακύρωση</resstr>
+    <resstr name="SAllButton" origstr="&amp;Alle">Όλα</resstr>
+    <resstr name="SCancelButton" origstr="Abbrechen">Ακύρωση</resstr>
+    <resstr name="SCannotDragForm" origstr="Formulare können nicht gezogen werden">Το σύρσιμο φόρμας είναι αδύνατο</resstr>
+    <resstr name="SCannotFocus" origstr="Deaktiviertes oder unsichtbares Fenster kann den Fokus nicht erhalten">Η εστίαση σε αόρατο ή ανενεργό παράθυρο είναι αδύνατη</resstr>
+    <resstr name="SCannotOpenClipboard" origstr="Zwischenablage %s kann nicht geöffnet werden">Το clipboard δε μπορεί να ανοιχτεί: %s</resstr>
+    <resstr name="SCannotShowModal" origstr="Sichtbares Fenster kann nicht in modales geändert werden">Η τροποποίηση παραθύρου ως modal είναι αδύνατη</resstr>
+    <resstr name="SCantWriteResourceStreamError" origstr="In einen zum Lesen geöffneten Ressourcen-Stream kann nicht geschrieben werden">Αδυναμία εγγραφής σε "μόνο για ανάγνωση" ροή πόρων</resstr>
+    <resstr name="SChangeIconSize" origstr="Die Größe eines Symbols kann nicht geändert werden">Η αλλαγή μεγέθους των εικονιδίων είναι αδύνατη</resstr>
+    <resstr name="SChangeWicSize" origstr="Die Größe einer WIC-Grafik kann nicht verändert werden">Δε μπορεί να αλλαχτεί το μέγεθος μιας WIC εικόνας</resstr>
+    <resstr name="SCloseButton" origstr="&amp;Schließen">Κλείσιμο</resstr>
+    <resstr name="SColorBoxCustomCaption" origstr="Individuell...">Προσαρμοσμένο...</resstr>
+    <resstr name="SControlParentSetToSelf" origstr="Steuerelement kann nicht sich selbst als Vorfahr haben">Ένα εργαλείο δεν μπορεί να έχει τον εαυτό του ως γονέα.</resstr>
+    <resstr name="SDefaultFilter" origstr="Alle Dateien (*.*)|*.*">Όλα τα αρχεία (*.*)|*.*</resstr>
+    <resstr name="SDeviceOnPort" origstr="%s an %s">%s στο %s</resstr>
+    <resstr name="SDockedCtlNeedsName" origstr="Angedocktes Steuerelement muss einen Namen haben.">Το συνδεδεμένο εργαλείο πρέπει να έχει όνομα</resstr>
+    <resstr name="SDockTreeRemoveError" origstr="Fehler beim Entfernen des Steuerelements aus der Andock-Hierarchie">Σφάλμα κατά την αφαίρεση εργαλείου από το το δέντρο βάσης</resstr>
+    <resstr name="SDockZoneHasNoCtl" origstr=" - Andockzone enthält kein Steuerelement">- Η ζώνη βάσης δεν έχει χειριστή</resstr>
+    <resstr name="SDockZoneNotFound" origstr=" - Andockzone nicht gefunden">- Δεν βρέθηκε ζώνη βάσης</resstr>
+    <resstr name="SDockZoneVersionConflict" origstr="Fehler beim Laden der Andockzone aus dem Stream. Version %d erwartet, aber %d gefunden.">Σφάλμα κατά τη φόρτωση ζώνης σύνδεσης από το stream. Η αναμενώμενη έκδοση ήταν %d, αλλά βρέθηκε %d.</resstr>
+    <resstr name="SDomain" origstr="&amp;Domäne">Domain</resstr>
+    <resstr name="SDuplicateMenus" origstr="Menü '%s' wird bereits von einem anderen Formular verwendet">Το μενού '%s' χρησιμοποιείται ήδη από διαφορετική φόρμα</resstr>
+    <resstr name="SErrorSettingCount" origstr="Fehler beim Setzen von %s.Count">Συνέβη σφάλμα κατά την θέση %s.Count</resstr>
+    <resstr name="SGroupIndexTooLow" origstr="GroupIndex darf nicht kleiner sein als der GroupIndex eines vorherigen Menüelements">Το GroupIndex δεν μπορεί να είναι λιγότερο από το GroupIndex μιας επιλογής ενός προηγούμενου μενού</resstr>
+    <resstr name="SHelpButton" origstr="&amp;Hilfe">Βοήθεια</resstr>
+    <resstr name="SIconToClipboard" origstr="Zwischenablage unterstützt keine Symbole">Το πρόχειρο δεν υποστηρίζει Icons</resstr>
+    <resstr name="SIgnoreButton" origstr="&amp;Ignorieren">Παράβλεψη</resstr>
+    <resstr name="SImageCanvasNeedsBitmap" origstr="Ein Bild kann nur geändert werden, wenn es ein Bitmap enthält">Μια εικόνα μπορεί να τροποποιηθεί μόνο εάν περιέχει ένα bitmap</resstr>
+    <resstr name="SImageIndexError" origstr="Ungültiger ImageList-Index">Μη έγκυρος ImageList δείκτης</resstr>
+    <resstr name="SImageReadFail" origstr="ImageList-Daten konnten nicht aus dem Stream gelesen werden">Αποτυχία κατά την ανάγνωση ImageList δεδομένων από το ρεύμα</resstr>
+    <resstr name="SImageWriteFail" origstr="ImageList-Daten konnten nicht in den Stream geschrieben werden">Αποτυχία κατά την εγγραφή ImageList δεδομένων στο ρεύμα</resstr>
+    <resstr name="SInsertLineError" origstr="Zeile kann nicht eingefügt werden">Αδυναμία προσθήκης γραμμής</resstr>
+    <resstr name="SInvalidBitmap" origstr="Bitmap ist ungültig">Η εικόνα bitmap δεν είναι έγκυρη</resstr>
+    <resstr name="SInvalidClipFmt" origstr="Ungültiges Zwischenablagenformat">Μη έγκυρη μορφή προχείρου</resstr>
+    <resstr name="SInvalidIcon" origstr="Ungültiges Symbol">Η icon εικόνα δεν είναι έγκυρη</resstr>
+    <resstr name="SInvalidImage" origstr="Ungültiges Bild">Μη έγκυρη εικόνα</resstr>
+    <resstr name="SInvalidImageList" origstr="Ungültige Bilderliste">Μη έγκυρη ImageList</resstr>
+    <resstr name="SInvalidImageSize" origstr="Ungültige Bildgröße">Μη έγκυρο μέγεθος εικόνας</resstr>
+    <resstr name="SInvalidMemoSize" origstr="Text überschreitet Memo-Kapazität">Το κείμενο ξεπερνάει το μέγεθος υπομνήματος</resstr>
+    <resstr name="SInvalidMetafile" origstr="Metadatei ist ungültig">Μη έγκυρο metafile</resstr>
+    <resstr name="SInvalidPixelFormat" origstr="Ungültiges Pixel-Format">Μη έγκυρη μορφή pixel</resstr>
+    <resstr name="SInvalidPrinter" origstr="Ausgewählter Drucker ist ungültig">Ο επιλεγμένος εκτυπωτής δεν είναι έγκυρος</resstr>
+    <resstr name="SInvalidPrinterOp" origstr="Operation auf ausgewähltem Drucker nicht verfügbar">Η λειτουργία δεν υποστηρίζεται στον επιλεγμένο εκτυπωτή</resstr>
+    <resstr name="SInvalidTabPosition" origstr="Position des Registers ist nicht mit dem aktuellen Registerstil kompatibel">Η θέση της καρτέλας δεν υποστηρίζεται στο τρέχον στυλ καρτέλας</resstr>
+    <resstr name="SInvalidTabStyle" origstr="Registerstil ist nicht mit der aktuellen Position kompatibel">Το στυλ καρτέλας δεν υποστηρίζεται στην τρέχουσα θέση καρτέλας</resstr>
+    <resstr name="SInvalidTaskDlgButtonCaption" origstr="Caption darf nicht leer sein">Η επικεφαλίδα δε μπορεί να είναι άδεια</resstr>
+    <resstr name="SInvalidTextFormatFlag" origstr="Das Textformat-Flag '%s' wird nicht unterstützt">Το φορμάτ κειμένου flag '%s' δεν υποστηρίζεται</resstr>
+    <resstr name="SListBoxMustBeVirtual" origstr="Stil des Listenfeldes (%s) muss virtuell sein, damit Count gesetzt werden kann">Το στυλ του Listbox (%s) πρέπει να είναι εικονικό έτσι ώστε να καταχωρηθεί το Count</resstr>
+    <resstr name="SLogin" origstr="Anmelden">Σύνδεση</resstr>
+    <resstr name="SMDIChildNotVisible" origstr="Untergeordnetes MDI-Formular kann nicht verborgen werden">Η απόκρυψη μιας MDI φόρμας-παιδιού είναι αδύνατη</resstr>
+    <resstr name="SMenuIndexError" origstr="Menüindex außerhalb des zulässigen Bereichs">Ο δείκτης μενού είναι εκτός εύρους</resstr>
+    <resstr name="SMenuNotFound" origstr="Untermenü ist nicht im Menü">Το υπό-μενού δεν είναι μέσα στο μενού</resstr>
+    <resstr name="SMenuReinserted" origstr="Menü zweimal eingefügt">Το μενού τοποθετήθηκε δύο φορές</resstr>
+    <resstr name="SmkcAlt" origstr="Alt+">Alt+</resstr>
+    <resstr name="SmkcBkSp" origstr="Rück">BkSp</resstr>
+    <resstr name="SmkcCtrl" origstr="Strg+">Ctrl+</resstr>
+    <resstr name="SmkcDel" origstr="Entf">Del</resstr>
+    <resstr name="SmkcDown" origstr="Ab">Down</resstr>
+    <resstr name="SmkcEnd" origstr="Ende">End</resstr>
+    <resstr name="SmkcEnter" origstr="Eingabe">Enter</resstr>
+    <resstr name="SmkcEsc" origstr="Esc">Esc</resstr>
+    <resstr name="SmkcHome" origstr="Pos1">start</resstr>
+    <resstr name="SmkcIns" origstr="Einfg">Ins</resstr>
+    <resstr name="SmkcLeft" origstr="Links">Left</resstr>
+    <resstr name="SmkcPgDn" origstr="BildAb">PgDn</resstr>
+    <resstr name="SmkcPgUp" origstr="BildAuf">PgUp</resstr>
+    <resstr name="SmkcRight" origstr="Rechts">Right</resstr>
+    <resstr name="SmkcShift" origstr="Umsch+">Shift+</resstr>
+    <resstr name="SmkcSpace" origstr="Leer">Space</resstr>
+    <resstr name="SmkcTab" origstr="Tab">Tab</resstr>
+    <resstr name="SmkcUp" origstr="Auf">Up</resstr>
+    <resstr name="SMsgDlgAbort" origstr="&amp;Abbrechen">Διακοπή</resstr>
+    <resstr name="SMsgDlgAll" origstr="&amp;Alle">Όλα</resstr>
+    <resstr name="SMsgDlgCancel" origstr="Abbrechen">Ακύρωση</resstr>
+    <resstr name="SMsgDlgClose" origstr="S&amp;chließen">Κλείσιμο</resstr>
+    <resstr name="SMsgDlgConfirm" origstr="Bestätigen">Επιβεβαίωση</resstr>
+    <resstr name="SMsgDlgError" origstr="Fehler">Σφάλμα</resstr>
+    <resstr name="SMsgDlgHelp" origstr="&amp;Hilfe">Βοήθεια</resstr>
+    <resstr name="SMsgDlgIgnore" origstr="&amp;Ignorieren">Παράβλεψη</resstr>
+    <resstr name="SMsgDlgInformation" origstr="Informationen">Πληροφορίες</resstr>
+    <resstr name="SMsgDlgNo" origstr="&amp;Nein">Όχι</resstr>
+    <resstr name="SMsgDlgNoToAll" origstr="&amp;Alle Nein">Όχι σε όλα</resstr>
+    <resstr name="SMsgDlgOK" origstr="OK">ΟΚ</resstr>
+    <resstr name="SMsgDlgRetry" origstr="&amp;Wiederholen">Επανάληψη</resstr>
+    <resstr name="SMsgDlgWarning" origstr="Warnung">Προειδοποίηση</resstr>
+    <resstr name="SMsgDlgYes" origstr="&amp;Ja">Ναι</resstr>
+    <resstr name="SMsgDlgYesToAll" origstr="A&amp;lle Ja">Ναι σε όλα</resstr>
+    <resstr name="SName3DDkShadow" origstr="3D Dunkler Schatten">3D Σκοτεινή Σκίαση</resstr>
+    <resstr name="SName3DLight" origstr="3D Hell">3D Φως</resstr>
+    <resstr name="SNameActiveBorder" origstr="Aktiver Rahmen">Ενεργό Περιθώριο</resstr>
+    <resstr name="SNameActiveCaption" origstr="Aktive Titelleiste">Ενεργή Λεζάντα</resstr>
+    <resstr name="SNameAppWorkSpace" origstr="Arbeitsbereich">Χώρος εργασίας εφαρμογής</resstr>
+    <resstr name="SNameAqua" origstr="Aquamarin">Άκουα</resstr>
+    <resstr name="SNameBackground" origstr="Hintergrund">Φόντο</resstr>
+    <resstr name="SNameBlack" origstr="Schwarz">Μαύρο</resstr>
+    <resstr name="SNameBlue" origstr="Blau">Μπλε</resstr>
+    <resstr name="SNameBtnFace" origstr="Schaltflächenhintergrund">Όψη κουμπιού</resstr>
+    <resstr name="SNameBtnHighlight" origstr="Schaltflächenhervorhebung">Επισήμανση κουμπιού</resstr>
+    <resstr name="SNameBtnShadow" origstr="Schaltflächenschatten">Σκιά κουμπιού</resstr>
+    <resstr name="SNameBtnText" origstr="Schaltflächentext">Κείμενο κουμπιού</resstr>
+    <resstr name="SNameCaptionText" origstr="Titeltext">Κείμενο λεζάντας</resstr>
+    <resstr name="SNameCream" origstr="Creme">Κρεμ</resstr>
+    <resstr name="SNameDefault" origstr="Standard">Προεπιλεγμένο</resstr>
+    <resstr name="SNameFuchsia" origstr="Fuchsie">Φούξια</resstr>
+    <resstr name="SNameGradientActiveCaption" origstr="Verlauf Aktiver Titel">Gradient χρώμα ενεργού τίτλου</resstr>
+    <resstr name="SNameGradientInactiveCaption" origstr="Verlauf Inaktiver Titel">Gradient χρώμα ανενεργού τίτλου</resstr>
+    <resstr name="SNameGray" origstr="Grau">Γκρι</resstr>
+    <resstr name="SNameGrayText" origstr="Grauer Text">Γκρι κείμενο</resstr>
+    <resstr name="SNameGreen" origstr="Grün">Πράσινο</resstr>
+    <resstr name="SNameHighlight" origstr="Hervorgehobener Hintergrund">Επισήμανση φόντου</resstr>
+    <resstr name="SNameHighlightText" origstr="Hervorgehobener Text">Επισήμανση κειμένου</resstr>
+    <resstr name="SNameHotLight" origstr="Hell">Hot Light</resstr>
+    <resstr name="SNameInactiveBorder" origstr="Inaktiver Rahmen">Ανενεργό περιθώριο</resstr>
+    <resstr name="SNameInactiveCaption" origstr="Inaktiver Titel">Ανενεργή λεζάντα</resstr>
+    <resstr name="SNameInactiveCaptionText" origstr="Inaktiver Titeltext">Ανενεργό κείμενο λεζάντας</resstr>
+    <resstr name="SNameInfoBk" origstr="Info-Hintergrund">Πληροφορίες φόντου</resstr>
+    <resstr name="SNameInfoText" origstr="Info-Text">Πληροφορίες κειμένου</resstr>
+    <resstr name="SNameLime" origstr="Limone">Λάιμ</resstr>
+    <resstr name="SNameMaroon" origstr="Braun">Καστανό</resstr>
+    <resstr name="SNameMedGray" origstr="Mittelgrau">Μέτριο γκρι</resstr>
+    <resstr name="SNameMenu" origstr="Menühintergrund">Φόντο μενού</resstr>
+    <resstr name="SNameMenuBar" origstr="Menüleiste">Μπάρα Μενού</resstr>
+    <resstr name="SNameMenuHighlight" origstr="Hervorgehobenes Menü">Έμφαση Μενού</resstr>
+    <resstr name="SNameMenuText" origstr="Menütext">Κείμενο μενού</resstr>
+    <resstr name="SNameMoneyGreen" origstr="Dollargrün">Έντονο πράσινο</resstr>
+    <resstr name="SNameNavy" origstr="Dunkelblau">Έντονο μπλε</resstr>
+    <resstr name="SNameNone" origstr="Ohne">Κανένα</resstr>
+    <resstr name="SNameOlive" origstr="Olivgrün">Λαδί</resstr>
+    <resstr name="SNamePurple" origstr="Purpur">Μωβ</resstr>
+    <resstr name="SNameRed" origstr="Rot">Κόκκινο</resstr>
+    <resstr name="SNameScrollBar" origstr="Bildlaufleiste">Μπάρα κύλισης</resstr>
+    <resstr name="SNameSilver" origstr="Silber">Ασημί</resstr>
+    <resstr name="SNameSkyBlue" origstr="Himmelblau">Μπλε ουρανού</resstr>
+    <resstr name="SNameTeal" origstr="Grünblau">Κυπαρρισί</resstr>
+    <resstr name="SNameWhite" origstr="Weiß">Άσπρο</resstr>
+    <resstr name="SNameWindow" origstr="Fensterhintergrund">Φόντο παραθύρου</resstr>
+    <resstr name="SNameWindowFrame" origstr="Fensterrahmen">Πλαίσιο παραθύρου</resstr>
+    <resstr name="SNameWindowText" origstr="Fenstertext">Κείμενο Παραθύρου</resstr>
+    <resstr name="SNameYellow" origstr="Gelb">Κίτρινο</resstr>
+    <resstr name="SNoButton" origstr="&amp;Nein">Όχι</resstr>
+    <resstr name="SNoCanvasHandle" origstr="Canvas erlaubt kein Zeichnen">Ο καμβάς δεν επιτρέπει τον σχεδιασμό </resstr>
+    <resstr name="SNoDefaultPrinter" origstr="Aktuell ist kein Standarddrucker ausgewählt">Αυτή τη στιγμή δεν υπάρχει προεπιλεγμένος εκτυπωτής επιλεγμένος</resstr>
+    <resstr name="SNoGetItemEventHandler" origstr="Keine OnGetItem-Ereignisbehandlungsroutine zugewiesen">Κανένας OnGetItem χειριστής γεγονότος δεν έχει προσδιοριστεί</resstr>
+    <resstr name="SNoMDIForm" origstr="Formular kann nicht erstellt werden. Aktuell sind keine MDI-Formulare aktiv">Αδυναμία δημιουργίας φόρμας. Δεν υπάρχουν ενεργές MDI φόρμες</resstr>
+    <resstr name="SNoTimers" origstr="Nicht genügend Timer verfügbar">Δεν υπάρχουν αρκετοί χρονομετρητές διαθέσιμοι</resstr>
+    <resstr name="SNotPrinting" origstr="Der Drucker druckt aktuell nicht">Ο εκτυπωτής αυτή τη στιγμή δεν εκτυπώνει</resstr>
+    <resstr name="SOKButton" origstr="OK">ΟΚ</resstr>
+    <resstr name="SOleGraphic" origstr="Ungültige Operation für TOleGraphic">Μη έγκυρη ενέργεια στο TOleGraphic</resstr>
+    <resstr name="SOutOfRange" origstr="Wert muss zwischen %d und %d liegen">Η τιμή πρέπει να είναι μεταξύ των %d και %d</resstr>
+    <resstr name="SOutOfResources" origstr="Systemressourcen erschöpft">Οι πόροι του συστήματος είναι εξαντλημένοι</resstr>
+    <resstr name="SPageControlNotSet" origstr="PageControl muss zuerst zugewiesen werden">Το PageControl πρέπει πρώτα να αποδοθεί</resstr>
+    <resstr name="SParentGivenNotAParent" origstr="Das angegebene übergeordnete Element ist kein übergeordnetes Element von '%s'">Ο γονέας που δόθηκε δεν είναι γονέας του '%s'</resstr>
+    <resstr name="SParentRequired" origstr="Element '%s' hat kein übergeordnetes Fenster">Το εργαλείο '%s' δεν έχει παράθυρο γονέα</resstr>
+    <resstr name="SPassword" origstr="&amp;Passwort">Συνθηματικό</resstr>
+    <resstr name="SPrinterIndexError" origstr="Druckerindex außerhalb des zulässigen Bereichs">Ο δείκτης εκτυπωτή είναι εκτός ορίων</resstr>
+    <resstr name="SPrinting" origstr="Druckvorgang läuft">Η εκτύπωση βρίσκεται σε εξέλιξη</resstr>
+    <resstr name="SPromptArrayEmpty" origstr="Prompt-Array darf nicht leer sein">Ο πίνακας υπενθύμισης δεν πρέπει να είναι άδειος</resstr>
+    <resstr name="SPromptArrayTooShort" origstr="Länge des Werte-Arrays muss &gt;= der Länge des Prompt-Arrays sein">Το μήκος του πίνακα τιμών πρέπει να είναι &gt;= από το μέγεθος του πίνακα προτροπής</resstr>
+    <resstr name="SPropertyOutOfRange" origstr="Eigenschaft %s außerhalb des zulässigen Bereichs">Η ιδιότητα %s είναι εκτός εύρους</resstr>
+    <resstr name="SReplaceImage" origstr="Bild kann nicht ersetzt werden">Αδυναμία αντικατάστασης εικόνας</resstr>
+    <resstr name="SRetryButton" origstr="&amp;Wiederholen">Επανάληψη</resstr>
+    <resstr name="SScanLine" origstr="Bereichsüberschreitung bei Zeilenindex">Ο δείκτης της γραμμής σάρωσης είναι εκτός εύρους</resstr>
+    <resstr name="SScrollBarRange" origstr="Eigenschaft Scrollbar außerhalb des zulässigen Bereichs">Η τιμή για τη μπάρα κύλισης είναι εκτός εύρους</resstr>
+    <resstr name="SSeparator" origstr="Trennlinie">Διαχωριστής</resstr>
+    <resstr name="SStyleFeatureNotSupported" origstr="Funktion wird von diesem Stil nicht unterstützt">Το χαρακτηριστικό δεν υποστηρίζεται από αυτό το στυλ</resstr>
+    <resstr name="SStyleHookClassNotRegistered" origstr="Klasse '%s' ist für '%s' nicht registriert">Η κλάση '%s' δεν είναι καταχωρημένη για το '%s'</resstr>
+    <resstr name="SStyleHookClassRegistered" origstr="Klasse '%s' ist für '%s' bereits registriert">Η κλάση '%s' είναι ήδη καταχωρημένη για το '%s'</resstr>
+    <resstr name="SStyleInvalidParameter" origstr="Parameter %s darf nicht nil sein">Η παράμετρος %s δε μπορεί να είναι nil</resstr>
+    <resstr name="SStyleRegisterError" origstr="Stil '%s' bereits registriert">Το στυλ '%s' είναι ήδη δηλωμένο</resstr>
+    <resstr name="STaskDlgButtonCaption" origstr="Button%d">Κουμπί %d</resstr>
+    <resstr name="STaskDlgRadioButtonCaption" origstr="RadioButton%d">RadioButton%d</resstr>
+    <resstr name="STrayIconRemoveError" origstr="Shell-Benachrichtigungssymbol kann nicht entfernt werden">Αδυναμία αφαίρεσης του shell εικονιδίου ειδοποίησης</resstr>
+    <resstr name="SUnknownClipboardFormat" origstr="Nicht unterstütztes Zwischenablagenformat">Μη υποστηριζόμενη μορφή clipboard</resstr>
+    <resstr name="SUsername" origstr="&amp;Benutzername">Όνομα χρήστη</resstr>
+    <resstr name="SVBitmaps" origstr="Bitmaps">Bitmaps</resstr>
+    <resstr name="SVEnhMetafiles" origstr="Erweiterte Metadateien">Ενισχυμένα αρχεία meta</resstr>
+    <resstr name="SVIcons" origstr="Symbole">Εικονίδια</resstr>
+    <resstr name="SVisibleChanged" origstr="Eigenschaft Visible kann in OnShow oder OnHide nicht verändert werden">Το Visible δεν μπορεί να αλλαχθεί στο OnShow ή στο OnHide</resstr>
+    <resstr name="SVMetafiles" origstr="Metadateien">Αρχεία meta</resstr>
+    <resstr name="SVTIFFImages" origstr="TIFF-Grafiken">Εικόνες TIFF</resstr>
+    <resstr name="SWindowClass" origstr="Fehler beim Erzeugen einer Fensterklasse">Προκλήθηκε σφάλμα κατά τη δημιουργία κλάσης παραθύρου</resstr>
+    <resstr name="SWindowDCError" origstr="Fehler beim Erstellen des Fenster-Gerätekontexts">Προκλήθηκε σφάλμα κατά τη δημιουργία παραθύρου περιεχομένου συσκευής</resstr>
+    <resstr name="SWindowsVistaRequired" origstr="Für %s ist Windows Vista oder höher erforderlich">Το %s απαιτεί Windows Vista και πάνω</resstr>
+    <resstr name="SYesButton" origstr="&amp;Ja">Ναι</resstr>
+  </unit>
+  <unit name="Vcl.Imaging.pnglang">
+    <resstr name="EInvalidNewSize" origstr="Die neue Größe für die Größenanpassung des Bildes ist ungültig.">Το νέο μέγεθος που δώθηκε για την αλλαγή μεγέθους εικόνας είναι λανθασμένο.</resstr>
+    <resstr name="EPNGCannotAddChunkText" origstr="Das Programm versucht einen existierenden und notwendigen Abschnitt zum aktuellen Bild hinzuzufügen. Dies ist nicht zulässig.">Το πρόγραμμα προσπάθησε να προσθέσει ένα ήδη υπάρχων κομμάτι στην τρέχουσα εικόνα ενώ δεν επιτρέπεται.</resstr>
+    <resstr name="EPNGCannotAddInvalidImageText" origstr="Es ist nicht zulässig, einem ungültigen Bild einen neuen Abschnitt hinzuzufügen.">Δεν επιτρέπεται η προσθήκη νέων κομματιών επειδή η τρέχουσα εικόνα είναι λανθασμένη.</resstr>
+    <resstr name="EPNGCannotAssignChunkText" origstr="Die Abschnitte müssen kompatibel sein, damit sie zugewiesen werden können.">Τα κομμάτια πρέπει να είναι συμβατά για να ανατεθούν</resstr>
+    <resstr name="EPNGCannotChangeTransparentText" origstr="Das Setzen der Bit-Transparent-Farbe ist für PNG-Images die Alpha-Werte für jedes Pixel enthalten (COLOR_RGBALPHA und COLOR_GRAYSCALEALPHA) nicht zulässig">Δεν επιτρέπεται η ρύθμιση του bit χρώματος διαφάνειας για png εικόνες που περιέχουν alpha τιμές για κάθε πίξελ (COLOR_RGBALPHA και COLOR_GRAYSCALEALPHA)</resstr>
+    <resstr name="EPNGHeaderNotPresentText" origstr="Die Datei, die gelesen wird, ist kein gültiges &quot;Portable Network Graphics&quot; Bild, da es keinen gültigen Header enthält.">Αυτή η ενέργεια δεν είναι έγκυρη επειδή η τρέχουσα εικόνα δεν περιέχει έγκυρη κεφαλίδα.</resstr>
+    <resstr name="EPNGIHDRNotFirstText" origstr="Dieses &quot;Portable Network Graphics&quot; Bild wird nicht unterstützt oder ist ungültig.&#xA;(Der IHDR-Abschnitt ist nicht der erste Abschnitt in der Datei).">Αυτή η "Portable Network Graphics" εικόνα δεν υποστηρίζεται ή μπορεί να είναι λανθασμένη.
+(Το κομμάτι IHDR δεν είναι το πρώτο)</resstr>
+    <resstr name="EPngInvalidCRCText" origstr="Dieses &quot;Portable Network Graphics&quot; Bild ist ungültig, weil Teile der Daten fehlerhaft sind (CRC-Fehler)">Αυτή η "Portable Network Graphics" εικόνα δεν είναι έγκυρη επειδή περιλαμβάνει λανθασμένα κομμάτια δεδομένων(σφάλμα crc)</resstr>
+    <resstr name="EPNGInvalidFileHeaderText" origstr="Die gerade gelesene Datei ist kein gültiges PNG-Bild (&quot;Portable Network Graphics&quot;), weil sie keinen gültigen Header enthält. Diese Datei ist möglicherweise beschädigt. Versuchen Sie, eine neue Version davon zu bekommen">Το αρχείο προς ανάγνωση δεν είναι έγκυρη "Portable Network Graphics" εικόνα επειδή περιλαμβάνει λανθασμένη κεφαλίδα. Αυτό το αρχείο ενδέχεται να είναι κατεστραμμένο, γίνεται προσπάθεια επανάκτησης</resstr>
+    <resstr name="EPNGInvalidIHDRText" origstr="Dieses &quot;Portable Network Graphics&quot; Bild konnte nicht geladen werden, weil wahrscheinlich einer der Hauptdatenbreiche (IHDR) beschädigt ist">Η "Portable Network Graphics" εικόνα δε μπόρεσε να φορτωθεί επειδή ένα από τα βασικά κομμάτια δεδομένων (ihdr) ενδέχεται να είναι κατεστραμμένα</resstr>
+    <resstr name="EPNGInvalidPaletteText" origstr="Das &quot;Portable Network Graphics&quot; Bild enthält eine ungültige Palette.">Η "Portable Network Graphics" εικόνα περιέχει μη έγκυρη παλέτα.</resstr>
+    <resstr name="EPNGMissingMultipleIDATText" origstr="Dieses &quot;Portable Network Graphics&quot; Bild ist ungültig, weil Grafikdaten fehlen.">Αυτή η "Portable Network Graphics" εικόνα είναι λανθασμένη επειδή αγνοούνται κομμάτια της.</resstr>
+    <resstr name="EPNGNoImageDataText" origstr="Dieses &quot;Portable Network Graphics&quot; Bild enthält keine Daten.">Αυτή η "Portable Network Graphics" εικόνα δεν περιλαμβάνει δεδομένα.</resstr>
+    <resstr name="EPNGOutMemoryText" origstr="Es stehen nicht genügend Resourcen im System zur Verfügung, um die Operation auszuführen. Schließen Sie einige Fenster und versuchen Sie es erneut.">Δε μπόρεσε να εκτελεσθεί κάποια λειτουργία επειδή το σύστημα δε διαθέτει πόρους. Κλείστε μερικά παράθυρα και προσπαθήστε ξανά.</resstr>
+    <resstr name="EPNGSizeExceedsText" origstr="Dieses PNG-Bild (Portable Network Graphics) wird nicht unterstützt, weil die Breite oder Höhe die maximale Größe von 65535 Pixel überschreitet.">Αυτή η "Portable Network Graphics" εικόνα δεν υποστηρίζεται επειδή είτε το μήκος ή το ύψος ξεπερνά το μέγιστο μέγεθος των 65535 pixels.</resstr>
+    <resstr name="EPNGUnexpectedEndText" origstr="Dieses &quot;Portable Network Graphics&quot; Bild ist ungültig: Der Dekoder ist unerwartete auf das Ende der Datei gestoßen.">Αυτή η "Portable Network Graphics" είναι λανθασμένη καθώς ο αποκωδικοποιητής βρήκε ένα απρόσμενο τέλος του αρχείου.</resstr>
+    <resstr name="EPNGUnknownCompressionText" origstr="Dieses &quot;Portable Network Graphics&quot; Bild wurde mit einem unbekannten Komprimierungsalgorithmus kodiert, welcher nicht entschlüsselt werden kann.">Αυτή η "Portable Network Graphics" εικόνα είναι κωδικοποιημένη με ένα άγνωστο σχήμα συμπίεσης το οποίο δε μπορούσε να αποκωδικοποιηθεί.</resstr>
+    <resstr name="EPNGUnknownCriticalChunkText" origstr="Dieses &quot;Portable Network Graphics&quot; Bild enhält einen unbekannten aber notwendigen Teil, welcher nicht entschlüsselt werden kann.">Αυτή η "Portable Network Graphics" εικόνα περιλαμβάνει ένα άγνωστο και σημαντικό κομμάτι το οποίο δεν μπόρεσε να αποκωδικοποιηθεί.</resstr>
+    <resstr name="EPNGUnknownInterlaceText" origstr="Dieses &quot;Portable Network Graphics&quot; Bild benutzt ein unbekanntes Interlace-Schema, welches nicht entschlüsselt werden kann.">Αυτή η "Portable Network Graphics" εικόνα χρησιμοποιεί άγνωστο interlace scheme το οποίο δε μπόρεσε να αποκωδικοποιηθεί.</resstr>
+    <resstr name="EPNGUnknownPalEntryText" origstr="Es gibt keinen solchen Palettenwert.">Δεν υπάρχει αυτή η καταχώρηση παλέττας.</resstr>
+    <resstr name="EPNGZLIBErrorText" origstr="Die Grafik konnte nicht entpackt werden, weil Teile der komprimierten Daten fehlerhaft sind. &#xA;Beschreibung: ">Αδυναμία αποσυμπίεσης εικόνας επειδή περιλαμβάνει λανθασμένα συμπιεσμένα δεδομένα.
+Περιγραφή:</resstr>
+  </unit>
+  <unit name="VirtualTrees">
+    <resstr name="SClipboardFailed" origstr="Clipboard operation failed.">Η λειτουργία clipboard απέτυχε.</resstr>
+    <resstr name="SCorruptStream1" origstr="Stream data corrupt. A node's anchor chunk is missing.">Τα δεδομένα ροής είναι κατεστραμμένα. Αγνοείται μία άγκυρα κόμβου.</resstr>
+    <resstr name="SCorruptStream2" origstr="Stream data corrupt. Unexpected data after node's end position.">Τα δεδομένα ροής είναι κατεστραμμένα. Μη αναμενόμενα δεδομένα μετά την τελική θέση κόμβου.</resstr>
+    <resstr name="SStreamTooSmall" origstr="Unable to load tree structure, not enough data available.">Αδυναμία φόρτωσης δομής δέντρου, ανεπαρκή δεδομένα.</resstr>
+    <resstr name="SWrongMoveError" origstr="Target node cannot be a child node of the node to be moved.">Ο τελικός κόμβος δε μπορεί να είναι παιδί κόμβος του κόμβου προς μετακίνηση.</resstr>
+    <resstr name="SWrongStreamFormat" origstr="Unable to load tree structure, the format is wrong.">Αδυναμία φόρτωσης δομής δέντρου, η μορφοποίηση είναι λανθασμένη.</resstr>
+    <resstr name="SWrongStreamVersion" origstr="Unable to load tree structure, the version is unknown.">Αδυναμία φόρτωσης δομής δέντρου, άγνωση έκδοση.</resstr>
+  </unit>
+  <unit name="VTHeaderPopup">
+    <resstr name="sResizeToFit" origstr="&amp;Resize All Columns To Fit">Αλλαγή μεγέθους όλων των στηλών για ταίριασμα</resstr>
+  </unit>
+  <unit name="XmClipbrd">
+    <resstr name="SBufferAllocError" origstr="Fehler beim Reservieren des Zwischenablagen-Puffers">Συνέβη σφάλμα κατά την κατανομή του περιεχομένου του προχείρου</resstr>
+    <resstr name="SClipboardNotOpened" origstr="Die Zwischenablage muß geöffnet sein, bevor auf sie zugegriffen wird">Το πρόχειρο πρέπει να είναι ανοικτό πρωτού γίνει πρόσβαση.</resstr>
+  </unit>
+  <unit name="XmDetermineLangFromSettingsFile">
+    <resstr name="SErrorCaption" origstr="Fehler">Σφάλμα</resstr>
+  </unit>
+  <unit name="XmDialogs">
+    <resstr name="SDontShowErrorAgain" origstr="Diese Fehlermeldung in Zukunft unterlassen">Να μην προβληθεί ξανά αυτό το σφάλμα</resstr>
+    <resstr name="SDontShowInformationAgain" origstr="Diese Information in Zukunft nicht mehr anzeigen">Να μην προβληθούν ξανά αυτές οι πληροφορίες</resstr>
+    <resstr name="SDontShowMesssageAgain" origstr="Diese Nachricht in Zukunft nicht mehr anzeigen">Να μην προβληθεί ξανά αυτό το μήνυμα</resstr>
+    <resstr name="SDontShowQuestionAgain" origstr="Diese Frage in Zukunft nicht mehr stellen">Να μην ξαναγίνει αυτό το ερώτημα</resstr>
+    <resstr name="SDontShowWarningAgain" origstr="Diese Warnung in Zukunft nicht mehr anzeigen">Να μην προβληθεί ξανά αυτή η προειδοποίηση</resstr>
+  </unit>
+  <unit name="XmFileDialogs">
+    <resstr name="SOptionsButtonLabel" origstr="Optionen...">Επιλογές...</resstr>
+  </unit>
+  <unit name="XmForms">
+    <resstr name="SInvalidVersionInfo" origstr="Die Versionsinformation enthält nicht alle notwendigen Einträge oder existiert in mehr als einer Sprache.">Οι πληροφορίες έκδοσης δεν περιλαμβάνουν όλες τις απαραίτητες καταχωρήσεις ή υπάρχουν σε περισσότερες από μία γλώσσες.</resstr>
+    <resstr name="SXmAppInitBeforeUse" origstr="TXmApplication.Initialize muß aufgerufen werden bevor weitere Methoden aufgerufen oder Eigenschaften abgefragt werden.">Πρέπει να καλεστεί το TXmApplication.Initialize προτού καλεστούν περαιτέρω μέθοδοι ή ζητηθούν ιδιότητες.</resstr>
+  </unit>
+  <unit name="XmGeneral">
+    <resstr name="SBytes" origstr="Bytes">bytes</resstr>
+    <resstr name="SCannotDownloadFile" origstr="Die Datei &quot;%0:s&quot; konnte nicht heruntergeladen werden. HTTP-Statuscode: %1:s">Το αρχείο "%0:s'" δε μπόρεσε να κατέβει. Κωδικός κατάστασης HTTP: %1:s</resstr>
+    <resstr name="SDurationFormat" origstr="HH:mm:ss">HH:mm:ss</resstr>
+    <resstr name="SExBiBytes" origstr="EiB">EiB</resstr>
+    <resstr name="SFileNotFound" origstr="Die Datei &quot;%s&quot; konnte nicht gefunden werden.">Το αρχείο "%s" δε βρέθηκε.</resstr>
+    <resstr name="SGiBiBytes" origstr="GiB">GiB</resstr>
+    <resstr name="SInfiniteDuration" origstr="Unendlich lange">Υπερβολικά μεγάλο</resstr>
+    <resstr name="SKiBiBytes" origstr="KiB">KiB</resstr>
+    <resstr name="SMeBiBytes" origstr="MiB">MiB</resstr>
+    <resstr name="SPeBiBytes" origstr="PiB">PiB</resstr>
+    <resstr name="STeBiBytes" origstr="TiB">TiB</resstr>
+    <resstr name="STooManyFailedAuthenticationAttempts" origstr="Die Authentifizierung ist zu häufig fehlgeschlagen.">Η αυθεντικοποίηση απέτυχε πολλές φορές</resstr>
+  </unit>
+  <unit name="XmHexEdit">
+    <resstr name="SCannotPasteHex" origstr="Einfügen/Schreiben nicht möglich, da der Text in der Zwischenablage ungültige Hex-Werte enthält.&#xA;Falls Sie Text einfügen/schreiben möchten, wechseln Sie in die Textspalte">Η επικόλληση είναι αδύνατη, καθώς το κείμενο στο πρόχειρο περιέχει μη έγκυρες δεκαεξαδικές τιμές.
+Εάν επιθυμείτε να επικολλήσετε κείμενο, μετακινηθείτε στην στήλη κειμένου.</resstr>
+    <resstr name="SClpbrdContentDoesNotFit" origstr="Der Zwischenablageninhalt ist zu groß um an dieser Stelle eingefügt zu werden">Το περιεχόμενο του προχείρου είναι πολύ μεγάλο για να προστεθεί σε αυτό το σημείο</resstr>
+    <resstr name="SCopying" origstr="Kopieren...">Αντιγραφή...</resstr>
+    <resstr name="SErrCopyUndefinedData" origstr="Kopieren nicht möglich, da ein Teil der ausgewählten Daten undefiniert ist">Η αντιγραφή δεν είναι δυνατή, καθώς μέρος των δεδομένων δεν είναι ορισμένο</resstr>
+    <resstr name="SErrExportUndefinedData" origstr="Exportieren nicht möglich, da ein Teil der ausgewählten Daten undefiniert ist">Η εξαγωγή δεν είναι δυνατή, καθώς μέρος των επιλεγμένων δεδομένων δεν είναι ορισμένο</resstr>
+    <resstr name="SErrPasteIntoUndefinedData" origstr="Einfügen an dieser Position nicht möglich, da ein zu beschreibender Bereich geschützt oder nicht zugewiesen ist">Η τοποθέτηση σε αυτή τη θέση δεν είναι δυνατή, καθώς μια περιοχή που πρέπει να εγγραφεί είναι προστατευμένη ή μη ανατεθημένη</resstr>
+    <resstr name="SFilteredCopiedTextToClipboard" origstr="Der in die Zwischenablage kopierte Text wurde gefiltert. Er enthielt Nullzeichen (00h), die in der Windows-Zwischenablage als Textende interpretiert werden, und daher durch � ersetzt wurden.&#xA;&#xA;Diese Einschränkung gilt nur für den Austausch mit anderen Anwendungen, HxD verwendet intern automatisch eine eigene Zwischenablage, die nie etwas filtert.">Το κείμενο που αντιγράφτηκε στο πρόχειρο ήταν φιλτραρισμένο. Περιείχε null χαρακτήρες (00h), οι οποίοι διαβάζονται ως κείμενο τερματισμού από το πρόχειρο των Windows οπότε και αντικαταστήθηκαν με �.
+
+Αυτός ο περιορισμός επηρεάζει μόνο την ανταλλαγή με άλλες εφαρμογές, εσωτερικά το HxD χρησιμοποιεί το δικό του πρόχειρο το οποίο δε φιλτράρει ποτέ.</resstr>
+    <resstr name="SFilteredSelText" origstr="Der ausgewählte Text wurde gefiltert. Er enthielt Nullzeichen (00h), die in vielen Textfeldern als Textende interpretiert werden, und daher durch � ersetzt wurden.">Το επιλεγμένο κείμενο φιλτραρίστηκε. Περιείχε null χαρακτήρες (00h), οι οποίοι διαβάζονται ως χαρακτήρες τερματισμού από αρκετά πεδία κειμένου, οπότε και αντικαταστήθηκαν με �.</resstr>
+    <resstr name="SInvalidHexDigits" origstr="Der Text enthält ungültige hexadezimale Ziffern">Το κείμενο περιέχει μη έγκυρα δεκαεξαδικά ψηφία</resstr>
+    <resstr name="SNoHexDigits" origstr="Der Text muß mindestens eine hexadezimale Ziffer enthalten">Το κείμενο πρέπει να περιέχει τουλάχιστον ένα δεκαεξαδικό ψηφίο</resstr>
+    <resstr name="SPasting" origstr="Einfügen...">Επικόλληση...</resstr>
+    <resstr name="SSector" origstr="Sektor %t">Τομέας %t</resstr>
+    <resstr name="SSelLengthDoesNotFit" origstr="Der Zwischenablageninhalt paßt nicht in die Auswahl.&#xA;&#xA;Heben Sie die Auswahl auf (leere Auswahl) oder passen Sie die Auswahlgröße an">Το περιεχόμενο του προχείρου δεν ταιριάζει σε αυτή την επιλογή.
+
+Αποεπιλέξτε ή προσαρμόστε το μέγεθος του επιλεγμένου ώστε να ταιριάζει</resstr>
+    <resstr name="STopSector" origstr="Oberster Sektor: %t">Κορυφαίος τομέας: %t</resstr>
+  </unit>
+  <unit name="XmHexExporter">
+    <resstr name="S16BitIntelHexFileFilter" origstr="16 Bit Intel Hex (*.hex)|*.hex">16 Bit Intel Hex (*.hex)|*.hex</resstr>
+    <resstr name="S16BitIntelHexFormatName" origstr="16 Bit Intel Hex">16 Bit Intel Hex</resstr>
+    <resstr name="S20BitIntelHexFileFilter" origstr="20 Bit Intel Hex (*.hex)|*.hex">20 Bit Intel Hex (*.hex)|*.hex</resstr>
+    <resstr name="S20BitIntelHexFormatName" origstr="20 Bit Intel Hex">20 Bit Intel Hex</resstr>
+    <resstr name="S32BitIntelHexFileFilter" origstr="32 Bit Intel Hex (*.hex)|*.hex">32 Bit Intel Hex (*.hex)|*.hex</resstr>
+    <resstr name="S32BitIntelHexFormatName" origstr="32 Bit Intel Hex">32 Bit Intel Hex</resstr>
+    <resstr name="SAboveMaximumBlockSize" origstr="Die gewünschte Blockgröße (%0:d) wurde nicht gesetzt, da sie das erlaubte Maximum (%1:d) überschreitet.">Το επιθυμητό μέγεθος μπλοκ (%0:d) δεν ορίστηκε, επειδή ξεπερνά το μέγιστο επιτρεπτό (%1:d).</resstr>
+    <resstr name="SBelowMinimumBlockSize" origstr="Die gewünschte Blockgröße (%0:d) wurde nicht gesetzt, da sie das erlaubte Minimum (%1:d) unterschreitet.">Το επιθυμητό μέγεθος μπλοκ (%0:d) δεν ορίστηκε, επειδή παραμένει κάτω από το επιτρεπτό (%1:d).</resstr>
+    <resstr name="SCFileFilter" origstr="C Quellen (*.c)|*.c|C++ Quellen (*.cpp)|*.cpp">C αρχεία πηγής (*.c)|*.c|C++ αρχεία πηγής (*.cpp)|*.cpp</resstr>
+    <resstr name="SCFormatName" origstr="C">C</resstr>
+    <resstr name="SCSharpFileFilter" origstr="C# Quellen (*.cs)|*.cs">C# αρχεία πηγής (*.cs)|*.cs</resstr>
+    <resstr name="SCSharpFormatName" origstr="C#">C#</resstr>
+    <resstr name="SEncodingError" origstr="%s Kodierung wird vom %s-Exporter nicht unterstützt">Η %s κωδικοποίηση δεν υποστηρίζεται από τον %s-εξαγωγέα</resstr>
+    <resstr name="SEndOffset" origstr="EndeOffset">EndOffset</resstr>
+    <resstr name="SExporting" origstr="Exportieren...">Γίνεται εξαγωγή...</resstr>
+    <resstr name="SHTMLFileFilter" origstr="HTML Dokumente (*.htm;*.html)|*.htm;*.html">HTML έγγραφα (*.htm;*.html)|*.htm;*.html</resstr>
+    <resstr name="SHTMLFormatName" origstr="HTML">HTML</resstr>
+    <resstr name="SInvalidNewCapacity" origstr="NewCapacity muss &gt;= 0 sein">Το NewCapacity πρέπει να είναι &gt;= 0</resstr>
+    <resstr name="SJavaFileFilter" origstr="Java Quellen (*.java)|*.java">Αρχεία πηγής java (*.java)|*.java</resstr>
+    <resstr name="SJavaFormatName" origstr="Java">Java</resstr>
+    <resstr name="SLength" origstr="Länge">Μήκος</resstr>
+    <resstr name="SMaxHexDataFileSizeExceeded" origstr="Die maximale unterstüzte Dateigröße (%s) des &quot;%s&quot; Dateiformats wurde überschritten.&#xA;Wählen Sie ein anderes Format">Το μέγιστο υποστηριζόμενο μέγεθος αρχείου (%s) της μορφής αρχείου "%s" ξεπεράστηκε.
+Επιλέξτε διαφορετική μορφή</resstr>
+    <resstr name="SMaxSourceCodeFileSizeExceeded" origstr="Quelltext-Dateien dürfen eine Größe von 2GB nicht überschreiten">Αρχεία πηγαίου κώδικα δεν μπορούν να ξεπερνούν το μέγεθος των 2GB</resstr>
+    <resstr name="SPascalFileFilter" origstr="Pascal Units (*.pas)|*.pas|Include Dateien (*.inc)|*.inc">Pascal μονάδες (*.pas)|*.pas|Συμπερίληψη αρχείων (*.inc)|*.inc</resstr>
+    <resstr name="SPascalFormatName" origstr="Pascal">Pascal</resstr>
+    <resstr name="SPureBasic" origstr="PureBasic">PureBasic</resstr>
+    <resstr name="SPureBasicFileFilter" origstr="PureBasic Quellen (*.pb)|*.pb">PureBasic Sources (*.pb)|*.pb</resstr>
+    <resstr name="SRTFFileFilter" origstr="Rich Text Format (*.rtf)|*.rtf">Rich Text μορφή (*.rtf)|*.rtf</resstr>
+    <resstr name="SRTFFormatName" origstr="Rich Text Format">Rich Text μορφή</resstr>
+    <resstr name="SS19RecordsFileFilter" origstr="Motorola S19-Records (*.s19)|*.s19">Motorola S19-Records (*.s19)|*.s19</resstr>
+    <resstr name="SS19RecordsFormatName" origstr="Motorola S19-Records">Motorola S19-Records</resstr>
+    <resstr name="SS28RecordsFileFilter" origstr="Motorola S28-Records (*.s28)|*.s28">Motorola S28-Records (*.s28)|*.s28</resstr>
+    <resstr name="SS28RecordsFormatName" origstr="Motorola S28-Records">Motorola S28-Records</resstr>
+    <resstr name="SS37RecordsFileFilter" origstr="Motorola S37-Records (*.s37)|*.s37">Motorola S37-Records (*.s37)|*.s37</resstr>
+    <resstr name="SS37RecordsFormatName" origstr="Motorola S37-Records">Motorola S37-Records</resstr>
+    <resstr name="SStartOffset" origstr="StartOffset">StartOffset</resstr>
+    <resstr name="STeXFileFilter" origstr="TeX Dateien (*.tex)|*.tex">TeX αρχεία (*.tex)|*.tex</resstr>
+    <resstr name="STeXFormatName" origstr="TeX">TeX</resstr>
+    <resstr name="STextFileFilter" origstr="Text Dateien (*.txt)|*.txt">Αρχεία κειμένου (*.txt)|*.txt</resstr>
+    <resstr name="STextFormatName" origstr="Text">Κείμενο</resstr>
+    <resstr name="SVBNETFileFilter" origstr="Visual Basic .NET Module (*.vb)|*.vb">Visual Basic .NET modules (*.vb)|*.vb</resstr>
+    <resstr name="SVBNETFormatName" origstr="Visual Basic .NET">Visual Basic .NET</resstr>
+  </unit>
+  <unit name="XmHexImporter">
+    <resstr name="SChecksumMismatch" origstr="Checksum %0:.2x erwartet, aber %1:.2x gefunden.">Αναμενόταν το αθροιστικό checksum %0:.2x, αλλά βρέθηκε το %1:.2x.</resstr>
+    <resstr name="SETLExtendedFileFilter" origstr="ETL Extended Format (*.eef)|*.eef">ETL Extended Format (*.eef)|*.eef</resstr>
+    <resstr name="SETLExtendedFormatName" origstr="ETL Extended">ETL Extended</resstr>
+    <resstr name="SExpectedEOLButFound" origstr="Zeilenende erwartet, aber &quot;%s&quot; gefunden.">Βρέθηκε "%s" αντί για τέλος γραμμής.</resstr>
+    <resstr name="SExpectedETLExtendedRecordTypeButFound" origstr="Einen ETL-Extended-Record-Typen erwartet (X0 bis X9) aber &quot;%s&quot; gefunden.">Αναμένοταν εγγραφή τύπου ETL extended (X0 μέχρι X9) αλλά βρέθηκε "%s".</resstr>
+    <resstr name="SExpectedHexDigitPairButFound" origstr="Zwei Hexadezimalziffern im Bereich %0:.2x-%1:.2x erwartet, aber &quot;%2:s&quot; gefunden.">Αναμένονταν δύο δεκαεξαδικά ψηφία στο εύρος του %0:.2x-%1:.2x, αλλά βρέθηκαν "%2:s".</resstr>
+    <resstr name="SExpectedSRecordTypeButFound" origstr="Einen S-Record-Typen erwartet (S1, S2, S3, S5, S7, S8, S9) aber &quot;%s&quot; gefunden.">Αναμενόταν εγγραφή τύπου S-record (S1, S2, S3, S5, S7, S8, S9) αλλά βρέθηκε "%s".</resstr>
+    <resstr name="SExpectedStringButFound" origstr="&quot;%0:s&quot; erwartet, aber &quot;%1:s&quot; gefunden.">Αναμενόταν "%0:s", αλλά βρέθηκε "%1:s".</resstr>
+    <resstr name="SImporting" origstr="Importieren...">Γίνεται εισαγωγή...</resstr>
+    <resstr name="SIntelHexFileFilter" origstr="Intel Hex (*.hex)|*.hex">Intel Hex (*.hex)|*.hex</resstr>
+    <resstr name="SIntelHexFormatName" origstr="Intel Hex">Intel Hex</resstr>
+    <resstr name="SNothingAfterEOFRecordPermitted" origstr="Keine weiteren Zeilen nach EOF-Record erlaubt.">Δεν επιτρέπονται περισσότερες γραμμές μετά την εγγραφή EOF.</resstr>
+    <resstr name="SParseError" origstr="Parse-Fehler beim Importieren von &quot;%0:s&quot; in Zeile %1:d, Spalte %2:d:">Σφάλμα ανάλυσης κατά την εισαγωγή "%0:s" στη γραμμή %1:d, στήλη %2:d:</resstr>
+    <resstr name="SSRecordDataRecordsCountMismatch" origstr="Es wurden %0:d Datenrecords (Records vom Typ S1, S2 oder S3) erwartet, aber seit dem letzten S5-Record bzw. dem Anfang %1:d Datenrecords gefunden.">Αναμένονταν %0:d εγγραφές (εγγραφές τύπου S1, S2 ή S3), αλλά από την αρχή ή την τελευταία S5-εγγραφή βρέθηκαν %1:d εγγραφές.</resstr>
+    <resstr name="SSRecordFileFilter" origstr="Motorola S-Record (*.mot;*.srec;*.s;*.s19;*.s28;*.s37)|*.mot;*.srec;*.s;*.s19;*.s28;*.s37">Motorola S-Record (*.mot;*.srec;*.s;*.s19;*.s28;*.s37)|*.mot;*.srec;*.s;*.s19;*.s28;*.s37</resstr>
+    <resstr name="SSRecordFormatName" origstr="Motorola S-Record">Motorola S-Record</resstr>
+  </unit>
+  <unit name="XmInfoDialog">
+    <resstr name="S32BitVersion" origstr="(x86-32)">(x86-32)</resstr>
+    <resstr name="S64BitVersion" origstr="(x86-64)">(x86-64)</resstr>
+    <resstr name="SMainDeveloper" origstr="Hauptentwickler">Βασικός προγραμματιστής</resstr>
+    <resstr name="SMainDeveloperAndTranslator" origstr="Hauptentwickler und Übersetzer">Βασικός προγραμματιστής και μεταφραστής</resstr>
+    <resstr name="STranslator" origstr="Übersetzer">Μεταφραστής</resstr>
+    <resstr name="SVersion" origstr="Version">Έκδοση</resstr>
+  </unit>
+  <unit name="XmLanguageChoiceDialog">
+    <resstr name="SButtonCancel" origstr="Abbrechen">Ακύρωση</resstr>
+    <resstr name="SButtonOK" origstr="OK">OK</resstr>
+    <resstr name="SLangChoiceDialogCaption" origstr="Sprache für %s auswählen">Επιλέξτε γλώσσα για το %s</resstr>
+    <resstr name="SLangChoiceLabelCaption" origstr="Wählen Sie die Sprache aus, in der %s angezeigt werden soll:">Επιλέξτε τη γλώσσα στην οποία θα πρέπει το %s να φαίνεται:</resstr>
+  </unit>
+  <unit name="XmMath">
+    <resstr name="SLogOfZeroUndefined" origstr="Der Logarithmus von 0 ist undefiniert">Ο αλγόριθμος του 0 δεν είναι προσδιορισμένος</resstr>
+  </unit>
+  <unit name="XmNumEdit">
+    <resstr name="SAboveMaximum" origstr="Die eingegebene Zahl ist größer als das erlaubte Maximum (%s).">Ο αριθμός που δόθηκε είναι μεγαλύτερος από το μέγιστο επιτρεπτό (%s).</resstr>
+    <resstr name="SBelowMinimum" origstr="Die eingegebene Zahl ist kleiner als das erlaubte Minimum (%s).">Ο αριθμός που δόθηκε είναι μικρότερος από το μέγιστο επιτρεπτό (%s).</resstr>
+    <resstr name="SInvalidDigit" origstr="Die eingegebene Zahl enthält eine ungültige Ziffer.">Ο αριθμός που δόθηκε περιέχει ένα μη έγκυρο ψηφίο.</resstr>
+    <resstr name="SInvalidExponent" origstr="Die eingegebene Zahl hat einen ungültigen Exponenten.">Ο αριθμός που δόθηκε έχει ένα μη έγκυρο εκθέτη.</resstr>
+    <resstr name="SMaximumInserted" origstr="Die Zahl wird durch das Maximum ersetzt.">Ο αριθμός θα αντικατασταθεί με τον μέγιστο.</resstr>
+    <resstr name="SMinimumInserted" origstr="Die Zahl wird durch das Minimum ersetzt.">Ο αριθμός θα αντικατασταθεί με τον ελάχιστο.</resstr>
+    <resstr name="SOnlyWhitespace" origstr="Die eingegebene Zahl besteht nur aus Leerzeichen.">Ο αριθμός που δόθηκε είναι φτιαγμένος μόνο από κενά.</resstr>
+    <resstr name="SResetToLastValid" origstr="Die Zahl wird auf die letzte gültige Eingabe zurückgesetzt.">Ο αριθμός επαναφέρθηκε στην τελευταία έγκυρη καταχώρηση.</resstr>
+    <resstr name="SUnexpectedDecSep" origstr="Die eingegebene Zahl enthält einen Dezimaltrenner (%s) wo keiner erwartet wurde.">Ο αριθμός που δόθηκε περιέχει μία δεκαδική υποδιαστολή (%s) τη στιγμή που δεν αναμενόταν κάποια.</resstr>
+    <resstr name="SUnexpectedMinus" origstr="Die eingegebene Zahl enthält ein Minuszeichen wo keines erwartet wurde.">Ο αριθμός που δόθηκε περιέχει ένα αρνητικό πρόσημο τη στιγμή που δεν αναμενόταν κάποιο.</resstr>
+  </unit>
+  <unit name="XmPersistentConfig">
+    <resstr name="SCannotDetermineStorageLocAndType" origstr="Konfiguration konnte weder gefunden noch neu erstellt werden">Δεν μπόρεσαν να βρεθούν ή να δημιουργηθούν οι ρυθμίσεις</resstr>
+    <resstr name="SCompanyStrEmptyError" origstr="Der Firmenname darf nicht leer sein">Το όνομα της εταιρίας δε μπορεί να είναι άδειο</resstr>
+    <resstr name="SConfigIsReadonly" origstr="Speichern in die Konfiguration nicht möglich, da sie mit Schreibschutz geöffnet wurde">Η αποθήκευση στις ρυθμίσεις δεν είναι εφικτή, καθώς το αρχείο έχει ανοιχτεί ως "μόνο για ανάγνωση"</resstr>
+    <resstr name="SInvalidBinaryData" origstr="Die binären Daten im Schlüssel &quot;%s&quot; der Konfiguration sind ungültig">Τα δυαδικά δεδομένα στο κλειδί "%s" των ρυθμίσεων είναι λανθασμένα</resstr>
+    <resstr name="SInvalidKeyOrPathName" origstr="Der Pfadname &quot;%s&quot; oder der Schlüsselname &quot;%s&quot; ist ungültig">Το όνομα μονοπατιού "%s" ή το όνομα κλειδιού "%s" δεν είναι έγκυρο</resstr>
+    <resstr name="SNonExistantKey" origstr="Der Schlüssel &quot;%s&quot; existiert nicht in der Konfiguration">Το κλειδί "%s" δεν υπάρχει στις ρυθμίσεις</resstr>
+    <resstr name="SNoWriteProtectedConfigAtLocation" origstr="%s unterstützt %s nicht als Speicherort für schreibgeschützte Konfigurationen">Το %s δεν υποστηρίζει %s ως προορισμό αποθήκευσης δεδομένων για 'μόνο για ανάγνωση' ρυθμίσεις</resstr>
+    <resstr name="SProductStrEmptyError" origstr="Der Produktname darf nicht leer sein">Το όνομα προϊόντος δε μπορεί να είναι άδεο</resstr>
+    <resstr name="SStorageLocationNotSupported" origstr="%s unterstützt %s nicht als Speicherort für die Konfiguration">Το %s δεν υποστηρίζει το %s ως μέρος αποθήκευσης για τις ρυθμίσεις</resstr>
+    <resstr name="SStringDecodeError" origstr="Ein String aus der Konfiguration ist fehlerhaft und konnte daher nicht dekodiert werden">Ένα αλφαριθμητικό από τις ρυθμίσεις είναι λανθασμένο και δε μπόρεσε να αποκωδικοποιηθεί</resstr>
+  </unit>
+  <unit name="XmProgress">
+    <resstr name="SRemainingTime" origstr="Restdauer: %s">Υπολοιπόμενος χρόνος: %s</resstr>
+  </unit>
+  <unit name="XmStreams">
+    <resstr name="SAccessTestingRangeError" origstr="Die Rechte für einen Datenbereich konnten nicht ermittelt werden,&#xA;da mindestens eine der abgefragten Positionen außerhalb des gültigen Bereichs lag">Τα δικαιώματα πρόσβασης για ένα τμήμα δεδομένων δεν μπόρεσε καθοριστεί,
+καθώς τουλάχιστον μία από τις ερωτούμενες θέσεις είναι εκτός έγκυρου εύρους</resstr>
+    <resstr name="SCannotOpenDriveEx" origstr="Laufwerk &quot;%s&quot; kann nicht geöffnet werden. %s">Ο οδηγός "%s" δε μπορεί να ανοιχτεί. %s</resstr>
+    <resstr name="SCannotOpenProcess" origstr="Prozess mit ID %x kann nicht mit geforderten Zugriffsrechten geöffnet werden">Η διεργασία με ID %x δεν μπορεί να ανοιχτεί με τα τρέχοντα δικαιώματα πρόσβασης</resstr>
+    <resstr name="SCannotQueryDriveInfo" origstr="Fehler beim Abfragen der Laufwerksinformationen">Σφάλμα κατά την εκτέλεση ερωτημάτων σχετικά με τις πληροφορίες για τους δίσκους</resstr>
+    <resstr name="SCannotResizeStream" origstr="Größe des Datenstroms ist nicht veränderbar">Το μέγεθος  του ρεύματος δεδομένων δεν μπορεί να αλλαχθεί</resstr>
+    <resstr name="SCannotWriteStream" origstr="Keine Schreibrechte auf den Datenstrom">Δεν έχετε δικαίωμα πρόσβασης στο ρεύμα δεδομένων</resstr>
+    <resstr name="SDriveReadLockFailed" origstr="Laufwerk &quot;%s&quot; kann nicht zum Lesen geöffnet werden. %s">Ο δίσκος "%s" δε μπορεί να ανοιχτεί για ανάγνωση. %s</resstr>
+    <resstr name="SDriveWriteLockFailed" origstr="Laufwerk &quot;%s&quot; kann nicht zum Schreiben geöffnet werden. %s">Ο δίσκος "%s" δε μπορεί να ανοιχτεί για εγγραφή. %s</resstr>
+    <resstr name="SDriveWriteLockPartiallyFailed" origstr="Nur ein Teil des Laufwerks &quot;%s&quot; konnte zum Schreiben geöffnet werden. Für die anderen Teile wurde kein Schreibzugriff gewährt.&#xA;&#xA;Falls Sie in Bereiche eingebundener Dateisysteme schreiben und versuchen diese Änderungen zu speichern, wird Windows einen Zugriffs-Fehler melden.">Μόνο μέρος του δίσκου "%s" μπόρεσε να ανοιχτεί για γράψιμο. Δε δώθηκε δικαίωμα εγγραφής για τα υπόλοιπα μέρη.
+
+Εάν εγγράφετε σε τομής με φορτωμένα συστήματα αρχείων και προσπαθήσετε να αποθηκεύσετε τις αλλάγες, τα Windows θα επιστρέψουν σφάλμα απαγόρευσης πρόσβασης.</resstr>
+    <resstr name="SFileReadLockFailed" origstr="Datei &quot;%s&quot; kann nicht zum Lesen geöffnet werden. %s">Το αρχείο "%s" δεν μπορεί να ανοιχθεί ως πρόσβαση για ανάγνωση. %s</resstr>
+    <resstr name="SFileWriteLockFailed" origstr="Datei &quot;%s&quot; kann nicht zum Schreiben geöffnet werden. %s">Το αρχείο "%s" δεν μπορεί να ανοιχθεί ως πρόσβαση για εγγραφή. %s</resstr>
+    <resstr name="SFloppyDisk" origstr="Diskette">Δισκέτα</resstr>
+    <resstr name="SFloppyDiskDrive" origstr="Diskettenlaufwerk">Οδηγός δισκέτας</resstr>
+    <resstr name="SHardDisk" origstr="Festplatte">Σκληρός δίσκος</resstr>
+    <resstr name="SMemoryAddressOutOfRange" origstr="Die Rechte für einen Speicherbereich konnten nicht ermittelt werden,&#xA;da mindestens eine der abgefragten Adressen außerhalb des gültigen Bereichs lag">Τα δικαιώματα πρόσβασης για μια περιοχή μνήμης δεν μπορούσαν να προσδιοριστούν,
+καθώς τουλάχιστον μία από τις ερωτούμενες διευθύνσεις είναι εκτός έγκυρου εύρους</resstr>
+    <resstr name="SMemoryRegionTableCorrupt" origstr="Die Rechte für einen Speicherbereich konnten nicht ermittelt werden,&#xA;da die Speicherbereichstabelle fehlerhaft ist">Δεν μπορούσαν να καθοριστούν τα δικαιώματα πρόσβασης για μια περιοχή μνήμης,
+καθώς ο πίνακας της περιοχής μνήμης είναι κατεστραμμένος</resstr>
+    <resstr name="SNeedReadAccess" origstr="Leserechte auf Datenstrom werden benötigt">Απαιτούνται δικαιώματα ανάγνωσης του ρεύματος δεδομένων</resstr>
+    <resstr name="SNoWriteLockAfterReadonlyLock" origstr="Sperren des Datenstroms mit Schreibrechten nicht möglich, da vorige Sperrungen nur Leserechte angefordert haben.">Δεν μπορεί να κλειδωθεί το ρεύμα δεδομένων για πρόσβαση για εγγραφή, καθώς οι προηγούμενες κλειδαριές ζήτησαν μόνο πρόσβαση για ανάγνωση.</resstr>
+    <resstr name="SOpticalDisc" origstr="Optische Platte">Οπτικός δίσκος</resstr>
+    <resstr name="SPIDIsZeroError" origstr="PID darf nicht 0 sein!">Το PID δεν γίνεται να είναι 0!</resstr>
+    <resstr name="SProcessAddressSpaceTooLarge" origstr="Der Prozessadressraums ist größer (0x%0:x) als das unterstüzte Maximum (0x%1:x).">Ο χώρος διευθύνσεων διεργασιών είναι μεγαλύτερος (0x%0:x) από το μέγιστο υποστηριζόμενο (0x%1:x).</resstr>
+    <resstr name="SProcessAddressSpaceUnknown" origstr="Unbekannter Prozessadressraum. Es werden nur 32- und 64-Bit-Adressräume unterstützt">Άγωνστος χώρος διευθύνσεων διεργασιών. Υποστηρίζονται χώροι διευθύνσεων μόνο 32 και 64 bit.</resstr>
+    <resstr name="SRAMDisk" origstr="RAM-Platte">Δίσκος RAM</resstr>
+    <resstr name="SRemovableDisk" origstr="Wechselmedium">Αφαιρέσιμος δίσκος</resstr>
+    <resstr name="SSaving" origstr="Speichern...">Γίνεται αποθήκευση...</resstr>
+    <resstr name="SStreamResizeFailed" origstr="Die Größenänderung des Datenstroms ist fehlgeschlagen">Αποτυχία στην αλλαγή μεγέθους του ρεύματος δεδομένων</resstr>
+    <resstr name="SUndoing" origstr="Rückgängig machen...">Γίνεται αναίρεση...</resstr>
+    <resstr name="SUnknownDisk" origstr="Unbekanntes Medium">Άγνωστος δίσκος</resstr>
+    <resstr name="SUnknownDrive" origstr="Unbekanntes Laufwerk">Άγνωστος οδηγός</resstr>
+    <resstr name="SUntitled" origstr="Unbenannt">Ανώνυμο</resstr>
+  </unit>
+  <unit name="XmSysInfo">
+    <resstr name="SSystemIdleProcess" origstr="Leerlaufprozess">Αδρανής διεργασία συστήματος</resstr>
+  </unit>
+  <unit name="XmUnicodeMisc">
+    <resstr name="SInvalidContinuationByteIndex" origstr="Index für Continuation-Byte muss zwischen 1 und 3 liegen.">Ο δείκτης για το byte συνέχισης πρέπει να είναι μεταξύ 1 και 3.</resstr>
+    <resstr name="SUTF8CodePointGreaterThan10FFFF" origstr="Code-Point &gt; U+10FFFF">Κωδικός σημείου &gt; U+10FFFF</resstr>
+    <resstr name="SUTF8FirstInvalidContinuationByte" origstr="1. Continuation-Byte ungültig">Το πρώτο byte συνέχισης είναι λανθασμένο</resstr>
+    <resstr name="SUTF8InvalidByte" origstr="Ungültige Code-Unit">Λανθασμένος κωδικός μονάδας</resstr>
+    <resstr name="SUTF8NoBytes" origstr="Leere Bytefolge">Άδεια αλληλουχία byte</resstr>
+    <resstr name="SUTF8OverlongEncodingEx" origstr="Überlange Kodierung (U+%.4x)">Παρατεταμένη κωδικοποίηση (U+%.4x)</resstr>
+    <resstr name="SUTF8SecondInvalidContinuationByte" origstr="2. Continuation-Byte ungültig">Το δεύτερο byte συνέχισης είναι λανθασμένο</resstr>
+    <resstr name="SUTF8SurrogateHalfOfUTF16Ex" origstr="UTF-16 Surrogate-Hälfte (U+%.4x)">Ο μισός αναπληρωτής UTF-16  (U+%.4x)</resstr>
+    <resstr name="SUTF8ThirdInvalidContinuationByte" origstr="3. Continuation-Byte ungültig">Το τρίτο byte συνέχισης είναι λανθασμένο</resstr>
+    <resstr name="SUTF8TruncatedContinuationBytes" origstr="Fehlende Continuation-Bytes">Κομμένα byte συνέχισης</resstr>
+    <resstr name="SUTF8UnexpectedContinuationByte" origstr="Unerwartetes Continuation-Byte">Απροσδόκητο byte συνέχισης</resstr>
+  </unit>
+</languagefile>

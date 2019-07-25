@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE languagefile SYSTEM "languagefile.dtd">
+<languagefile version="1.1" guid="{C526A1A1-31CC-43DD-B6C9-ABF0B92C5EE5}" localeID="1032" translatorNames="">
+  <unit name="Vcl.Imaging.pnglang">
+    <resstr name="EInvalidNewSize" origstr="The new size provided for image resizing is invalid.">Το νέο μέγεθος που δώθηκε για την αλλαγή μεγέθους εικόνας είναι λανθασμένο.</resstr>
+    <resstr name="EPNGCannotAddChunkText" origstr="The program tried to add a existent critical chunk to the current image which is not allowed.">Το πρόγραμμα προσπάθησε να προσθέσει ένα ήδη υπάρχων κομμάτι στην τρέχουσα εικόνα ενώ δεν επιτρέπεται.</resstr>
+    <resstr name="EPNGCannotAddInvalidImageText" origstr="It's not allowed to add a new chunk because the current image is invalid.">Δεν επιτρέπεται η προσθήκη νέων κομματιών επειδή η τρέχουσα εικόνα είναι λανθασμένη.</resstr>
+    <resstr name="EPNGCannotAssignChunkText" origstr="The chunks must be compatible to be assigned.">Τα κομμάτια πρέπει να είναι συμβατά για να ανατεθούν</resstr>
+    <resstr name="EPNGCannotChangeTransparentText" origstr="Setting bit transparency color is not allowed for png images containing alpha value for each pixel (COLOR_RGBALPHA and COLOR_GRAYSCALEALPHA)">Δεν επιτρέπεται η ρύθμιση του bit χρώματος διαφάνειας για png εικόνες που περιέχουν alpha τιμές για κάθε πίξελ (COLOR_RGBALPHA και COLOR_GRAYSCALEALPHA)</resstr>
+    <resstr name="EPNGHeaderNotPresentText" origstr="This operation is not valid because the current image contains no valid header.">Αυτή η ενέργεια δεν είναι έγκυρη επειδή η τρέχουσα εικόνα δεν περιέχει έγκυρη κεφαλίδα.</resstr>
+    <resstr name="EPNGIHDRNotFirstText" origstr="This &quot;Portable Network Graphics&quot; image is not supported or it might be invalid.&#xA;(IHDR chunk is not the first)">Αυτή η "Portable Network Graphics" εικόνα δεν υποστηρίζεται ή μπορεί να είναι λανθασμένη.
+(Το κομμάτι IHDR δεν είναι το πρώτο)</resstr>
+    <resstr name="EPngInvalidCRCText" origstr="This &quot;Portable Network Graphics&quot; image is not valid because it contains invalid pieces of data (crc error)">Αυτή η "Portable Network Graphics" εικόνα δεν είναι έγκυρη επειδή περιλαμβάνει λανθασμένα κομμάτια δεδομένων(σφάλμα crc)</resstr>
+    <resstr name="EPNGInvalidFileHeaderText" origstr="The file being read is not a valid &quot;Portable Network Graphics&quot; image because it contains an invalid header. This file may be corrupted, try obtaining it again">Το αρχείο προς ανάγνωση δεν είναι έγκυρη "Portable Network Graphics" εικόνα επειδή περιλαμβάνει λανθασμένη κεφαλίδα. Αυτό το αρχείο ενδέχεται να είναι κατεστραμμένο, γίνεται προσπάθεια επανάκτησης</resstr>
+    <resstr name="EPNGInvalidIHDRText" origstr="The &quot;Portable Network Graphics&quot; image could not be loaded because one of its main piece of data (ihdr) might be corrupted">Η "Portable Network Graphics" εικόνα δε μπόρεσε να φορτωθεί επειδή ένα από τα βασικά κομμάτια δεδομένων (ihdr) ενδέχεται να είναι κατεστραμμένα</resstr>
+    <resstr name="EPNGInvalidPaletteText" origstr="The &quot;Portable Network Graphics&quot; image contains an invalid palette.">Η "Portable Network Graphics" εικόνα περιέχει μη έγκυρη παλέτα.</resstr>
+    <resstr name="EPNGMissingMultipleIDATText" origstr="This &quot;Portable Network Graphics&quot; image is invalid because it has missing image parts.">Αυτή η "Portable Network Graphics" εικόνα είναι λανθασμένη επειδή αγνοούνται κομμάτια της.</resstr>
+    <resstr name="EPNGNoImageDataText" origstr="This &quot;Portable Network Graphics&quot; image contains no data.">Αυτή η "Portable Network Graphics" εικόνα δεν περιλαμβάνει δεδομένα.</resstr>
+    <resstr name="EPNGOutMemoryText" origstr="Some operation could not be performed because the system is out of resources. Close some windows and try again.">Δε μπόρεσε να εκτελεσθεί κάποια λειτουργία επειδή το σύστημα δε διαθέτει πόρους. Κλείστε μερικά παράθυρα και προσπαθήστε ξανά.</resstr>
+    <resstr name="EPNGSizeExceedsText" origstr="This &quot;Portable Network Graphics&quot; image is not supported because either its width or height exceeds the maximum size of 65535 pixels.">Αυτή η "Portable Network Graphics" εικόνα δεν υποστηρίζεται επειδή είτε το μήκος ή το ύψος ξεπερνά το μέγιστο μέγεθος των 65535 pixels.</resstr>
+    <resstr name="EPNGUnexpectedEndText" origstr="This &quot;Portable Network Graphics&quot; image is invalid because the decoder found an unexpected end of the file.">Αυτή η "Portable Network Graphics" είναι λανθασμένη καθώς ο αποκωδικοποιητής βρήκε ένα απρόσμενο τέλος του αρχείου.</resstr>
+    <resstr name="EPNGUnknownCompressionText" origstr="This &quot;Portable Network Graphics&quot; image is encoded with an unknown compression scheme which could not be decoded.">Αυτή η "Portable Network Graphics" εικόνα είναι κωδικοποιημένη με ένα άγνωστο σχήμα συμπίεσης το οποίο δε μπορούσε να αποκωδικοποιηθεί.</resstr>
+    <resstr name="EPNGUnknownCriticalChunkText" origstr="This &quot;Portable Network Graphics&quot; image contains an unknown critical part which could not be decoded.">Αυτή η "Portable Network Graphics" εικόνα περιλαμβάνει ένα άγνωστο και σημαντικό κομμάτι το οποίο δεν μπόρεσε να αποκωδικοποιηθεί.</resstr>
+    <resstr name="EPNGUnknownInterlaceText" origstr="This &quot;Portable Network Graphics&quot; image uses an unknown interlace scheme which could not be decoded.">Αυτή η "Portable Network Graphics" εικόνα χρησιμοποιεί άγνωστο interlace scheme το οποίο δε μπόρεσε να αποκωδικοποιηθεί.</resstr>
+    <resstr name="EPNGUnknownPalEntryText" origstr="There is no such palette entry.">Δεν υπάρχει αυτή η καταχώρηση παλέττας.</resstr>
+    <resstr name="EPNGZLIBErrorText" origstr="Could not decompress the image because it contains invalid compressed data.&#xA; Description: ">Αδυναμία αποσυμπίεσης εικόνας επειδή περιλαμβάνει λανθασμένα συμπιεσμένα δεδομένα.
+Περιγραφή:</resstr>
+  </unit>
+</languagefile>
